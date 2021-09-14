@@ -1,3 +1,3 @@
 <Var:ProductName> API
 
-This content is currently being put together.
+Information about the <Var:ProductName> API is currently being prepared. We will update the API documentation as soon as possible.
