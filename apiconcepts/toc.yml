@@ -1,2 +1,33 @@
 - name: Overview
   href: overview.md
+  items:
+  - name: Legal notice
+    href: LegalNotice.md
+  - name: Acknowledgments
+    href: Acknowledgments.md
+- name: User Guide
+  href: userguide.md
+  items:
+  - name: The Multiterm object model
+    href: object_model.md
+  - name: MultiTerm Convert
+    href: mt_convert_intro.md
+- name: Sample
+  href: sample.md
+  items:
+  - name: Connecting to a MultiTerm Server
+    href: connect.md
+  - name: Selecting a Termbase
+    href: termbase.md
+  - name: Searching a Termbase
+    href: searching.md
+  - name: Retrieving Entry Content
+    href: entry.md
+  - name: Adding new Entries
+    href: adding.md
+  - name: Sample Application in VBA
+    href: sample_vba.md
+  - name: XSD schema MTF source
+    href: xsd_schema.md
+- name: Reference
+  href: Sdk/toc.yml

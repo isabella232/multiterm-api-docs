@@ -1,4 +1,19 @@
 {
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../CodeMT/Bin/Mixed Platforms/Debug",
+          "files": [
+            "Sdl.MultiTerm.TMO.Interop.dll"
+          ]	 
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": true,
+      "disableDefaultFilter": false
+    }
+  ],
   "build": {
     "content": [
       {
@@ -31,7 +46,8 @@
     "overwrite": [
       {
         "files": [
-          "api/**.md"
+          "api/**.md",
+          "apioverwrites/**.md"
         ],
         "exclude": [
           "obj/**",
@@ -45,7 +61,7 @@
     "filemetadata":
     { 
       "langs": {
-      "api/**.yml": ["csharp", "vb", "fsharp", "cpp"]
+      "api/**.yml": ["csharp", "cpp"]
       }
     },
     "template": [
