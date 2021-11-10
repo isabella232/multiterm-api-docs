@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryClassPermissions class
+    Sdl.MultiTerm.TMO.Interop.EntryClassPermissions class
+
 
 
 
@@ -20,10 +21,10 @@ You can use this class, for example, to retrieve the name of a specific entry cl
 
 
 ## Properties
-
-* [Name](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Name.html): Returns the name of a particular entry class.
-* [Read](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Read.html): Indicates whether the currently logged-in user has read-access to a particular class.
-* [Write](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Write.html): Indicates whether the currently logged-in user has write-access to a class.
+.md)
+* [Name](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Name.md): Returns the name of a particular entry class.
+* [Read](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Read.md): Indicates whether the currently logged-in user has read-access to a particular class.
+* [Write](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Write.md): Indicates whether the currently logged-in user has write-access to a class.
 
 
 

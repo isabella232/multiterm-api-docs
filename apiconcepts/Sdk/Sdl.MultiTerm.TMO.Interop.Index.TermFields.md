@@ -1,7 +1,8 @@
 
 
 # 
-    TermFields property
+    TermFields property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Index.TermFields —          Provides programmatic ac
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.md)
 
 (read)
 

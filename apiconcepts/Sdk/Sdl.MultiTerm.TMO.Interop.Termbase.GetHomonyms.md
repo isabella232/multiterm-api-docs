@@ -1,7 +1,8 @@
 
 
 # 
-    GetHomonyms method
+    GetHomonyms method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms —          Retrieves all homony
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.Homonyms](Sdl.MultiTerm.TMO.Interop.Homonyms.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Homonyms](Sdl.MultiTerm.TMO.Interop.Homonyms.md)
 
 
 

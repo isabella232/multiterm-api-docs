@@ -1,7 +1,8 @@
 
 
 # 
-    DatabaseType property
+    DatabaseType property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseRepository.DatabaseType —          Returns t
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtDatabaseType](Sdl.MultiTerm.TMO.Interop.MtDatabaseType.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtDatabaseType](Sdl.MultiTerm.TMO.Interop.MtDatabaseType.md)
 
 (read / write)
 

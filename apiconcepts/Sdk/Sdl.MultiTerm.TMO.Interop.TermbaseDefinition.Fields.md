@@ -1,7 +1,8 @@
 
 
 # 
-    Fields property
+    Fields property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Fields —          Provides access
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.md)
 
 (read)
 

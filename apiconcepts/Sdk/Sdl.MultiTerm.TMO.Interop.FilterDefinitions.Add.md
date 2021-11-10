@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add —          Adds a new filter d
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 
 
 

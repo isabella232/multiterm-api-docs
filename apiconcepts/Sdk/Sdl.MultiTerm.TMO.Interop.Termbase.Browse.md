@@ -1,7 +1,8 @@
 
 
 # 
-    Browse property
+    Browse property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Browse —          Provides access to the br
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.TermbaseBrowser](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.TermbaseBrowser](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.md)
 
 (read)
 

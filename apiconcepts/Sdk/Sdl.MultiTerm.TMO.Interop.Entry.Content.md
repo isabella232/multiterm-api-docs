@@ -1,7 +1,8 @@
 
 
 # 
-    Content property
+    Content property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Entry.Content —          Provides access to the cont
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryContent](Sdl.MultiTerm.TMO.Interop.EntryContent.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryContent](Sdl.MultiTerm.TMO.Interop.EntryContent.md)
 
 (read)
 

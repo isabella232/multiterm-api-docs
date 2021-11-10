@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbases.Item —          Provides programmatic acce
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.md)
 
 (read)
 

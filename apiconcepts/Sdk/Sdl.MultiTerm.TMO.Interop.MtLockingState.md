@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.MtLockingState Enumeration
+    Sdl.MultiTerm.TMO.Interop.MtLockingState Enumeration
+
 
 
 
@@ -14,8 +15,8 @@ Sdl.MultiTerm.TMO.Interop.MtLockingState —          Contains the possible valu
 ## Description
 
 
-
-Using the [LockEntry](Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.html) you can lock or unlock entries, depending on which value you provide as parameter.
+.md)
+Using the [LockEntry](Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.md) you can lock or unlock entries, depending on which value you provide as parameter.
 
 
 
@@ -26,7 +27,7 @@ Using the [LockEntry](Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.html) you can lo
     Used for locking a particular entry, so that while the entry is being edited no other users can get write access to it.
 * *mtUnlock*
 
-    Releases the entry lock. Note that the entry lock is released automatically after applying the [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.html) method, i.e. normally you won't have to release the lock explicitly.
+    Releases the entry lock. Note that the entry lock is released automatically after applying the [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.md) method, i.e. normally you won't have to release the lock explicitly.
 
 
 

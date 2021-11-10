@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Homonyms.Item —          Provides access to a partic
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Homonym](Sdl.MultiTerm.TMO.Interop.Homonym.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Homonym](Sdl.MultiTerm.TMO.Interop.Homonym.md)
 
 (read)
 

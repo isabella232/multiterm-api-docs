@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.TermbaseRepository class
+    Sdl.MultiTerm.TMO.Interop.TermbaseRepository class
+
 
 
 
@@ -20,21 +21,21 @@ You can access the list of termbases in a server repository once you connected t
 
 
 ## Properties
-
-* [DatabaseType](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.DatabaseType.html): Returns the database backend type for the current connection.
-* [IsConnected](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsConnected.html): Indicates whether a connection has been established successfully.
-* [IsRemote](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsRemote.html): Returns whether a connection is remote.
-* [Location](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Location.html): Sets/returns the location of a termbase server.
-* [Termbases](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Termbases.html): Provides access to the termbases contained in a local or server repository.
+.md)
+* [DatabaseType](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.DatabaseType.md): Returns the database backend type for the current connection.
+* [IsConnected](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsConnected.md): Indicates whether a connection has been established successfully.
+* [IsRemote](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsRemote.md): Returns whether a connection is remote.
+* [Location](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Location.md): Sets/returns the location of a termbase server.
+* [Termbases](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Termbases.md): Provides access to the termbases contained in a local or server repository.
 
 
 
 
 ## Methods
 
-* [ChangePassword](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.ChangePassword.html): Changes the password of the currently logged-in user.
-* [Connect](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Connect.html): Connects to a MultiTerm Server.
-* [Disconnect](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Disconnect.html): Disconnects from a  MultiTerm Server.
+* [ChangePassword](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.ChangePassword.md): Changes the password of the currently logged-in user.
+* [Connect](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Connect.md): Connects to a MultiTerm Server.
+* [Disconnect](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Disconnect.md): Disconnects from a  MultiTerm Server.
 
 
 

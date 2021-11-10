@@ -1,22 +1,13 @@
-
-
-# 
-    Type property
-
-
+# Type property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.DescriptiveField.Type —          Returns the descriptive field type.
 
-
-
 ## Type
 
-[Sdl.MultiTerm.TMO.Interop.MtFieldType](Sdl.MultiTerm.TMO.Interop.MtFieldType.html)
-
+[Sdl.MultiTerm.TMO.Interop.MtFieldType](Sdl.MultiTerm.TMO.Interop.MtFieldType.md)
 (read)
-
 
 
 ## Index Parameters
@@ -57,9 +48,4 @@ DescriptiveField oField = oDef.Fields[0];
 Debug.WriteLine("Is this field multipe? " + oField.Type);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.DescriptiveField.Type)
 

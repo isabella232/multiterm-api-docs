@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.ImportDefinitions class
+    Sdl.MultiTerm.TMO.Interop.ImportDefinitions class
+
 
 
 
@@ -20,18 +21,18 @@ Via this class you can access the import definitions associated with a particula
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Count.html): Returns the number of available import definitions.
-* [Item](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Item.html): Provides access to a particular import definition.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Count.md): Returns the number of available import definitions.
+* [Item](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Item.md): Provides access to a particular import definition.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Add.html): Adds a new import definition to the collection.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Refresh.html): Updates the import definition collection.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.StartWizard.html): Starts the Import Definition wizard.
+* [Add](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Add.md): Adds a new import definition to the collection.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Refresh.md): Updates the import definition collection.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.StartWizard.md): Starts the Import Definition wizard.
 
 
 

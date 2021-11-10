@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.HitTerm class
+    Sdl.MultiTerm.TMO.Interop.HitTerm class
+
 
 
 
@@ -20,12 +21,12 @@ This class allows you to retrieve a particular hit term. You will usually avail 
 
 
 ## Properties
-
-* [Index](Sdl.MultiTerm.TMO.Interop.HitTerm.Index.html): Returns the name of the index in which a hit term has been found.
-* [ParentEntryID](Sdl.MultiTerm.TMO.Interop.HitTerm.ParentEntryID.html): Returns the entry id associated with a particular hit term.
-* [SearchScore](Sdl.MultiTerm.TMO.Interop.HitTerm.SearchScore.html): Returns the fuzziness score for a particular hit term.
-* [Termbase](Sdl.MultiTerm.TMO.Interop.HitTerm.Termbase.html): Returns the name of the termbase in which a hit term was found.
-* [Text](Sdl.MultiTerm.TMO.Interop.HitTerm.Text.html): Returns the actual hit term.
+.md)
+* [Index](Sdl.MultiTerm.TMO.Interop.HitTerm.Index.md): Returns the name of the index in which a hit term has been found.
+* [ParentEntryID](Sdl.MultiTerm.TMO.Interop.HitTerm.ParentEntryID.md): Returns the entry id associated with a particular hit term.
+* [SearchScore](Sdl.MultiTerm.TMO.Interop.HitTerm.SearchScore.md): Returns the fuzziness score for a particular hit term.
+* [Termbase](Sdl.MultiTerm.TMO.Interop.HitTerm.Termbase.md): Returns the name of the termbase in which a hit term was found.
+* [Text](Sdl.MultiTerm.TMO.Interop.HitTerm.Text.md): Returns the actual hit term.
 
 
 

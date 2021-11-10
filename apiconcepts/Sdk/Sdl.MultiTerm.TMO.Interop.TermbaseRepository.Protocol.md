@@ -1,7 +1,8 @@
 
 
 # 
-    Protocol property
+    Protocol property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Protocol —          Provides acce
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtCommunicationType](Sdl.MultiTerm.TMO.Interop.MtCommunicationType.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtCommunicationType](Sdl.MultiTerm.TMO.Interop.MtCommunicationType.md)
 
 (read / write)
 

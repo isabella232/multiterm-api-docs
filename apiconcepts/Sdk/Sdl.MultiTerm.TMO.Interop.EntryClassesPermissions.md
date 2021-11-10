@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions class
+    Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions class
+
 
 
 
@@ -22,10 +23,10 @@ Via the EntryClassesPermissions class you can, for example, ascertain to which e
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Count.html): Returns the number of entry classes a user has access to.
-* [Item](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item.html): Refers to a specific entry class.
-* [XML](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.XML.html): Returns all entry class permissions as an XML string.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Count.md): Returns the number of entry classes a user has access to.
+* [Item](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item.md): Refers to a specific entry class.
+* [XML](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.XML.md): Returns all entry class permissions as an XML string.
 
 
 

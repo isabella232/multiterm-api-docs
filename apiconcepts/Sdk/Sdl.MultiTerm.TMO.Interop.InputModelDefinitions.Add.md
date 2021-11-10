@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Add —          Adds a new inpu
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.InputModelDefinition](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.InputModelDefinition](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.md)
 
 
 

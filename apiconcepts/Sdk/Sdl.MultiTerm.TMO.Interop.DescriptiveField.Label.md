@@ -1,40 +1,23 @@
-
-
-# 
-    Label property
-
-
+# Label property
 
 ## Name
 
-Sdl.MultiTerm.TMO.Interop.DescriptiveField.Label —          Returns the field label.
-
-
+Sdl.MultiTerm.TMO.Interop.DescriptiveField.Label —  Returns the field label.
 
 ## Type
 
-String
-
-(read)
-
-
+String (read)
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
 
 Descriptive field labels are fully user-definable, i.e. the termbase creator/administrator determines the name of the fields that are added to the termbase definition, e.g. "Example", "Context", "Subject", "Note", etc.
 
 Via this property you can retrieve the label of a particular field
 
-
-
 ## Sample
-
 
 ```cs
 //select termbase
@@ -49,10 +32,4 @@ for(int i=0;i<oDef.Fields.Count;i++)
    	Debug.WriteLine(thisField.Label);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.DescriptiveField.Label)
 

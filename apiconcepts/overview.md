@@ -47,6 +47,6 @@ Please note that the SDK is provided as is and for use at your own risk. RWS doe
 
 Copyright and trademark information relating to this product release.
 
-[Acknowledgments](Acknowledgements.md)
+[Acknowledgments](Acknowledgments.md)
 
 MultiTerm includes open source or similar third-party software.

@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.IndexPermissions class
+    Sdl.MultiTerm.TMO.Interop.IndexPermissions class
+
 
 
 
@@ -20,10 +21,10 @@ Via this class you can determine, for example, the label of a particular index t
 
 
 ## Properties
-
-* [Label](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Label.html): Returns the label of a particular index the currently logged-in user can access.
-* [Read](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Read.html): Returns true if the user has read access to this index (will always be the case).
-* [Write](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Write.html): Returns true if the currently logged-in user has write access to a particular index, otherwise false.
+.md)
+* [Label](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Label.md): Returns the label of a particular index the currently logged-in user can access.
+* [Read](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Read.md): Returns true if the user has read access to this index (will always be the case).
+* [Write](Sdl.MultiTerm.TMO.Interop.IndexPermissions.Write.md): Returns true if the currently logged-in user has write access to a particular index, otherwise false.
 
 
 

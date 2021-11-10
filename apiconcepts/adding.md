@@ -16,7 +16,7 @@ To add new entries to a termbase, you first need to 'construct' the entry XML co
 </conceptGrp>
 ```
 
-For more detailed information on the MultiTerm XML format, please refer to the [MTF Schema](../other/MTF-Schema.htm). To add the above entry XML as a new entry to a selected termbase, you first have to store the XML stream in a string variable, e.g.:
+For more detailed information on the MultiTerm XML format, please refer to the [MTF Schema](MTF/XMLSchemaMTF.md). To add the above entry XML as a new entry to a selected termbase, you first have to store the XML stream in a string variable, e.g.:
 
 
 ```cs

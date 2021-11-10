@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Item —          Provides access to
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md)
 
 (read)
 

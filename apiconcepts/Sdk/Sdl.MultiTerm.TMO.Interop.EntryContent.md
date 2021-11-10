@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryContent class
+    Sdl.MultiTerm.TMO.Interop.EntryContent class
+
 
 
 
@@ -20,19 +21,19 @@ Via this class you can retrieve the content of a particular entry, either fully 
 
 
 ## Properties
-
-* [Content](Sdl.MultiTerm.TMO.Interop.EntryContent.Content.html): Provides programmatic access to the content of a particular entry.
-* [EntryClass](Sdl.MultiTerm.TMO.Interop.EntryContent.EntryClass.html): Returns the entry class of a particular entry.
-* [EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes.html): Provides programmatic access to the indexes contained in a particular entry.
-* [Fields](Sdl.MultiTerm.TMO.Interop.EntryContent.Fields.html): Provides access to the descriptive fields of a particular entry.
+.md)
+* [Content](Sdl.MultiTerm.TMO.Interop.EntryContent.Content.md): Provides programmatic access to the content of a particular entry.
+* [EntryClass](Sdl.MultiTerm.TMO.Interop.EntryContent.EntryClass.md): Returns the entry class of a particular entry.
+* [EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes.md): Provides programmatic access to the indexes contained in a particular entry.
+* [Fields](Sdl.MultiTerm.TMO.Interop.EntryContent.Fields.md): Provides access to the descriptive fields of a particular entry.
 
 
 
 
 ## Methods
 
-* [Refresh](Sdl.MultiTerm.TMO.Interop.EntryContent.Refresh.html): Refreshes the content of the current entry.
-* [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.html): Updates the content of a particular entry.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.EntryContent.Refresh.md): Refreshes the content of the current entry.
+* [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.md): Updates the content of a particular entry.
 
 
 

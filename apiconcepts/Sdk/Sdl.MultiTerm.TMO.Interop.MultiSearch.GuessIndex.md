@@ -1,7 +1,8 @@
 
 
 # 
-    GuessIndex property
+    GuessIndex property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex —          Specifies whether 
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtIndexGuessing](Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtIndexGuessing](Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.md)
 
 (read / write)
 
@@ -33,7 +34,7 @@ By setting this parameter you can make the search 'guess' the search index based
 
 The determination is made by the search automatically based on the index locale.
 
-Note: We recommend that you configure this setting BEFORE [adding the search termbases](Sdl.MultiTerm.TMO.Interop.MultiSearch.AddSearchTermbase.html).
+Note: We recommend that you configure this setting BEFORE [adding the search termbases](Sdl.MultiTerm.TMO.Interop.MultiSearch.AddSearchTermbase.md).
 
 
 

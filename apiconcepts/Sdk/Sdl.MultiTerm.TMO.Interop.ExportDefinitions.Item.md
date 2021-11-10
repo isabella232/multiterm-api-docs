@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item —          Provides access to
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
 (read)
 

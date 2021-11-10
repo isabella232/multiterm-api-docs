@@ -1,7 +1,8 @@
 
 
 # 
-    AccessPermissions property
+    AccessPermissions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.AccessPermissions —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.md)
 
 (read)
 

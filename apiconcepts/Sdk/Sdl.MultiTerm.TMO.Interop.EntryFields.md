@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryFields class
+    Sdl.MultiTerm.TMO.Interop.EntryFields class
+
 
 
 
@@ -20,16 +21,16 @@ Via this class you can retrieve the descriptive fields that refer to the entry a
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.EntryFields.Count.html): Returns the number of entry-level descriptive fields.
-* [Item](Sdl.MultiTerm.TMO.Interop.EntryFields.Item.html): Refers to a particular entry-level descriptive field.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.EntryFields.Count.md): Returns the number of entry-level descriptive fields.
+* [Item](Sdl.MultiTerm.TMO.Interop.EntryFields.Item.md): Refers to a particular entry-level descriptive field.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.EntryFields.Add.html): Adds an entry-level descriptive field to the collection.
+* [Add](Sdl.MultiTerm.TMO.Interop.EntryFields.Add.md): Adds an entry-level descriptive field to the collection.
 
 
 

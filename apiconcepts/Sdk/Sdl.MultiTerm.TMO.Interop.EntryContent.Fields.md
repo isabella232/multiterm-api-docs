@@ -1,7 +1,8 @@
 
 
 # 
-    Fields property
+    Fields property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryContent.Fields —          Provides access to th
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
 
 (read)
 

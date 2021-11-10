@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.FilterDefinition class
+    Sdl.MultiTerm.TMO.Interop.FilterDefinition class
+
 
 
 
@@ -20,24 +21,24 @@ Filters contain an XPATH statement that gets applied to the MultiTerm entries, w
 
 
 ## Properties
-
-* [Active](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Active.html): Activates a particular filter.
-* [Content](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Content.html): Returns the filter definition content.
-* [Description](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Description.html): Returns the filter description.
-* [ID](Sdl.MultiTerm.TMO.Interop.FilterDefinition.ID.html): Returns the unique id of the filter.
-* [Name](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Name.html): Returns the name of the filter.
-* [Owner](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Owner.html): Returns the owner name for a particular filter definition.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.FilterDefinition.ReadOnly.html): Returns whether a particular filter is read-only.
+.md)
+* [Active](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Active.md): Activates a particular filter.
+* [Content](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Content.md): Returns the filter definition content.
+* [Description](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Description.md): Returns the filter description.
+* [ID](Sdl.MultiTerm.TMO.Interop.FilterDefinition.ID.md): Returns the unique id of the filter.
+* [Name](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Name.md): Returns the name of the filter.
+* [Owner](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Owner.md): Returns the owner name for a particular filter definition.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.FilterDefinition.ReadOnly.md): Returns whether a particular filter is read-only.
 
 
 
 
 ## Methods
 
-* [Delete](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Delete.html): Removes the filter from the collection.
-* [Load](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Load.html): Updates the selected filter from an external filter definition file.
-* [Save](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Save.html):  Saves the filter definition to an external file.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.FilterDefinition.StartWizard.html): Calls up the filter wizard for editing a particular filter.
+* [Delete](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Delete.md): Removes the filter from the collection.
+* [Load](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Load.md): Updates the selected filter from an external filter definition file.
+* [Save](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Save.md):  Saves the filter definition to an external file.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.FilterDefinition.StartWizard.md): Calls up the filter wizard for editing a particular filter.
 
 
 

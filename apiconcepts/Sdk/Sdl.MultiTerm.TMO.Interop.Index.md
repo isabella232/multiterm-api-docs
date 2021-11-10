@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.Index class
+    Sdl.MultiTerm.TMO.Interop.Index class
+
 
 
 
@@ -20,13 +21,13 @@ This class allows you to retrieve, for example, the corresponding index label, t
 
 
 ## Properties
-
-* [Fields](Sdl.MultiTerm.TMO.Interop.Index.Fields.html): Provides programmatic access to the entry-level descriptive fields.
-* [Label](Sdl.MultiTerm.TMO.Interop.Index.Label.html): Returns the label of a particular index.
-* [Language](Sdl.MultiTerm.TMO.Interop.Index.Language.html): Returns the name of the index language.
-* [Locale](Sdl.MultiTerm.TMO.Interop.Index.Locale.html): Returns the locale of the index.
-* [TargetOnly](Sdl.MultiTerm.TMO.Interop.Index.TargetOnly.html): Flags whether the current index can be used only as target index.
-* [TermFields](Sdl.MultiTerm.TMO.Interop.Index.TermFields.html): Provides programmatic access to the term-level descriptive fields.
+.md)
+* [Fields](Sdl.MultiTerm.TMO.Interop.Index.Fields.md): Provides programmatic access to the entry-level descriptive fields.
+* [Label](Sdl.MultiTerm.TMO.Interop.Index.Label.md): Returns the label of a particular index.
+* [Language](Sdl.MultiTerm.TMO.Interop.Index.Language.md): Returns the name of the index language.
+* [Locale](Sdl.MultiTerm.TMO.Interop.Index.Locale.md): Returns the locale of the index.
+* [TargetOnly](Sdl.MultiTerm.TMO.Interop.Index.TargetOnly.md): Flags whether the current index can be used only as target index.
+* [TermFields](Sdl.MultiTerm.TMO.Interop.Index.TermFields.md): Provides programmatic access to the term-level descriptive fields.
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    ApplyExport method
+    ApplyExport method
+
 
 
 
@@ -18,8 +19,8 @@ String
 
 
 ## Parameters
-
-* ExportDefinition ([Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.html))
+.md)
+* ExportDefinition ([Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md))
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
 

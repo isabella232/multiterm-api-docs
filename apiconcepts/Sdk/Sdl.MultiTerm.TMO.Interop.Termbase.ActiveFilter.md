@@ -1,7 +1,8 @@
 
 
 # 
-    ActiveFilter property
+    ActiveFilter property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.ActiveFilter —          Returns the active 
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 
 (read)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item —          Refers to a parti
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.IndexPermissions](Sdl.MultiTerm.TMO.Interop.IndexPermissions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.IndexPermissions](Sdl.MultiTerm.TMO.Interop.IndexPermissions.md)
 
 (read)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    LockedEntries property
+    LockedEntries property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.LockedEntries —          Provides programma
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.LockedEntries](Sdl.MultiTerm.TMO.Interop.LockedEntries.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.LockedEntries](Sdl.MultiTerm.TMO.Interop.LockedEntries.md)
 
 (read)
 

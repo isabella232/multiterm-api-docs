@@ -1,7 +1,8 @@
 
 
 # 
-    GetEntryIDs method
+    GetEntryIDs method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Entries.GetEntryIDs —          Retrieves all entry i
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.EntryIDs](Sdl.MultiTerm.TMO.Interop.EntryIDs.html)
+.md
+[Sdl.MultiTerm.TMO.Interop.EntryIDs](Sdl.MultiTerm.TMO.Interop.EntryIDs.md)
 
 
 

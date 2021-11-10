@@ -1,7 +1,8 @@
 
 
 # 
-    IndexesPermissions property
+    IndexesPermissions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.IndexesPermissions —      
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.IndexesPermissions](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.IndexesPermissions](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.md)
 
 (read)
 

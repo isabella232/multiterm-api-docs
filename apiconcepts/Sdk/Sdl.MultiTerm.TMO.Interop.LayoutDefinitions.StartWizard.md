@@ -1,7 +1,8 @@
 
 
 # 
-    StartWizard method
+    StartWizard method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.StartWizard —          Starts the 
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md)
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    EntryClasses property
+    EntryClasses property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.EntryClasses —          Pr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.md)
 
 (read)
 

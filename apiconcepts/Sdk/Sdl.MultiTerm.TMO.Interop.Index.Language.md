@@ -1,7 +1,8 @@
 
 
 # 
-    Language property
+    Language property
+
 
 
 
@@ -26,8 +27,8 @@ String
 ## Description
 
 
-
-See [Label](Sdl.MultiTerm.TMO.Interop.Index.Label.html)
+.md)
+See [Label](Sdl.MultiTerm.TMO.Interop.Index.Label.md)
 
 
 

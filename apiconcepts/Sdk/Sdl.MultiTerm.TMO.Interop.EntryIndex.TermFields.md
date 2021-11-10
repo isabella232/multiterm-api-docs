@@ -1,7 +1,8 @@
 
 
 # 
-    TermFields property
+    TermFields property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields —          Provides programmat
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
 
 (read)
 

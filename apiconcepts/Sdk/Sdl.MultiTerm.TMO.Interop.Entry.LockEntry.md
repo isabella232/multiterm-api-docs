@@ -1,7 +1,8 @@
 
 
 # 
-    LockEntry method
+    LockEntry method
+
 
 
 
@@ -18,8 +19,8 @@ void
 
 
 ## Parameters
-
-* LockState ([Sdl.MultiTerm.TMO.Interop.MtLockingState](Sdl.MultiTerm.TMO.Interop.MtLockingState.html))
+.md)
+* LockState ([Sdl.MultiTerm.TMO.Interop.MtLockingState](Sdl.MultiTerm.TMO.Interop.MtLockingState.md))
 
 
 

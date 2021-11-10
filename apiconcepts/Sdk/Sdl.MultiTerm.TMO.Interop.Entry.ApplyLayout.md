@@ -1,7 +1,8 @@
 
 
 # 
-    ApplyLayout method
+    ApplyLayout method
+
 
 
 
@@ -20,8 +21,8 @@ String
 ## Parameters
 
 * SourceIndex (String)
-* TargetIndex (String)
-* LayoutDefinitionObject ([Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html))
+* TargetIndex (String).md)
+* LayoutDefinitionObject ([Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md))
 
 
 

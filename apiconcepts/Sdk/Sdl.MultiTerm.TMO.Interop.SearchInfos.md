@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.SearchInfos class
+    Sdl.MultiTerm.TMO.Interop.SearchInfos class
+
 
 
 
@@ -20,9 +21,9 @@ This class allows you to retrieve various information after a multiple termbase 
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.SearchInfos.Count.html): Returns the number of search info sets available.
-* [Item](Sdl.MultiTerm.TMO.Interop.SearchInfos.Item.html): Refers to a particular set of search info, i.e. the search info related to a specific termbase.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.SearchInfos.Count.md): Returns the number of search info sets available.
+* [Item](Sdl.MultiTerm.TMO.Interop.SearchInfos.Item.md): Refers to a particular set of search info, i.e. the search info related to a specific termbase.
 
 
 

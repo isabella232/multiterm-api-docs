@@ -1,7 +1,8 @@
 
 
 # 
-    Entries property
+    Entries property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Entries —          Provides programmatic ac
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Entries](Sdl.MultiTerm.TMO.Interop.Entries.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Entries](Sdl.MultiTerm.TMO.Interop.Entries.md)
 
 (read)
 

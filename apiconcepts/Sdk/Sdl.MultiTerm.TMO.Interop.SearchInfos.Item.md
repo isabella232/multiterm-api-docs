@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.SearchInfos.Item —          Refers to a particular s
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.SearchInfo](Sdl.MultiTerm.TMO.Interop.SearchInfo.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.SearchInfo](Sdl.MultiTerm.TMO.Interop.SearchInfo.md)
 
 (read)
 

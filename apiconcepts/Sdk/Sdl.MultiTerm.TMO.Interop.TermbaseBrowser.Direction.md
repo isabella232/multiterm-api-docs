@@ -1,7 +1,8 @@
 
 
 # 
-    Direction property
+    Direction property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Direction —          Sets/returns th
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtBrowseDirection](Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtBrowseDirection](Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.md)
 
 (read / write)
 

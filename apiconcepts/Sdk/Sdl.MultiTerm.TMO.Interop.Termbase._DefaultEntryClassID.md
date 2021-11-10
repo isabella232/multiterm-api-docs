@@ -1,7 +1,8 @@
 
 
 # 
-    \_DefaultEntryClassID property
+    \_DefaultEntryClassID property
+
 
 
 
@@ -26,8 +27,8 @@ Long
 ## Description
 
 
-
-This property can be used to retrieve the default entry class id number. In contrast to the [DefaultEntryClass](Sdl.MultiTerm.TMO.Interop.Termbase.DefaultEntryClass.html) it does not return the entry class name, e.g. 'Internal', but the id to which the name is mapped.
+.md)
+This property can be used to retrieve the default entry class id number. In contrast to the [DefaultEntryClass](Sdl.MultiTerm.TMO.Interop.Termbase.DefaultEntryClass.md) it does not return the entry class name, e.g. 'Internal', but the id to which the name is mapped.
 
 
 

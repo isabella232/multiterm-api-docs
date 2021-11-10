@@ -1,22 +1,13 @@
-
-
-# 
-    Multiple property
-
-
+#  Multiple property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.DescriptiveField.Multiple —          Returns whether a field can be multiple.
 
-
-
 ## Type
 
 Boolean
-
 (read)
-
 
 
 ## Index Parameters
@@ -24,8 +15,6 @@ Boolean
 
 
 ## Description
-
-
 
 A termbase creator/administrator can define descriptive fields in a termbase definition as multiple, i.e. the field may occur several times in an entry. If the field is not multiple, then only one occurrence of the field per entry is allowed.
 
@@ -44,10 +33,3 @@ TermbaseDefinition oDef = oTb.Definition;
 DescriptiveField oField = oDef.Fields[0];
 Debug.WriteLine("Is this field multipe? " + oField.Multiple);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.DescriptiveField.Multiple)
-

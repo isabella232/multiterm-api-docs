@@ -1,7 +1,8 @@
 
 
 # 
-    Remove method
+    Remove method
+
 
 
 ## This method is no longer supported.
@@ -20,8 +21,8 @@ void
 
 
 ## Parameters
-
-* Termbase ([Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.html))
+.md)
+* Termbase ([Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.md))
 * DestinationPath (String)
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item —          Refers to a particular 
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.md)
 
 (read)
 

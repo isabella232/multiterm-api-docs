@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.IndexesPermissions class
+    Sdl.MultiTerm.TMO.Interop.IndexesPermissions class
+
 
 
 
@@ -20,11 +21,11 @@ Via this class you can retrieve information on the indexes (i.e. languages) the 
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Count.html): Returns the number of indexes that the currently logged-in user can access.
-* [Item](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item.html): Refers to a particular index permission.
-* [ReadIndexes](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.ReadIndexes.html): Returns all indexes that the currently logged-in user has read-access too.
-* [WriteIndexes](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.WriteIndexes.html): Returns all indexes the currently logged-in user has write access to.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Count.md): Returns the number of indexes that the currently logged-in user can access.
+* [Item](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item.md): Refers to a particular index permission.
+* [ReadIndexes](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.ReadIndexes.md): Returns all indexes that the currently logged-in user has read-access too.
+* [WriteIndexes](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.WriteIndexes.md): Returns all indexes the currently logged-in user has write access to.
 
 
 

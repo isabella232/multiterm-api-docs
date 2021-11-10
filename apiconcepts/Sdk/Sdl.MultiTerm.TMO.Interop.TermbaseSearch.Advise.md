@@ -1,7 +1,8 @@
 
 
 # 
-    Advise method
+    Advise method
+
 
 
 
@@ -18,8 +19,8 @@ void
 
 
 ## Parameters
-
-* AdvancedSearchObject ([Sdl.MultiTerm.TMO.Interop.MultiSearch](Sdl.MultiTerm.TMO.Interop.MultiSearch.html))
+.md)
+* AdvancedSearchObject ([Sdl.MultiTerm.TMO.Interop.MultiSearch](Sdl.MultiTerm.TMO.Interop.MultiSearch.md))
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryIndexes.Add —          Adds an index to the col
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.md)
 
 
 

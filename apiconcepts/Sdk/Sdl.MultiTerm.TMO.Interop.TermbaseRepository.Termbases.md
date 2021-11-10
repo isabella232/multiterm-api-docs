@@ -1,7 +1,8 @@
 
 
 # 
-    Termbases property
+    Termbases property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Termbases —          Provides acc
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Termbases](Sdl.MultiTerm.TMO.Interop.Termbases.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Termbases](Sdl.MultiTerm.TMO.Interop.Termbases.md)
 
 (read)
 

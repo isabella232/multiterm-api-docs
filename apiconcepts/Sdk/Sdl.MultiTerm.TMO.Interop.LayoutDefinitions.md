@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.LayoutDefinitions class
+    Sdl.MultiTerm.TMO.Interop.LayoutDefinitions class
+
 
 
 
@@ -20,18 +21,18 @@ Via this class you can access the layout definitions associated with a particula
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Count.html): Returns the number of available layout definitions.
-* [Item](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Item.html): Provides access to a particular layout definition.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Count.md): Returns the number of available layout definitions.
+* [Item](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Item.md): Provides access to a particular layout definition.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Add.html): Adds a new layout definition to the collection.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Refresh.html): Updates the layout definition collection.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.StartWizard.html): Starts the Layout Definition wizard.
+* [Add](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Add.md): Adds a new layout definition to the collection.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Refresh.md): Updates the layout definition collection.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.StartWizard.md): Starts the Layout Definition wizard.
 
 
 

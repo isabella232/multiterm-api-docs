@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.PicklistValues class
+    Sdl.MultiTerm.TMO.Interop.PicklistValues class
+
 
 
 
@@ -26,9 +27,9 @@ An example application for this class is filling a drop-down list with the pickl
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.PicklistValues.Count.html): Returns the number of picklist values associated with a particular picklist field.
-* [Item](Sdl.MultiTerm.TMO.Interop.PicklistValues.Item.html): Refers to a specific value from the picklist of a specified picklist field.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.PicklistValues.Count.md): Returns the number of picklist values associated with a particular picklist field.
+* [Item](Sdl.MultiTerm.TMO.Interop.PicklistValues.Item.md): Refers to a specific value from the picklist of a specified picklist field.
 
 
 

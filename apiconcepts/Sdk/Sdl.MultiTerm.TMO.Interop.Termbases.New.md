@@ -1,7 +1,8 @@
 
 
 # 
-    New method
+    New method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbases.New —          Creates a new termbase prog
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.md)
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item —          Refers to a 
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryClassPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryClassPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.md)
 
 (read)
 

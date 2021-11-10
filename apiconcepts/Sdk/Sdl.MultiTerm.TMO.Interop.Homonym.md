@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.Homonym class
+    Sdl.MultiTerm.TMO.Interop.Homonym class
+
 
 
 
@@ -24,10 +25,10 @@ Note that via referring to the unique entry id, you can retrieve the content of 
 
 
 ## Properties
-
-* [EntryID](Sdl.MultiTerm.TMO.Interop.Homonym.EntryID.html): Returns the entry id of a particular homonym.
-* [Index](Sdl.MultiTerm.TMO.Interop.Homonym.Index.html): Returns the index the homonym term was found in.
-* [Term](Sdl.MultiTerm.TMO.Interop.Homonym.Term.html): Returns the homonym term.
+.md)
+* [EntryID](Sdl.MultiTerm.TMO.Interop.Homonym.EntryID.md): Returns the entry id of a particular homonym.
+* [Index](Sdl.MultiTerm.TMO.Interop.Homonym.Index.md): Returns the index the homonym term was found in.
+* [Term](Sdl.MultiTerm.TMO.Interop.Homonym.Term.md): Returns the homonym term.
 
 
 

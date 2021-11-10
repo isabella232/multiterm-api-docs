@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Add —          Adds a new layout d
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md)
 
 
 

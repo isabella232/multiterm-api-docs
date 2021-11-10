@@ -1,7 +1,8 @@
 
 
 # 
-    ProcessExport method
+    ProcessExport method
+
 
 
 
@@ -18,8 +19,8 @@ void
 
 
 ## Parameters
-
-* Value ([Sdl.MultiTerm.TMO.Interop.MtTaskType](Sdl.MultiTerm.TMO.Interop.MtTaskType.html))
+.md)
+* Value ([Sdl.MultiTerm.TMO.Interop.MtTaskType](Sdl.MultiTerm.TMO.Interop.MtTaskType.md))
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
 

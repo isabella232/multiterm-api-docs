@@ -22,9 +22,3 @@ All Third Party Software is licensed "as is." Licensor makes no warranties, expr
 
 Information in this documentation, including any URL and other Internet website references, is subject to change without notice. Without limiting the rights under copyright, no part of this may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of RWS Group.
 
-
-
-
-**Parent topic:** [MultiTerm Desktop SDK](GUID-5A53FC62-7523-4C32-9ABA-59A0C16B409A.html "This Software Development Kit (SDK) contains an introduction to the MultiTerm Client API as well as a full programming reference. It contains various practical examples of how to implement functionality into third-party party applications and custom workflows.")
-
-

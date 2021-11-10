@@ -1,7 +1,8 @@
 
 
 # 
-    MultiTerm library
+    MultiTerm library
+
 
 
 
@@ -18,170 +19,170 @@ MultiTermIX —          Namespace for programmatic access to MultiTerm Client f
 
 
 ## Classes
-
-* [Application](Sdl.MultiTerm.TMO.Interop.Application.html)
+.md)
+* [Application](Sdl.MultiTerm.TMO.Interop.Application.md)
 
     Provides programmatic access to the MultiTerm client functionality.
-* [DescriptiveField](Sdl.MultiTerm.TMO.Interop.DescriptiveField.html)
+* [DescriptiveField](Sdl.MultiTerm.TMO.Interop.DescriptiveField.md)
 
     Provides programmatic access to a particular descriptive field specified in a termbase definition.
-* [DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html)
+* [DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.md)
 
     Provides programmatic access to the descriptive fields of a termbase definition.
-* [Entries](Sdl.MultiTerm.TMO.Interop.Entries.html)
+* [Entries](Sdl.MultiTerm.TMO.Interop.Entries.md)
 
     Provides programmatic access to the entries in a termbase.
-* [Entry](Sdl.MultiTerm.TMO.Interop.Entry.html)
+* [Entry](Sdl.MultiTerm.TMO.Interop.Entry.md)
 
     Provides programmatic access to a particular entry.
-* [EntryClassesPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.html)
+* [EntryClassesPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.md)
 
     Provides programmatic access to the entry classes the currently logged-in user has access to.
-* [EntryClassPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.html)
+* [EntryClassPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.md)
 
     Provides access to a particular entry class.
-* [EntryContent](Sdl.MultiTerm.TMO.Interop.EntryContent.html)
+* [EntryContent](Sdl.MultiTerm.TMO.Interop.EntryContent.md)
 
     Provides programmatic access to the content of an entry.
-* [EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.html)
+* [EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.md)
 
     Provides programmatic access to a particular entry-level descriptive field.
-* [EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.html)
+* [EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
 
     Provides programmatic access to the entry-level fields of a particular entry.
-* [EntryIDs](Sdl.MultiTerm.TMO.Interop.EntryIDs.html)
+* [EntryIDs](Sdl.MultiTerm.TMO.Interop.EntryIDs.md)
 
     Provides programmatic access to the collection of entry numbers of a particular termbase.
-* [EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.html)
+* [EntryIndex](Sdl.MultiTerm.TMO.Interop.EntryIndex.md)
 
     Provides programmatic access to a particular index.
-* [EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryIndexes.html)
+* [EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryIndexes.md)
 
     Provides programmatic access to the indexes contained in a particular entry.
-* [ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.html)
+* [ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
     Provides programmatic access to a particular export definition.
-* [ExportDefinitions](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.html)
+* [ExportDefinitions](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.md)
 
     Provides programmatic access to the export definitions of a termbase.
-* [FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.html)
+* [FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 
     Provides programmatic access to a particular filter definition.
-* [FilterDefinitions](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.html)
+* [FilterDefinitions](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.md)
 
     Provides programmatic access to the filter definitions of a termbase.
-* [HitTerm](Sdl.MultiTerm.TMO.Interop.HitTerm.html)
+* [HitTerm](Sdl.MultiTerm.TMO.Interop.HitTerm.md)
 
     Provides programmatic access to a particular hit term.
-* [HitTerms](Sdl.MultiTerm.TMO.Interop.HitTerms.html)
+* [HitTerms](Sdl.MultiTerm.TMO.Interop.HitTerms.md)
 
     Provides programmatic access to the results of a search or browse operation.
-* [Homonym](Sdl.MultiTerm.TMO.Interop.Homonym.html)
+* [Homonym](Sdl.MultiTerm.TMO.Interop.Homonym.md)
 
     Provides programmatic access to a particular homonym in the termbase.
-* [Homonyms](Sdl.MultiTerm.TMO.Interop.Homonyms.html)
+* [Homonyms](Sdl.MultiTerm.TMO.Interop.Homonyms.md)
 
     Provides programmatic access to the homonym entries of a particular termbase.
-* [ImportDefinition](Sdl.MultiTerm.TMO.Interop.ImportDefinition.html)
+* [ImportDefinition](Sdl.MultiTerm.TMO.Interop.ImportDefinition.md)
 
     Provides programmatic access to a particular import definition.
-* [ImportDefinitions](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.html)
+* [ImportDefinitions](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.md)
 
     Provides programmatic access to the import definitions of a termbase.
-* [IncompleteEntries](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html)
+* [IncompleteEntries](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.md)
 
     Provides access to all incomplete entries of a termbase.
-* [Index](Sdl.MultiTerm.TMO.Interop.Index.html)
+* [Index](Sdl.MultiTerm.TMO.Interop.Index.md)
 
     Provides programmatic access to a particular index of a termbase definition.
-* [Indexes](Sdl.MultiTerm.TMO.Interop.Indexes.html)
+* [Indexes](Sdl.MultiTerm.TMO.Interop.Indexes.md)
 
     Provides programmatic access to a particular index in the termbase definition.
-* [IndexesPermissions](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.html)
+* [IndexesPermissions](Sdl.MultiTerm.TMO.Interop.IndexesPermissions.md)
 
     Provides programmatic access to the index permissions of the currently logged-in user.
-* [IndexPermissions](Sdl.MultiTerm.TMO.Interop.IndexPermissions.html)
+* [IndexPermissions](Sdl.MultiTerm.TMO.Interop.IndexPermissions.md)
 
     Provides programmatic access to the permissions of a particular index.
-* [InputModelDefinition](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.html)
+* [InputModelDefinition](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.md)
 
     Provides access to a particular input model definition.
-* [InputModelDefinitions](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.html)
+* [InputModelDefinitions](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.md)
 
     Provides programmatic access to the input model definitions of a termbase.
-* [LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html)
+* [LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md)
 
     Provides programmatic access to a particular layout definition.
-* [LayoutDefinitions](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.html)
+* [LayoutDefinitions](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.md)
 
     Provides programmatic access to the layout definitions of a termbase.
-* [LockedEntries](Sdl.MultiTerm.TMO.Interop.LockedEntries.html)
+* [LockedEntries](Sdl.MultiTerm.TMO.Interop.LockedEntries.md)
 
     Provides programmatic access to all locked termbase entries.
-* [MtBrowseDirection](Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.html)
+* [MtBrowseDirection](Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.md)
 
     Contains the possible direction values for browse operations.
-* [MtDatabaseType](Sdl.MultiTerm.TMO.Interop.MtDatabaseType.html)
+* [MtDatabaseType](Sdl.MultiTerm.TMO.Interop.MtDatabaseType.md)
 
     Contains the available database types.
-* [MtFieldLevel](Sdl.MultiTerm.TMO.Interop.MtFieldLevel.html)
+* [MtFieldLevel](Sdl.MultiTerm.TMO.Interop.MtFieldLevel.md)
 
     The levels of the entry structure a descriptive field applies to.
-* [MtFieldType](Sdl.MultiTerm.TMO.Interop.MtFieldType.html)
+* [MtFieldType](Sdl.MultiTerm.TMO.Interop.MtFieldType.md)
 
     Contains the possible descriptive field type values.
-* [MtIndexGuessing](Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.html)
+* [MtIndexGuessing](Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.md)
 
     Contains the possible settings for guessing the search index.
-* [MtLockingState](Sdl.MultiTerm.TMO.Interop.MtLockingState.html)
+* [MtLockingState](Sdl.MultiTerm.TMO.Interop.MtLockingState.md)
 
     Contains the possible values for locking operations.
-* [MtSearchDirection](Sdl.MultiTerm.TMO.Interop.MtSearchDirection.html)
+* [MtSearchDirection](Sdl.MultiTerm.TMO.Interop.MtSearchDirection.md)
 
     Contains the direction options used for termbase searches.
-* [MtSearchType](Sdl.MultiTerm.TMO.Interop.MtSearchType.html)
+* [MtSearchType](Sdl.MultiTerm.TMO.Interop.MtSearchType.md)
 
     This enumerator contains the search types you can apply to a multiple termbase search.
-* [MtTaskType](Sdl.MultiTerm.TMO.Interop.MtTaskType.html)
+* [MtTaskType](Sdl.MultiTerm.TMO.Interop.MtTaskType.md)
 
     Contains the possible batch processing task type values.
-* [MtUserType](Sdl.MultiTerm.TMO.Interop.MtUserType.html)
+* [MtUserType](Sdl.MultiTerm.TMO.Interop.MtUserType.md)
 
     The user privilege types used for termbase access.
-* [MultiSearch](Sdl.MultiTerm.TMO.Interop.MultiSearch.html)
+* [MultiSearch](Sdl.MultiTerm.TMO.Interop.MultiSearch.md)
 
     Provides programmatic access to multiple termbase search.
-* [PicklistValues](Sdl.MultiTerm.TMO.Interop.PicklistValues.html)
+* [PicklistValues](Sdl.MultiTerm.TMO.Interop.PicklistValues.md)
 
     Provides programmatic access to the picklist values of a picklist type descriptive field.
-* [SearchInfo](Sdl.MultiTerm.TMO.Interop.SearchInfo.html)
+* [SearchInfo](Sdl.MultiTerm.TMO.Interop.SearchInfo.md)
 
     Stores information on the search carried for particular termbases.
-* [SearchInfos](Sdl.MultiTerm.TMO.Interop.SearchInfos.html)
+* [SearchInfos](Sdl.MultiTerm.TMO.Interop.SearchInfos.md)
 
     Provides programmatic access to relevant information after having carried out a search.
-* [TermbaseAccessPermissions](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.html)
+* [TermbaseAccessPermissions](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.md)
 
     Provides programmatic access to the termbase access permissions of the currently logged-in user.
-* [TermbaseBrowser](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.html)
+* [TermbaseBrowser](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.md)
 
     Provides access to the browse functionality for a termbase.
-* [Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.html)
+* [Termbase](Sdl.MultiTerm.TMO.Interop.Termbase.md)
 
     Provides programmatic access to a particular termbase.
-* [TermbaseDefinition](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.html)
+* [TermbaseDefinition](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.md)
 
     Provides programmatic access to the termbase definition.
-* [TermbaseInformation](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.html)
+* [TermbaseInformation](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.md)
 
     Provides programmatic access to a set of termbase information.
-* [TermbaseRepository](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.html)
+* [TermbaseRepository](Sdl.MultiTerm.TMO.Interop.TermbaseRepository.md)
 
     Provides access to the termbase repositories.
-* [Termbases](Sdl.MultiTerm.TMO.Interop.Termbases.html)
+* [Termbases](Sdl.MultiTerm.TMO.Interop.Termbases.md)
 
     Provides programmatic access to a termbase collection.
-* [TermbaseSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html)
+* [TermbaseSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.md)
 
     Provides programmatic access to the MultiTerm search functionality.
 

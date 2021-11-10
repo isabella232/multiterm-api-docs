@@ -1,7 +1,8 @@
 
 
 # 
-    Information property
+    Information property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Information —          Provides programmati
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.TermbaseInformation](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.TermbaseInformation](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.md)
 
 (read)
 

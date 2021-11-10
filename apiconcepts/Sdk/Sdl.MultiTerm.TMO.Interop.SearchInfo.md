@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.SearchInfo class
+    Sdl.MultiTerm.TMO.Interop.SearchInfo class
+
 
 
 
@@ -20,15 +21,15 @@ After a search has been carried out in multiple termbases you might want to know
 
 
 ## Properties
-
-* [ErrorCode](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorCode.html): Returns the error code for the search in a particular termbase (if applicable).
-* [ErrorMessage](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorMessage.html): Returns the error message for a search in a particular termbase (if applicable).
-* [HitsFound](Sdl.MultiTerm.TMO.Interop.SearchInfo.HitsFound.html): Returns true or false depending on whether any hits have been found in a particular termbase.
-* [SourceIndex](Sdl.MultiTerm.TMO.Interop.SearchInfo.SourceIndex.html): Returns the source index that was actually used when searching a particular termbase.
-* [SourceLocale](Sdl.MultiTerm.TMO.Interop.SearchInfo.SourceLocale.html): Returns the locale of the source index used when searching a particular termbase.
-* [TargetIndex](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetIndex.html): Returns the target index used when searching a particular termbase.
-* [TargetLocale](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetLocale.html): Returns the locale of the target index used when searching a particular termbase.
-* [TermbaseName](Sdl.MultiTerm.TMO.Interop.SearchInfo.TermbaseName.html): Returns the name of the termbase that the search info relates to.
+.md)
+* [ErrorCode](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorCode.md): Returns the error code for the search in a particular termbase (if applicable).
+* [ErrorMessage](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorMessage.md): Returns the error message for a search in a particular termbase (if applicable).
+* [HitsFound](Sdl.MultiTerm.TMO.Interop.SearchInfo.HitsFound.md): Returns true or false depending on whether any hits have been found in a particular termbase.
+* [SourceIndex](Sdl.MultiTerm.TMO.Interop.SearchInfo.SourceIndex.md): Returns the source index that was actually used when searching a particular termbase.
+* [SourceLocale](Sdl.MultiTerm.TMO.Interop.SearchInfo.SourceLocale.md): Returns the locale of the source index used when searching a particular termbase.
+* [TargetIndex](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetIndex.md): Returns the target index used when searching a particular termbase.
+* [TargetLocale](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetLocale.md): Returns the locale of the target index used when searching a particular termbase.
+* [TermbaseName](Sdl.MultiTerm.TMO.Interop.SearchInfo.TermbaseName.md): Returns the name of the termbase that the search info relates to.
 
 
 

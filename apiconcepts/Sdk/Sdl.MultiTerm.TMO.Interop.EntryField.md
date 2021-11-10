@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryField class
+    Sdl.MultiTerm.TMO.Interop.EntryField class
+
 
 
 
@@ -20,10 +21,10 @@ Via this class, you can, for example, return the field label and/or value of a p
 
 
 ## Properties
-
-* [Name](Sdl.MultiTerm.TMO.Interop.EntryField.Name.html): Returns the name, i.e. the label of a particular entry-level descriptive field.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.EntryField.ReadOnly.html): Returns whether a particular entry-level descriptive field is read-only.
-* [Value](Sdl.MultiTerm.TMO.Interop.EntryField.Value.html): Returns the value of a particular entry-level descriptive field.
+.md)
+* [Name](Sdl.MultiTerm.TMO.Interop.EntryField.Name.md): Returns the name, i.e. the label of a particular entry-level descriptive field.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.EntryField.ReadOnly.md): Returns whether a particular entry-level descriptive field is read-only.
+* [Value](Sdl.MultiTerm.TMO.Interop.EntryField.Value.md): Returns the value of a particular entry-level descriptive field.
 
 
 

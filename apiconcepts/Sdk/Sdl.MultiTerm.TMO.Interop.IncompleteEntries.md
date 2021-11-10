@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.IncompleteEntries class
+    Sdl.MultiTerm.TMO.Interop.IncompleteEntries class
+
 
 
 
@@ -16,8 +17,8 @@ Sdl.MultiTerm.TMO.Interop.IncompleteEntries —          Provides access to all 
 
 
 Incomplete entries are entries that lack one or more fields that are mandatory according to the termbase definition. For example, if the termbase definition imposes that the field "Subject" is mandatory and an entry does not have a "Subject" field, it is considered incomplete. In this case the corresponding XML data stored in the mtConcepts table of the database backend will be marked as incomplete, i.e. it will have the value '1' in the 'incomplete' column.
-
-When adding a new entry programmatically via the [New](Sdl.MultiTerm.TMO.Interop.Entries.New.html) method, you can flag it as incomplete by setting the incomplete parameter to true.
+.md)
+When adding a new entry programmatically via the [New](Sdl.MultiTerm.TMO.Interop.Entries.New.md) method, you can flag it as incomplete by setting the incomplete parameter to true.
 
 This is, for example, the case for all entries that are added via the Quick Entry function from Word. Note that your client needs to implement the logic that decides whether an entry is incomplete or not. This is not done on the server side.
 
@@ -27,8 +28,8 @@ You can use the IncompleteEntries class, for example, to compile a list of all t
 
 ## Properties
 
-* [Count](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.Count.html): Returns the number of incomplete entries contained in a termbase.
-* [Item](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.Item.html): Refers to a particular incomplete entry.
+* [Count](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.Count.md): Returns the number of incomplete entries contained in a termbase.
+* [Item](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.Item.md): Refers to a particular incomplete entry.
 
 
 

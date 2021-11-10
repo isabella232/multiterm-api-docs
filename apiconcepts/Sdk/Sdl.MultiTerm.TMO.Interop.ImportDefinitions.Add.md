@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Add —          Adds a new import d
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.ImportDefinition](Sdl.MultiTerm.TMO.Interop.ImportDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.ImportDefinition](Sdl.MultiTerm.TMO.Interop.ImportDefinition.md)
 
 
 

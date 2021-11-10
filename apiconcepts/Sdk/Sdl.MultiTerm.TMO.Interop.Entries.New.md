@@ -1,7 +1,8 @@
 
 
 # 
-    New method
+    New method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Entries.New —          Adds a new entry to the termb
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md)
 
 
 

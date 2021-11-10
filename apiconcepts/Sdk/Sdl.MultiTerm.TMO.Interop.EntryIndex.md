@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryIndex class
+    Sdl.MultiTerm.TMO.Interop.EntryIndex class
+
 
 
 
@@ -20,12 +21,12 @@ Via this class you can access a particular index, e.g. in order to retrieve any 
 
 
 ## Properties
-
-* [IndexFields](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields.html): Provides programmatic access to the descriptive fields of an index.
-* [IndexName](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexName.html): Returns the name of the selected index.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.EntryIndex.ReadOnly.html): Indicates whether an index is read-only.
-* [Term](Sdl.MultiTerm.TMO.Interop.EntryIndex.Term.html): Returns the term for the currently selected index.
-* [TermFields](Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields.html): Provides programmatic access to the term-level descriptive fields.
+.md)
+* [IndexFields](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields.md): Provides programmatic access to the descriptive fields of an index.
+* [IndexName](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexName.md): Returns the name of the selected index.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.EntryIndex.ReadOnly.md): Indicates whether an index is read-only.
+* [Term](Sdl.MultiTerm.TMO.Interop.EntryIndex.Term.md): Returns the term for the currently selected index.
+* [TermFields](Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields.md): Provides programmatic access to the term-level descriptive fields.
 
 
 

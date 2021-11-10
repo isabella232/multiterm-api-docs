@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.InputModelDefinitions class
+    Sdl.MultiTerm.TMO.Interop.InputModelDefinitions class
+
 
 
 
@@ -20,18 +21,18 @@ Via this class you can access the input model definitions associated with a part
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Count.html): Returns the number of available input model definitions.
-* [Item](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Item.html): Provides access to a particular input model definition.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Count.md): Returns the number of available input model definitions.
+* [Item](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Item.md): Provides access to a particular input model definition.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Add.html): Adds a new input model definition to the collection.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Refresh.html): Updates the input model definition collection.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.StartWizard.html): Starts the Input Model Definition wizard.
+* [Add](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Add.md): Adds a new input model definition to the collection.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Refresh.md): Updates the input model definition collection.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.StartWizard.md): Starts the Input Model Definition wizard.
 
 
 

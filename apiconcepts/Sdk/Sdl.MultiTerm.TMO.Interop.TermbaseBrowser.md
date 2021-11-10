@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.TermbaseBrowser class
+    Sdl.MultiTerm.TMO.Interop.TermbaseBrowser class
+
 
 
 
@@ -22,19 +23,19 @@ This class allows you to implement browse functionality for your MultiTerm clien
 
 
 ## Properties
-
-* [Direction](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Direction.html): Sets/returns the direction for a browse operation.
-* [EntryID](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.EntryID.html): Sets/returns the starting entry id of the browse operation.
-* [MaximumTermCount](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.MaximumTermCount.html): Sets/returns the maximum hits allowed for a browse operation.
-* [SourceIndex](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.SourceIndex.html): Sets/returns the browse index.
-* [StartTerm](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.StartTerm.html): Sets/returns the start term for the browse operation.
+.md)
+* [Direction](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Direction.md): Sets/returns the direction for a browse operation.
+* [EntryID](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.EntryID.md): Sets/returns the starting entry id of the browse operation.
+* [MaximumTermCount](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.MaximumTermCount.md): Sets/returns the maximum hits allowed for a browse operation.
+* [SourceIndex](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.SourceIndex.md): Sets/returns the browse index.
+* [StartTerm](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.StartTerm.md): Sets/returns the start term for the browse operation.
 
 
 
 
 ## Methods
 
-* [Execute](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Execute.html): Executes the browse operation.
+* [Execute](Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Execute.md): Executes the browse operation.
 
 
 

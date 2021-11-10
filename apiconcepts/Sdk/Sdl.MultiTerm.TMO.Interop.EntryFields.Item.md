@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryFields.Item —          Refers to a particular e
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.md)
 
 (read)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.TermbaseDefinition class
+    Sdl.MultiTerm.TMO.Interop.TermbaseDefinition class
+
 
 
 
@@ -24,18 +25,18 @@ The sample below shows how to loop through all indexes in a termbase definition 
 
 
 ## Properties
-
-* [\_Schema](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition._Schema.html): Returns the schema for a termbase definition.
-* [Fields](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Fields.html): Provides access to entry-level fields.
-* [Indexes](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Indexes.html): Provides programmatic access to the indexes of a termbase definition.
+.md)
+* [\_Schema](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition._Schema.md): Returns the schema for a termbase definition.
+* [Fields](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Fields.md): Provides access to entry-level fields.
+* [Indexes](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Indexes.md): Provides programmatic access to the indexes of a termbase definition.
 
 
 
 
 ## Methods
 
-* [Save](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Save.html): Saves the selected termbase definition to an external file.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.StartWizard.html): Calls the Termbase Definition Wizard.
+* [Save](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Save.md): Saves the selected termbase definition to an external file.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.StartWizard.md): Calls the Termbase Definition Wizard.
 
 
 

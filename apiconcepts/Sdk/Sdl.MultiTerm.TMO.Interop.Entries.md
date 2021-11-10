@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.Entries class
+    Sdl.MultiTerm.TMO.Interop.Entries class
+
 
 
 
@@ -20,21 +21,21 @@ A termbase is a collection of entries (i.e. concepts). Via this class you can, f
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.Entries.Count.html): Returns the total number of termbase entries.
+.md
+* [Count](Sdl.MultiTerm.TMO.Interop.Entries.Count.md): Returns the total number of termbase entries.
 
 
 
 
 ## Methods
 
-* [ActiveFilterHasChanged](Sdl.MultiTerm.TMO.Interop.Entries.ActiveFilterHasChanged.html): Returns true if the active filter has changed, otherwise false.
-* [GetCrossLinkedEntry](Sdl.MultiTerm.TMO.Interop.Entries.GetCrossLinkedEntry.html): Allows you to retrieve the content of a cross-linked entry.
-* [GetEntryIDs](Sdl.MultiTerm.TMO.Interop.Entries.GetEntryIDs.html): Retrieves all entry ids contained in a termbase.
-* [Item](Sdl.MultiTerm.TMO.Interop.Entries.Item.html): Refers to a particular entry.
-* [New](Sdl.MultiTerm.TMO.Interop.Entries.New.html): Adds a new entry to the termbase.
-* [ReloadLayout](Sdl.MultiTerm.TMO.Interop.Entries.ReloadLayout.html): Refreshes the entry layout.
-* [ReloadTermbaseDefinition](Sdl.MultiTerm.TMO.Interop.Entries.ReloadTermbaseDefinition.html): Refreshes the current termbase definition.
+* [ActiveFilterHasChanged](Sdl.MultiTerm.TMO.Interop.Entries.ActiveFilterHasChanged.md): Returns true if the active filter has changed, otherwise false.
+* [GetCrossLinkedEntry](Sdl.MultiTerm.TMO.Interop.Entries.GetCrossLinkedEntry.md: Allows you to retrieve the content of a cross-linked entry.
+* [GetEntryIDs](Sdl.MultiTerm.TMO.Interop.Entries.GetEntryIDs.md: Retrieves all entry ids contained in a termbase.
+* [Item](Sdl.MultiTerm.TMO.Interop.Entries.Item.md: Refers to a particular entry.
+* [New](Sdl.MultiTerm.TMO.Interop.Entries.New.md: Adds a new entry to the termbase.
+* [ReloadLayout](Sdl.MultiTerm.TMO.Interop.Entries.ReloadLayout.md): Refreshes the entry layout.
+* [ReloadTermbaseDefinition](Sdl.MultiTerm.TMO.Interop.Entries.ReloadTermbaseDefinition.md): Refreshes the current termbase definition.
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.Homonyms class
+    Sdl.MultiTerm.TMO.Interop.Homonyms class
+
 
 
 
@@ -22,9 +23,9 @@ Via this class you can access all homonyms (if any) contained in a termbase. As 
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.Homonyms.Count.html): Returns the number of homonyms for a particular termbase index.
-* [Item](Sdl.MultiTerm.TMO.Interop.Homonyms.Item.html): Provides access to a particular homonym.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.Homonyms.Count.md): Returns the number of homonyms for a particular termbase index.
+* [Item](Sdl.MultiTerm.TMO.Interop.Homonyms.Item.md): Provides access to a particular homonym.
 
 
 

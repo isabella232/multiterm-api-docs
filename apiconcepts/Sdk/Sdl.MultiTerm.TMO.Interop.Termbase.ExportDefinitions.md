@@ -1,7 +1,8 @@
 
 
 # 
-    ExportDefinitions property
+    ExportDefinitions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.ExportDefinitions —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.ExportDefinitions](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.ExportDefinitions](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.md)
 
 (read)
 

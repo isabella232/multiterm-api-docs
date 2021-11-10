@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.TermbaseSearch class
+    Sdl.MultiTerm.TMO.Interop.TermbaseSearch class
+
 
 
 
@@ -26,26 +27,26 @@ When doing a termbase search you need to provide various parameters such as the 
 
 
 ## Properties
-
-* [Direction](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction.html): Sets/returns the search direction.
-* [FuzzySearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.FuzzySearch.html): Sets/returns whether the termbase search should be a fuzzy search.
-* [LastTerm](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.LastTerm.html): Sets the last term from which a search operation should be started.
-* [MaximumHits](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.MaximumHits.html): Sets/returns the maximum hit number.
-* [SearchExistTarget](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SearchExistTarget.html): Sets/returns whether only terms with one or more target terms should be taken into consideration.
-* [SearchExpression](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SearchExpression.html): Sets/returns the search expression.
-* [SourceIndex](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SourceIndex.html): Sets/returns the search index.
-* [StartingEntryID](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.StartingEntryID.html): Sets/returns the entry id from which the search should be started.
-* [TargetIndex](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.TargetIndex.html): Sets/returns the search target index.
+.md)
+* [Direction](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction.md): Sets/returns the search direction.
+* [FuzzySearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.FuzzySearch.md): Sets/returns whether the termbase search should be a fuzzy search.
+* [LastTerm](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.LastTerm.md): Sets the last term from which a search operation should be started.
+* [MaximumHits](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.MaximumHits.md): Sets/returns the maximum hit number.
+* [SearchExistTarget](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SearchExistTarget.md): Sets/returns whether only terms with one or more target terms should be taken into consideration.
+* [SearchExpression](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SearchExpression.md): Sets/returns the search expression.
+* [SourceIndex](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.SourceIndex.md): Sets/returns the search index.
+* [StartingEntryID](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.StartingEntryID.md): Sets/returns the entry id from which the search should be started.
+* [TargetIndex](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.TargetIndex.md): Sets/returns the search target index.
 
 
 
 
 ## Methods
 
-* [Advise](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Advise.html): [For internal use only.]
-* [CancelSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.CancelSearch.html): Cancels the search operation.
-* [Execute](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Execute.html): Executes a search operation and stores the results in a HitTerms object.
-* [Unadvise](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Unadvise.html): [For internal use only]
+* [Advise](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Advise.md): [For internal use only.]
+* [CancelSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.CancelSearch.md): Cancels the search operation.
+* [Execute](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Execute.md): Executes a search operation and stores the results in a HitTerms object.
+* [Unadvise](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Unadvise.md): [For internal use only]
 
 
 

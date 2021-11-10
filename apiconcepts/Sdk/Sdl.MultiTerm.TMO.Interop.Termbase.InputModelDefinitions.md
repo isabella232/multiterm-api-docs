@@ -1,7 +1,8 @@
 
 
 # 
-    InputModelDefinitions property
+    InputModelDefinitions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.InputModelDefinitions —          Provides p
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.InputModelDefinitions](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.InputModelDefinitions](Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.md)
 
 (read)
 

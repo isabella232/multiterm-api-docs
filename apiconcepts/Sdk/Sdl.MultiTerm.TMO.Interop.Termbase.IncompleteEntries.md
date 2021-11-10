@@ -1,7 +1,8 @@
 
 
 # 
-    IncompleteEntries property
+    IncompleteEntries property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.IncompleteEntries —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.IncompleteEntries](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.IncompleteEntries](Sdl.MultiTerm.TMO.Interop.IncompleteEntries.md)
 
 (read)
 

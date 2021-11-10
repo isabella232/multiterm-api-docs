@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.TermbaseInformation class
+    Sdl.MultiTerm.TMO.Interop.TermbaseInformation class
+
 
 
 
@@ -22,20 +23,20 @@ You can use this class, for example, to display all relevant termbase informatio
 
 
 ## Properties
-
-* [CreationDate](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.CreationDate.html): Returns the termbase creation date.
-* [Description](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Description.html): Returns the termbase description.
-* [Name](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Name.html): Returns the (nice) name of a termbase.
-* [NumberOfEntriesInIndex](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.NumberOfEntriesInIndex.html): Returns the number of terms contained in a specified index.
-* [Size](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Size.html): Returns the size of the termbase in MB.
-* [TotalNumberOfEntries](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.TotalNumberOfEntries.html): Returns the total entry count for the specified termbase.
+.md)
+* [CreationDate](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.CreationDate.md): Returns the termbase creation date.
+* [Description](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Description.md): Returns the termbase description.
+* [Name](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Name.md): Returns the (nice) name of a termbase.
+* [NumberOfEntriesInIndex](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.NumberOfEntriesInIndex.md): Returns the number of terms contained in a specified index.
+* [Size](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Size.md): Returns the size of the termbase in MB.
+* [TotalNumberOfEntries](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.TotalNumberOfEntries.md): Returns the total entry count for the specified termbase.
 
 
 
 
 ## Methods
 
-* [Refresh](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Refresh.html): Updates the termbase information.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.TermbaseInformation.Refresh.md): Updates the termbase information.
 
 
 

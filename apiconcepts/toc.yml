@@ -27,7 +27,20 @@
     href: adding.md
   - name: Sample Application in VBA
     href: sample_vba.md
-  - name: XSD schema MTF source
-    href: xsd_schema.md
+  - name: XML Schema MTF
+    href: MTF/XMLSchemaMTF.md
+    items:
+    - name: MTF Elements
+      href: MTF/MTFElements.md
+    - name: MTF Attributes
+      href: MTF/MTFAttributes.md
+    - name: MTF Source
+      href: MTF/MTFSource.md
+    - name: Schema Attributes Reference
+      href: MTF/SchemaAttributesReference.md
+    - name: Datatype Reference
+      href: MTF/DatatypeReference.md
+    - name: XSD schema MTF source
+      href: MTF/xsd_schema.md    
 - name: Reference
   href: Sdk/toc.yml

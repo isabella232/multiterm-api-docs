@@ -1,7 +1,8 @@
 
 
 # 
-    Update method
+    Update method
+
 
 
 
@@ -28,8 +29,8 @@ void
 Applying this  method to a particular entry updates the content of this entry using the MultiTerm XML stream parameter provided.
 
 This method is the programmatic equivalent of the Edit function in MultiTerm Workstation, which allows users to edit the content of an entry, i.e. add/delete fields or update the content of a field.
-
-Note that before applying this method the corresponding entry needs to be [locked](Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.html), to prevent other users from trying to edit the entry at the same time.
+.md)
+Note that before applying this method the corresponding entry needs to be [locked](Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.md), to prevent other users from trying to edit the entry at the same time.
 
 Note that in order to delete a particular field, you need to add a delete="true" attribute to the description group tag (descripGrp) to delete in the update entry content (see example below).
 

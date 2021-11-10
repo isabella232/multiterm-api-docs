@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.LayoutDefinition class
+    Sdl.MultiTerm.TMO.Interop.LayoutDefinition class
+
 
 
 
@@ -20,23 +21,23 @@ Layouts basically contain an XSL stylesheet, which renders MultiTerm entry XML a
 
 
 ## Properties
-
-* [Content](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Content.html): Returns the layout definition content.
-* [Description](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Description.html): Returns the layout description.
-* [ID](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ID.html): Returns the unique id of the layout.
-* [Name](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Name.html): Returns the name of the layout.
-* [Owner](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Owner.html): Returns the owner name for a particular layout definition.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ReadOnly.html): Returns whether a particular layout is read-only.
+.md)
+* [Content](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Content.md): Returns the layout definition content.
+* [Description](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Description.md): Returns the layout description.
+* [ID](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ID.md): Returns the unique id of the layout.
+* [Name](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Name.md): Returns the name of the layout.
+* [Owner](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Owner.md): Returns the owner name for a particular layout definition.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ReadOnly.md): Returns whether a particular layout is read-only.
 
 
 
 
 ## Methods
 
-* [Delete](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Delete.html): Removes the layout from the collection.
-* [Load](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Load.html): Updates the selected layout from an external layout definition file.
-* [Save](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Save.html): Saves the layout definition to an external file.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.StartWizard.html): Calls up the layout definition wizard for editing a particular layout.
+* [Delete](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Delete.md): Removes the layout from the collection.
+* [Load](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Load.md): Updates the selected layout from an external layout definition file.
+* [Save](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Save.md): Saves the layout definition to an external file.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.StartWizard.md): Calls up the layout definition wizard for editing a particular layout.
 
 
 

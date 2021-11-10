@@ -1,7 +1,8 @@
 
 
 # 
-    Definition property
+    Definition property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Definition —          Provides programmatic
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.TermbaseDefinition](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.TermbaseDefinition](Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.md)
 
 (read)
 

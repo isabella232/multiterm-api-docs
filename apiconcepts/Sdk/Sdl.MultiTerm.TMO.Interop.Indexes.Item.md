@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Indexes.Item —          Provides access to a specifi
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Index](Sdl.MultiTerm.TMO.Interop.Index.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Index](Sdl.MultiTerm.TMO.Interop.Index.md)
 
 (read)
 

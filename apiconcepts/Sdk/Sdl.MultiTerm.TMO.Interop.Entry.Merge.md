@@ -1,7 +1,8 @@
 
 
 # 
-    Merge method
+    Merge method
+
 
 
 
@@ -18,8 +19,8 @@ void
 
 
 ## Parameters
-
-* MergeWithEntry ([Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.html))
+.md)
+* MergeWithEntry ([Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md))
 
 
 
@@ -32,9 +33,9 @@ In some cases it is useful to merge two distinct entries into one, for example, 
 
 Example: suppose you would like to merge the content from entry number 2 into entry number 2. To do this, you first need to Lock the entry 1, then apply the Merge method, which requires the content of entry 2 as parameter, to the entry 1 object.
 
-Note that you need to apply the [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.html) method after the merge operation.
+Note that you need to apply the [Update](Sdl.MultiTerm.TMO.Interop.EntryContent.Update.md) method after the merge operation.
 
-After merging entry 1 will also have the content of entry 2, which will still remain. To remove entry 2 from the termbase, you need to apply the [Delete](Sdl.MultiTerm.TMO.Interop.Entry.Delete.html) method to it.
+After merging entry 1 will also have the content of entry 2, which will still remain. To remove entry 2 from the termbase, you need to apply the [Delete](Sdl.MultiTerm.TMO.Interop.Entry.Delete.md) method to it.
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Search property
+    Search property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Search —          Provides programmatic acc
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.TermbaseSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.TermbaseSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.md)
 
 (read)
 

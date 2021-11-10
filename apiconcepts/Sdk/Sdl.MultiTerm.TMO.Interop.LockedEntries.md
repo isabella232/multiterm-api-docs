@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.LockedEntries class
+    Sdl.MultiTerm.TMO.Interop.LockedEntries class
+
 
 
 
@@ -22,9 +23,9 @@ As an administrative user you might want to know whether there are any locked en
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.LockedEntries.Count.html): Returns the number of locked entries.
-* [Item](Sdl.MultiTerm.TMO.Interop.LockedEntries.Item.html): Provides access to a particular locked entry.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.LockedEntries.Count.md): Returns the number of locked entries.
+* [Item](Sdl.MultiTerm.TMO.Interop.LockedEntries.Item.md): Provides access to a particular locked entry.
 
 
 

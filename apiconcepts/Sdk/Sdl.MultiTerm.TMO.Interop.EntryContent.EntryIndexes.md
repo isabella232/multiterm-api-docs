@@ -1,7 +1,8 @@
 
 
 # 
-    EntryIndexes property
+    EntryIndexes property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes —          Provides progra
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryIndexes.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryIndexes.md)
 
 (read)
 

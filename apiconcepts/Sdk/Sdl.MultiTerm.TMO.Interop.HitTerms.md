@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.HitTerms class
+    Sdl.MultiTerm.TMO.Interop.HitTerms class
+
 
 
 
@@ -14,8 +15,8 @@ Sdl.MultiTerm.TMO.Interop.HitTerms —          Provides programmatic access to 
 ## Description
 
 
-
-When executing a [search](Sdl.MultiTerm.TMO.Interop.Termbase.Browse.html) or [browse](Sdl.MultiTerm.TMO.Interop.Termbase.Search.html) operation the results need to be stored in a HitTerms object, from which they can then be retrieved.
+.md)
+When executing a [search](Sdl.MultiTerm.TMO.Interop.Termbase.Browse.md) or [browse](Sdl.MultiTerm.TMO.Interop.Termbase.Search.md) operation the results need to be stored in a HitTerms object, from which they can then be retrieved.
 
 You can use the HitTerms object to return the number of hits found (if any) and to loop through them.
 
@@ -23,8 +24,8 @@ You can use the HitTerms object to return the number of hits found (if any) and 
 
 ## Properties
 
-* [Count](Sdl.MultiTerm.TMO.Interop.HitTerms.Count.html): Returns the number of hit terms found.
-* [Item](Sdl.MultiTerm.TMO.Interop.HitTerms.Item.html): Refers to a particular hit term.
+* [Count](Sdl.MultiTerm.TMO.Interop.HitTerms.Count.md): Returns the number of hit terms found.
+* [Item](Sdl.MultiTerm.TMO.Interop.HitTerms.Item.md): Refers to a particular hit term.
 
 
 

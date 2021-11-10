@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.Termbases class
+    Sdl.MultiTerm.TMO.Interop.Termbases class
+
 
 
 
@@ -20,19 +21,19 @@ This class allows you to retrieve all termbases of your local termbase repositor
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.Termbases.Count.html): Returns the number of available termbases.
-* [Item](Sdl.MultiTerm.TMO.Interop.Termbases.Item.html): Provides programmatic access to a specific termbase.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.Termbases.Count.md): Returns the number of available termbases.
+* [Item](Sdl.MultiTerm.TMO.Interop.Termbases.Item.md): Provides programmatic access to a specific termbase.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.Termbases.Add.html): Allows you to add existing file based termbases to the local repository programmatically.
-* [New](Sdl.MultiTerm.TMO.Interop.Termbases.New.html): Creates a new termbase programmatically.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.Termbases.Refresh.html): Refreshes a termbase collection.
-* [Remove](Sdl.MultiTerm.TMO.Interop.Termbases.Remove.html): Removes a termbase from a local termbase collection.
+* [Add](Sdl.MultiTerm.TMO.Interop.Termbases.Add.md): Allows you to add existing file based termbases to the local repository programmatically.
+* [New](Sdl.MultiTerm.TMO.Interop.Termbases.New.md): Creates a new termbase programmatically.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.Termbases.Refresh.md): Refreshes a termbase collection.
+* [Remove](Sdl.MultiTerm.TMO.Interop.Termbases.Remove.md): Removes a termbase from a local termbase collection.
 
 
 

@@ -1,7 +1,8 @@
 
 
 # 
-    SearchType property
+    SearchType property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType —          Specifies the type
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtSearchType](Sdl.MultiTerm.TMO.Interop.MtSearchType.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtSearchType](Sdl.MultiTerm.TMO.Interop.MtSearchType.md)
 
 (read / write)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.ExportDefinitions class
+    Sdl.MultiTerm.TMO.Interop.ExportDefinitions class
+
 
 
 
@@ -20,18 +21,18 @@ Via this class you can access the export definitions associated with a particula
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Count.html): Returns the number of available export definitions.
-* [Item](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item.html): Provides access to a particular export definition.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Count.md): Returns the number of available export definitions.
+* [Item](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item.md): Provides access to a particular export definition.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add.html): Adds a new export definition to the collection.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Refresh.html): Updates the export definition collection.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard.html): Starts the Export Definition wizard.
+* [Add](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add.md): Adds a new export definition to the collection.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Refresh.md): Updates the export definition collection.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard.md): Starts the Export Definition wizard.
 
 
 

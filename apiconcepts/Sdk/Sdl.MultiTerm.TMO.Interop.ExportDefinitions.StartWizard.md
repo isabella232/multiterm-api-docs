@@ -1,7 +1,8 @@
 
 
 # 
-    StartWizard method
+    StartWizard method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard —          Starts the 
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
 
 

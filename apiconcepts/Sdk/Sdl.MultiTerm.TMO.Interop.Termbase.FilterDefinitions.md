@@ -1,7 +1,8 @@
 
 
 # 
-    FilterDefinitions property
+    FilterDefinitions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.FilterDefinitions —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.FilterDefinitions](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.FilterDefinitions](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.md)
 
 (read)
 

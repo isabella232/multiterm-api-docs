@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.FilterDefinitions class
+    Sdl.MultiTerm.TMO.Interop.FilterDefinitions class
+
 
 
 
@@ -22,18 +23,18 @@ Via this property you can, for example, return the number of available filter de
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Count.html): Returns the number of available filter definitions.
-* [Item](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Item.html): Provides access to a particular filter definition.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Count.md): Returns the number of available filter definitions.
+* [Item](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Item.md): Provides access to a particular filter definition.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add.html): Adds a new filter definition to the collection.
-* [Refresh](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Refresh.html): Updates the filter definition collection.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard.html): Starts the Filter Definition wizard.
+* [Add](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add.md): Adds a new filter definition to the collection.
+* [Refresh](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Refresh.md): Updates the filter definition collection.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard.md): Starts the Filter Definition wizard.
 
 
 

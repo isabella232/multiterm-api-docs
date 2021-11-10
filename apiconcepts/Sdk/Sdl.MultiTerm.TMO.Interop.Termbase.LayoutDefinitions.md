@@ -1,7 +1,8 @@
 
 
 # 
-    LayoutDefinitions property
+    LayoutDefinitions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.LayoutDefinitions —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.LayoutDefinitions](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.LayoutDefinitions](Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.md)
 
 (read)
 

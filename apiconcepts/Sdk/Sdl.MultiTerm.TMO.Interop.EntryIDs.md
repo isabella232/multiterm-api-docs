@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryIDs class
+    Sdl.MultiTerm.TMO.Interop.EntryIDs class
+
 
 
 
@@ -22,9 +23,9 @@ This class is therefore useful if you want to implement an entries iterator func
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.EntryIDs.Count.html): Returns the number of entry ids contained in a termbase.
-* [Item](Sdl.MultiTerm.TMO.Interop.EntryIDs.Item.html): Refers to a particular entry id.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.EntryIDs.Count.md): Returns the number of entry ids contained in a termbase.
+* [Item](Sdl.MultiTerm.TMO.Interop.EntryIDs.Item.md): Refers to a particular entry id.
 
 
 

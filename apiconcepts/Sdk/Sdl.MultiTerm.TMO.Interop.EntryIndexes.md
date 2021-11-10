@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.EntryIndexes class
+    Sdl.MultiTerm.TMO.Interop.EntryIndexes class
+
 
 
 
@@ -20,16 +21,16 @@ Via this class you can retrieve the indexes (i.e. languages) and terms contained
 
 
 ## Properties
-
-* [Count](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Count.html): Returns the number of indexes contained in a particular entry.
-* [Item](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item.html): Refers to a particular entry index.
+.md)
+* [Count](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Count.md): Returns the number of indexes contained in a particular entry.
+* [Item](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item.md): Refers to a particular entry index.
 
 
 
 
 ## Methods
 
-* [Add](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Add.html): Adds an index to the collection.
+* [Add](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Add.md): Adds an index to the collection.
 
 
 

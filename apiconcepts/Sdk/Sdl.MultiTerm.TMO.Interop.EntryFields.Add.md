@@ -1,7 +1,8 @@
 
 
 # 
-    Add method
+    Add method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.EntryFields.Add —          Adds an entry-level descr
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.md)
 
 
 

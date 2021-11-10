@@ -1,7 +1,8 @@
 
 
 # 
-    Item property
+    Item property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.HitTerms.Item —          Refers to a particular hit 
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.HitTerm](Sdl.MultiTerm.TMO.Interop.HitTerm.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.HitTerm](Sdl.MultiTerm.TMO.Interop.HitTerm.md)
 
 (read)
 

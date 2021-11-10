@@ -1,7 +1,8 @@
 
 
 # 
-    ImportDefinitions property
+    ImportDefinitions property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Termbase.ImportDefinitions —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.ImportDefinitions](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.ImportDefinitions](Sdl.MultiTerm.TMO.Interop.ImportDefinitions.md)
 
 (read)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.InputModelDefinition class
+    Sdl.MultiTerm.TMO.Interop.InputModelDefinition class
+
 
 
 
@@ -20,24 +21,24 @@ Input models are customizable input masks that facilitate the process of adding 
 
 
 ## Properties
-
-* [Content](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Content.html): Returns the content of a particular input model definition.
-* [Description](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Description.html): Returns the input model definition description.
-* [Name](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Name.html): Returns the name of the input model definition.
-* [Owner](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Owner.html): Returns the owner name for a particular input model definition.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.ReadOnly.html): Returns whether a particular input model definition is read-only.
+.md)
+* [Content](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Content.md): Returns the content of a particular input model definition.
+* [Description](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Description.md): Returns the input model definition description.
+* [Name](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Name.md): Returns the name of the input model definition.
+* [Owner](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Owner.md): Returns the owner name for a particular input model definition.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.ReadOnly.md): Returns whether a particular input model definition is read-only.
 
 
 
 
 ## Methods
 
-* [\_GetSchema](Sdl.MultiTerm.TMO.Interop.InputModelDefinition._GetSchema.html): Returns the full schema for a particular input model.
-* [Delete](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Delete.html): Removes the input model definition from the collection.
-* [GetDummyEntry](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.GetDummyEntry.html): [For internal use only.]
-* [Load](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Load.html): Updates the selected input model from an external input model definition file.
-* [Save](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Save.html): Saves the input model definition to an external file.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.StartWizard.html): Calls up the input model wizard for editing a particular input model.
+* [\_GetSchema](Sdl.MultiTerm.TMO.Interop.InputModelDefinition._GetSchema.md): Returns the full schema for a particular input model.
+* [Delete](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Delete.md): Removes the input model definition from the collection.
+* [GetDummyEntry](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.GetDummyEntry.md): [For internal use only.]
+* [Load](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Load.md): Updates the selected input model from an external input model definition file.
+* [Save](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Save.md): Saves the input model definition to an external file.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.InputModelDefinition.StartWizard.md): Calls up the input model wizard for editing a particular input model.
 
 
 

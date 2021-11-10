@@ -1,7 +1,8 @@
 
 
 # 
-    Execute method
+    Execute method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute —          Executes the MultiSea
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.HitTerms](Sdl.MultiTerm.TMO.Interop.HitTerms.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.HitTerms](Sdl.MultiTerm.TMO.Interop.HitTerms.md)
 
 
 

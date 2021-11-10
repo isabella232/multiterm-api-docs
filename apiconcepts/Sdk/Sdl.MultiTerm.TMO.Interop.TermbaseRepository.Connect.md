@@ -1,7 +1,8 @@
 
 
 # 
-    Connect method
+    Connect method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Connect —          Connects to a 
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.MtUserType](Sdl.MultiTerm.TMO.Interop.MtUserType.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtUserType](Sdl.MultiTerm.TMO.Interop.MtUserType.md)
 
 
 

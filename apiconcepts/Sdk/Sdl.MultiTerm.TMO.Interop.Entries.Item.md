@@ -1,7 +1,8 @@
 
 
 # 
-    Item method
+    Item method
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.Entries.Item —          Refers to a particular entry
 
 
 ## Returntype
-
-[Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.html)
+.md
+[Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md)
 
 
 

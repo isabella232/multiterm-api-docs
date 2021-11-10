@@ -1,7 +1,8 @@
 
 
 # 
-    Sdl.MultiTerm.TMO.Interop.ImportDefinition class
+    Sdl.MultiTerm.TMO.Interop.ImportDefinition class
+
 
 
 
@@ -20,23 +21,23 @@ Import definitions are used to import the content from MultiTerm XML files into 
 
 
 ## Properties
-
-* [Content](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Content.html): Returns the content of a particular import definition in an XML format.
-* [Description](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Description.html): Returns the import definition description.
-* [Name](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Name.html): Returns the name of the import definition.
-* [Owner](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Owner.html): Returns the owner name for a particular import definition.
-* [ReadOnly](Sdl.MultiTerm.TMO.Interop.ImportDefinition.ReadOnly.html): Returns whether a particular import definition is read-only.
+.md)
+* [Content](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Content.md): Returns the content of a particular import definition in an XML format.
+* [Description](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Description.md): Returns the import definition description.
+* [Name](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Name.md): Returns the name of the import definition.
+* [Owner](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Owner.md): Returns the owner name for a particular import definition.
+* [ReadOnly](Sdl.MultiTerm.TMO.Interop.ImportDefinition.ReadOnly.md): Returns whether a particular import definition is read-only.
 
 
 
 
 ## Methods
 
-* [Delete](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Delete.html): Removes the import definition from the collection.
-* [Load](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Load.html): Updates the selected import definition from an external import definition file.
-* [ProcessImport](Sdl.MultiTerm.TMO.Interop.ImportDefinition.ProcessImport.html): Carries out the actual import process.
-* [Save](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Save.html): Saves the import definition to an external file.
-* [StartWizard](Sdl.MultiTerm.TMO.Interop.ImportDefinition.StartWizard.html): Calls up the import wizard for editing a particular import definition.
+* [Delete](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Delete.md): Removes the import definition from the collection.
+* [Load](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Load.md): Updates the selected import definition from an external import definition file.
+* [ProcessImport](Sdl.MultiTerm.TMO.Interop.ImportDefinition.ProcessImport.md): Carries out the actual import process.
+* [Save](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Save.md): Saves the import definition to an external file.
+* [StartWizard](Sdl.MultiTerm.TMO.Interop.ImportDefinition.StartWizard.md): Calls up the import wizard for editing a particular import definition.
 
 
 

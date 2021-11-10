@@ -1,7 +1,8 @@
 
 
 # 
-    SearchInfo property
+    SearchInfo property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchInfo —          Provides programma
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.SearchInfos](Sdl.MultiTerm.TMO.Interop.SearchInfos.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.SearchInfos](Sdl.MultiTerm.TMO.Interop.SearchInfos.md)
 
 (read)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    ApplyFilter method
+    ApplyFilter method
+
 
 
 
@@ -18,8 +19,8 @@ Boolean
 
 
 ## Parameters
-
-* FilterObject ([Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.html))
+.md)
+* FilterObject ([Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md))
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
 

@@ -1,7 +1,8 @@
 
 
 # 
-    Indexes property
+    Indexes property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Indexes —          Provides progr
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.Indexes](Sdl.MultiTerm.TMO.Interop.Indexes.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.Indexes](Sdl.MultiTerm.TMO.Interop.Indexes.md)
 
 (read)
 

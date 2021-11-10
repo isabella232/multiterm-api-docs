@@ -1,7 +1,8 @@
 
 
 # 
-    Direction property
+    Direction property
+
 
 
 
@@ -12,8 +13,8 @@ Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction —          Sets/returns the
 
 
 ## Type
-
-[Sdl.MultiTerm.TMO.Interop.MtSearchDirection](Sdl.MultiTerm.TMO.Interop.MtSearchDirection.html)
+.md)
+[Sdl.MultiTerm.TMO.Interop.MtSearchDirection](Sdl.MultiTerm.TMO.Interop.MtSearchDirection.md)
 
 (read / write)
 
