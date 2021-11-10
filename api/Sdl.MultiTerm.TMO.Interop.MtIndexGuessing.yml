@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  id: MtIndexGuessing
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtGuessIndex
+  - Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtUseName
+  langs:
+  - csharp
+  - vb
+  name: MtIndexGuessing
+  nameWithType: MtIndexGuessing
+  fullName: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("DC1193C0-1D88-424D-8278-7666A1ED3B23")]
+
+      public enum MtIndexGuessing
+    content.vb: >-
+      <Guid("DC1193C0-1D88-424D-8278-7666A1ED3B23")>
+
+      Public Enum MtIndexGuessing
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DC1193C0-1D88-424D-8278-7666A1ED3B23
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtUseName
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtUseName
+  id: mtUseName
+  parent: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  langs:
+  - csharp
+  - vb
+  name: mtUseName
+  nameWithType: MtIndexGuessing.mtUseName
+  fullName: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtUseName
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtUseName = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtGuessIndex
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtGuessIndex
+  id: mtGuessIndex
+  parent: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  langs:
+  - csharp
+  - vb
+  name: mtGuessIndex
+  nameWithType: MtIndexGuessing.mtGuessIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.mtGuessIndex
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtGuessIndex = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtIndexGuessing
+  nameWithType: MtIndexGuessing
+  fullName: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing

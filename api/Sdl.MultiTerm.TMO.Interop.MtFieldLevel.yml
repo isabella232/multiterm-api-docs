@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  id: MtFieldLevel
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtEntryLevel
+  - Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtIndexLevel
+  - Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtTermLevel
+  langs:
+  - csharp
+  - vb
+  name: MtFieldLevel
+  nameWithType: MtFieldLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("A44F90F3-5A6F-41AB-94E6-84AB06133C8E")]
+
+      public enum MtFieldLevel
+    content.vb: >-
+      <Guid("A44F90F3-5A6F-41AB-94E6-84AB06133C8E")>
+
+      Public Enum MtFieldLevel
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A44F90F3-5A6F-41AB-94E6-84AB06133C8E
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtEntryLevel
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtEntryLevel
+  id: mtEntryLevel
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  langs:
+  - csharp
+  - vb
+  name: mtEntryLevel
+  nameWithType: MtFieldLevel.mtEntryLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtEntryLevel
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtEntryLevel = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtIndexLevel
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtIndexLevel
+  id: mtIndexLevel
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  langs:
+  - csharp
+  - vb
+  name: mtIndexLevel
+  nameWithType: MtFieldLevel.mtIndexLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtIndexLevel
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtIndexLevel = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtTermLevel
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtTermLevel
+  id: mtTermLevel
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  langs:
+  - csharp
+  - vb
+  name: mtTermLevel
+  nameWithType: MtFieldLevel.mtTermLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.mtTermLevel
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtTermLevel = 3
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtFieldLevel
+  nameWithType: MtFieldLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel

@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldType
+  id: MtFieldType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtBoolean
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtDateTime
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtMultiMediaFile
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtNumber
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtPickList
+  - Sdl.MultiTerm.TMO.Interop.MtFieldType.mtString
+  langs:
+  - csharp
+  - vb
+  name: MtFieldType
+  nameWithType: MtFieldType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C2C021D6-378D-4A3C-A537-0F146882184E")]
+
+      public enum MtFieldType
+    content.vb: >-
+      <Guid("C2C021D6-378D-4A3C-A537-0F146882184E")>
+
+      Public Enum MtFieldType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C2C021D6-378D-4A3C-A537-0F146882184E
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtString
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtString
+  id: mtString
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtString
+  nameWithType: MtFieldType.mtString
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtString
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtString = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtNumber
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtNumber
+  id: mtNumber
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtNumber
+  nameWithType: MtFieldType.mtNumber
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtNumber
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtNumber = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtBoolean
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtBoolean
+  id: mtBoolean
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtBoolean
+  nameWithType: MtFieldType.mtBoolean
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtBoolean
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtBoolean = 3
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtDateTime
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtDateTime
+  id: mtDateTime
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtDateTime
+  nameWithType: MtFieldType.mtDateTime
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtDateTime
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtDateTime = 4
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtPickList
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtPickList
+  id: mtPickList
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtPickList
+  nameWithType: MtFieldType.mtPickList
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtPickList
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtPickList = 5
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtMultiMediaFile
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtFieldType.mtMultiMediaFile
+  id: mtMultiMediaFile
+  parent: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  langs:
+  - csharp
+  - vb
+  name: mtMultiMediaFile
+  nameWithType: MtFieldType.mtMultiMediaFile
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType.mtMultiMediaFile
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtMultiMediaFile = 6
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtFieldType
+  nameWithType: MtFieldType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType

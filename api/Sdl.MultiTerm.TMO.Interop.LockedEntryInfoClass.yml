@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  id: LockedEntryInfoClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  - Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  - Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  langs:
+  - csharp
+  - vb
+  name: LockedEntryInfoClass
+  nameWithType: LockedEntryInfoClass
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [ClassInterface(ClassInterfaceType.None)]
+
+      [Guid("D72077F1-36D9-4163-9477-459501F88432")]
+
+      public class LockedEntryInfoClass : LockedEntryInfo, ILockedEntryInfo
+    content.vb: >-
+      <ClassInterface(ClassInterfaceType.None)>
+
+      <Guid("D72077F1-36D9-4163-9477-459501F88432")>
+
+      Public Class LockedEntryInfoClass
+          Implements LockedEntryInfo, ILockedEntryInfo
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: D72077F1-36D9-4163-9477-459501F88432
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  commentId: P:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  id: ConceptId
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntryInfo.ConceptId
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.ConceptId
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int ILockedEntryInfo.ConceptId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property ConceptId As Integer Implements ILockedEntryInfo.ConceptId
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  nameWithType.vb: LockedEntryInfoClass.ConceptId
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  name.vb: ConceptId
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  id: UserName
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntryInfo.UserName
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.UserName
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string ILockedEntryInfo.UserName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property UserName As String Implements ILockedEntryInfo.UserName
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  nameWithType.vb: LockedEntryInfoClass.UserName
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  name.vb: UserName
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  commentId: P:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  id: Date
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntryInfo.Date
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.Date
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual DateTime ILockedEntryInfo.Date { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable ReadOnly Property Date As Date Implements ILockedEntryInfo.Date
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  nameWithType.vb: LockedEntryInfoClass.Date
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  name.vb: Date
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: LockedEntryInfo
+  nameWithType: LockedEntryInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ILockedEntryInfo
+  nameWithType: ILockedEntryInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  isExternal: true
+  name: ILockedEntryInfo.ConceptId
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.ConceptId
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  nameWithType.vb: LockedEntryInfoClass.ConceptId
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.ConceptId
+  name.vb: ConceptId
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: ConceptId
+  nameWithType: ILockedEntryInfo.ConceptId
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  isExternal: true
+  name: ILockedEntryInfo.UserName
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.UserName
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  nameWithType.vb: LockedEntryInfoClass.UserName
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.UserName
+  name.vb: UserName
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: UserName
+  nameWithType: ILockedEntryInfo.UserName
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  isExternal: true
+  name: ILockedEntryInfo.Date
+  nameWithType: LockedEntryInfoClass.ILockedEntryInfo.Date
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  nameWithType.vb: LockedEntryInfoClass.Date
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.Date
+  name.vb: Date
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: Date
+  nameWithType: ILockedEntryInfo.Date
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  id: IEntryIndex
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+  langs:
+  - csharp
+  - vb
+  name: IEntryIndex
+  nameWithType: IEntryIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("2FF47005-1588-4099-95B5-B957B513A4E3")]
+
+      public interface IEntryIndex
+    content.vb: >-
+      <Guid("2FF47005-1588-4099-95B5-B957B513A4E3")>
+
+      Public Interface IEntryIndex
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 2FF47005-1588-4099-95B5-B957B513A4E3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+  id: Term
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: IEntryIndex.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Term { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Term As String
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+  id: IndexFields
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  langs:
+  - csharp
+  - vb
+  name: IndexFields
+  nameWithType: IEntryIndex.IndexFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: EntryFields IndexFields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.EntryFields
+    content.vb: ReadOnly Property IndexFields As EntryFields
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+  id: TermFields
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  langs:
+  - csharp
+  - vb
+  name: TermFields
+  nameWithType: IEntryIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: EntryFields TermFields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.EntryFields
+    content.vb: ReadOnly Property TermFields As EntryFields
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+  id: ReadOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: IEntryIndex.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool ReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property ReadOnly As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
+  id: IndexName
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
+  langs:
+  - csharp
+  - vb
+  name: IndexName
+  nameWithType: IEntryIndex.IndexName
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string IndexName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property IndexName As String
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+  isExternal: true
+  name: Term
+  nameWithType: IEntryIndex.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+  isExternal: true
+  name: IndexFields
+  nameWithType: IEntryIndex.IndexFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: EntryFields
+  nameWithType: EntryFields
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFields
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+  isExternal: true
+  name: TermFields
+  nameWithType: IEntryIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IEntryIndex.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
+  isExternal: true
+  name: IndexName
+  nameWithType: IEntryIndex.IndexName
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName

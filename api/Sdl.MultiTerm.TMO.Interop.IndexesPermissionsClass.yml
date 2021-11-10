@@ -1,0 +1,786 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  id: IndexesPermissionsClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  langs:
+  - csharp
+  - vb
+  name: IndexesPermissionsClass
+  nameWithType: IndexesPermissionsClass
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [ClassInterface(ClassInterfaceType.None)]
+
+      [Guid("1FE157BA-51C9-4033-A8C7-AAB1E6B01F35")]
+
+      public class IndexesPermissionsClass : IndexesPermissions, IIndexesPermissions, IEnumerable
+    content.vb: >-
+      <ClassInterface(ClassInterfaceType.None)>
+
+      <Guid("1FE157BA-51C9-4033-A8C7-AAB1E6B01F35")>
+
+      Public Class IndexesPermissionsClass
+          Implements IndexesPermissions, IIndexesPermissions, IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 1FE157BA-51C9-4033-A8C7-AAB1E6B01F35
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator
+  id: GetEnumerator
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IIndexesPermissions.GetEnumerator()
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IEnumerator IIndexesPermissions.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IIndexesPermissions.GetEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: IndexesPermissionsClass.GetEnumerator()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator()
+  name.vb: GetEnumerator()
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item(System.Object)
+  id: Item(System.Object)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IIndexesPermissions.Item[Object]
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IndexPermissions IIndexesPermissions.this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As IndexPermissions Implements IIndexesPermissions.this[]
+  overload: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+  nameWithType.vb: IndexesPermissionsClass.Item(Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  id: Count
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IIndexesPermissions.Count
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int IIndexesPermissions.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IIndexesPermissions.Count
+  overload: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+  nameWithType.vb: IndexesPermissionsClass.Count
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  name.vb: Count
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  id: ReadIndexes
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IIndexesPermissions.ReadIndexes
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.ReadIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IIndexesPermissions.ReadIndexes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ReadIndexes As String Implements IIndexesPermissions.ReadIndexes
+  overload: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+  nameWithType.vb: IndexesPermissionsClass.ReadIndexes
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  name.vb: ReadIndexes
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  id: WriteIndexes
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IIndexesPermissions.WriteIndexes
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.WriteIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IIndexesPermissions.WriteIndexes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property WriteIndexes As String Implements IIndexesPermissions.WriteIndexes
+  overload: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
+  nameWithType.vb: IndexesPermissionsClass.WriteIndexes
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  name.vb: WriteIndexes
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IndexesPermissions
+  nameWithType: IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IIndexesPermissions
+  nameWithType: IIndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator
+  isExternal: true
+  name: IIndexesPermissions.GetEnumerator
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+  nameWithType.vb: IndexesPermissionsClass.GetEnumerator
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.GetEnumerator
+  name.vb: GetEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IIndexesPermissions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IIndexesPermissions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IIndexesPermissions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item
+  isExternal: true
+  name: IIndexesPermissions.Item
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item
+  nameWithType.vb: IndexesPermissionsClass.Item
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Item
+  name.vb: Item
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IIndexesPermissions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item[System.Object]
+  nameWithType.vb: IIndexesPermissions.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+    name: Item
+    nameWithType: IIndexesPermissions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
+    name: Item
+    nameWithType: IIndexesPermissions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IndexPermissions
+  nameWithType: IndexPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  isExternal: true
+  name: IIndexesPermissions.Count
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+  nameWithType.vb: IndexesPermissionsClass.Count
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Count
+  name.vb: Count
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  isExternal: true
+  name: Count
+  nameWithType: IIndexesPermissions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  isExternal: true
+  name: IIndexesPermissions.ReadIndexes
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.ReadIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+  nameWithType.vb: IndexesPermissionsClass.ReadIndexes
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.ReadIndexes
+  name.vb: ReadIndexes
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  isExternal: true
+  name: ReadIndexes
+  nameWithType: IIndexesPermissions.ReadIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  isExternal: true
+  name: IIndexesPermissions.WriteIndexes
+  nameWithType: IndexesPermissionsClass.IIndexesPermissions.WriteIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
+  nameWithType.vb: IndexesPermissionsClass.WriteIndexes
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.WriteIndexes
+  name.vb: WriteIndexes
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+  isExternal: true
+  name: WriteIndexes
+  nameWithType: IIndexesPermissions.WriteIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes

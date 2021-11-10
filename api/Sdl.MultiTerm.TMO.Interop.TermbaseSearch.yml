@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseSearch
+  id: TermbaseSearch
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TermbaseSearch
+  nameWithType: TermbaseSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A")]
+
+      public interface TermbaseSearch : ITermbaseSearch
+    content.vb: >-
+      <Guid("0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A")>
+
+      Public Interface TermbaseSearch
+          Inherits ITermbaseSearch
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: Execute()
+  nameWithType: ITermbaseSearch.Execute()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+    name: Execute
+    nameWithType: ITermbaseSearch.Execute
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+    name: Execute
+    nameWithType: ITermbaseSearch.Execute
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: Advise(MultiSearch)
+  nameWithType: ITermbaseSearch.Advise(MultiSearch)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+    name: Advise
+    nameWithType: ITermbaseSearch.Advise
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    name: MultiSearch
+    nameWithType: MultiSearch
+    fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+    name: Advise
+    nameWithType: ITermbaseSearch.Advise
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    name: MultiSearch
+    nameWithType: MultiSearch
+    fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: Unadvise()
+  nameWithType: ITermbaseSearch.Unadvise()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+    name: Unadvise
+    nameWithType: ITermbaseSearch.Unadvise
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+    name: Unadvise
+    nameWithType: ITermbaseSearch.Unadvise
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: CancelSearch()
+  nameWithType: ITermbaseSearch.CancelSearch()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+    name: CancelSearch
+    nameWithType: ITermbaseSearch.CancelSearch
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+    name: CancelSearch
+    nameWithType: ITermbaseSearch.CancelSearch
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: SearchExpression
+  nameWithType: ITermbaseSearch.SearchExpression
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: SourceIndex
+  nameWithType: ITermbaseSearch.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: Direction
+  nameWithType: ITermbaseSearch.Direction
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: MaximumHits
+  nameWithType: ITermbaseSearch.MaximumHits
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: LastTerm
+  nameWithType: ITermbaseSearch.LastTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: StartingEntryID
+  nameWithType: ITermbaseSearch.StartingEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: TargetIndex
+  nameWithType: ITermbaseSearch.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: FuzzySearch
+  nameWithType: ITermbaseSearch.FuzzySearch
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  isExternal: true
+  name: SearchExistTarget
+  nameWithType: ITermbaseSearch.SearchExistTarget
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbaseSearch
+  nameWithType: ITermbaseSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch

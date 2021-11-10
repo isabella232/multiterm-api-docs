@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.Homonyms
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Homonyms
+  id: Homonyms
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Homonyms
+  nameWithType: Homonyms
+  fullName: Sdl.MultiTerm.TMO.Interop.Homonyms
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C3197018-50AA-4F34-96F8-74EDF016628C")]
+
+      public interface Homonyms : IHomonyms, IEnumerable
+    content.vb: >-
+      <Guid("C3197018-50AA-4F34-96F8-74EDF016628C")>
+
+      Public Interface Homonyms
+          Inherits IHomonyms
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IHomonyms.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C3197018-50AA-4F34-96F8-74EDF016628C
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonyms
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IHomonyms.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IHomonyms.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IHomonyms.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonyms
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IHomonyms.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item[System.Object]
+  nameWithType.vb: IHomonyms.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+    name: Item
+    nameWithType: IHomonyms.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item(System.Object)
+    name: Item
+    nameWithType: IHomonyms.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonyms.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonyms.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonyms
+  isExternal: true
+  name: Count
+  nameWithType: IHomonyms.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonyms
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IHomonyms
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IHomonyms
+  nameWithType: IHomonyms
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms

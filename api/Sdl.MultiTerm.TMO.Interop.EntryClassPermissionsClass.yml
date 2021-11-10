@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  id: EntryClassPermissionsClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  langs:
+  - csharp
+  - vb
+  name: EntryClassPermissionsClass
+  nameWithType: EntryClassPermissionsClass
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("F3E2C329-F422-421D-A84D-964E235FF88B")]
+
+      [ClassInterface(ClassInterfaceType.None)]
+
+      public class EntryClassPermissionsClass : EntryClassPermissions, IEntryClassPermissions
+    content.vb: >-
+      <Guid("F3E2C329-F422-421D-A84D-964E235FF88B")>
+
+      <ClassInterface(ClassInterfaceType.None)>
+
+      Public Class EntryClassPermissionsClass
+          Implements EntryClassPermissions, IEntryClassPermissions
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: F3E2C329-F422-421D-A84D-964E235FF88B
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  id: Read
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassPermissions.Read
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool IEntryClassPermissions.Read { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property Read As Boolean Implements IEntryClassPermissions.Read
+  overload: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  nameWithType.vb: EntryClassPermissionsClass.Read
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  name.vb: Read
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  id: Write
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassPermissions.Write
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool IEntryClassPermissions.Write { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property Write As Boolean Implements IEntryClassPermissions.Write
+  overload: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  nameWithType.vb: EntryClassPermissionsClass.Write
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  name.vb: Write
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  id: Name
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassPermissions.Name
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IEntryClassPermissions.Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Name As String Implements IEntryClassPermissions.Name
+  overload: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  nameWithType.vb: EntryClassPermissionsClass.Name
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  name.vb: Name
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  id: _id
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassPermissions._id
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions._id
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int IEntryClassPermissions._id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property _id As Integer Implements IEntryClassPermissions._id
+  overload: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  nameWithType.vb: EntryClassPermissionsClass._id
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  name.vb: _id
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  id: IsDefault
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassPermissions.IsDefault
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.IsDefault
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool IEntryClassPermissions.IsDefault { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property IsDefault As Boolean Implements IEntryClassPermissions.IsDefault
+  overload: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  nameWithType.vb: EntryClassPermissionsClass.IsDefault
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  name.vb: IsDefault
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: EntryClassPermissions
+  nameWithType: EntryClassPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryClassPermissions
+  nameWithType: IEntryClassPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  isExternal: true
+  name: IEntryClassPermissions.Read
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  nameWithType.vb: EntryClassPermissionsClass.Read
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Read
+  name.vb: Read
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Read
+  nameWithType: IEntryClassPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  isExternal: true
+  name: IEntryClassPermissions.Write
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  nameWithType.vb: EntryClassPermissionsClass.Write
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Write
+  name.vb: Write
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Write
+  nameWithType: IEntryClassPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  isExternal: true
+  name: IEntryClassPermissions.Name
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  nameWithType.vb: EntryClassPermissionsClass.Name
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Name
+  name.vb: Name
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Name
+  nameWithType: IEntryClassPermissions.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  isExternal: true
+  name: IEntryClassPermissions._id
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions._id
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  nameWithType.vb: EntryClassPermissionsClass._id
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass._id
+  name.vb: _id
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: _id
+  nameWithType: IEntryClassPermissions._id
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  isExternal: true
+  name: IEntryClassPermissions.IsDefault
+  nameWithType: EntryClassPermissionsClass.IEntryClassPermissions.IsDefault
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  nameWithType.vb: EntryClassPermissionsClass.IsDefault
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.IsDefault
+  name.vb: IsDefault
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: IsDefault
+  nameWithType: IEntryClassPermissions.IsDefault
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault

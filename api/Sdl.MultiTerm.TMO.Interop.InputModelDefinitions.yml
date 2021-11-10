@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
+  id: InputModelDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: InputModelDefinitions
+  nameWithType: InputModelDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("A338AFA8-DECA-4441-8B15-3A8DBA80A9BF")]
+
+      public interface InputModelDefinitions : IInputModelDefinitions, IEnumerable
+    content.vb: >-
+      <Guid("A338AFA8-DECA-4441-8B15-3A8DBA80A9BF")>
+
+      Public Interface InputModelDefinitions
+          Inherits IInputModelDefinitions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A338AFA8-DECA-4441-8B15-3A8DBA80A9BF
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IInputModelDefinitions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IInputModelDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IInputModelDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: Add(String, String, String)
+  nameWithType: IInputModelDefinitions.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IInputModelDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IInputModelDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: StartWizard()
+  nameWithType: IInputModelDefinitions.StartWizard()
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: IInputModelDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: IInputModelDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: Refresh()
+  nameWithType: IInputModelDefinitions.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+    name: Refresh
+    nameWithType: IInputModelDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+    name: Refresh
+    nameWithType: IInputModelDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: CheckObjectUsability(String)
+  nameWithType: IInputModelDefinitions.CheckObjectUsability(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IInputModelDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IInputModelDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: CheckObjectUsabilityEx(String, Boolean)
+  nameWithType: IInputModelDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IInputModelDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IInputModelDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IInputModelDefinitions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item[System.Object]
+  nameWithType.vb: IInputModelDefinitions.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IInputModelDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IInputModelDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  isExternal: true
+  name: Count
+  nameWithType: IInputModelDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IInputModelDefinitions
+  nameWithType: IInputModelDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions

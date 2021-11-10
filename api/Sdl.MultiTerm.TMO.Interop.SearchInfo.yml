@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.SearchInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfo
+  id: SearchInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SearchInfo
+  nameWithType: SearchInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfo
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("34006FF0-484A-4293-8150-F84FD66CF306")]
+
+      public interface SearchInfo : ISearchInfo
+    content.vb: >-
+      <Guid("34006FF0-484A-4293-8150-F84FD66CF306")>
+
+      Public Interface SearchInfo
+          Inherits ISearchInfo
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 34006FF0-484A-4293-8150-F84FD66CF306
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: TermbaseName
+  nameWithType: ISearchInfo.TermbaseName
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: SourceIndex
+  nameWithType: ISearchInfo.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: SourceLocale
+  nameWithType: ISearchInfo.SourceLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: TargetIndex
+  nameWithType: ISearchInfo.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: TargetLocale
+  nameWithType: ISearchInfo.TargetLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: HitsFound
+  nameWithType: ISearchInfo.HitsFound
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: ISearchInfo.ErrorMessage
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  isExternal: true
+  name: ErrorCode
+  nameWithType: ISearchInfo.ErrorCode
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ISearchInfo
+  nameWithType: ISearchInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo

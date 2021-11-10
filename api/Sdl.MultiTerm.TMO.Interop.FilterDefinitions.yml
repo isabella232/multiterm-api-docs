@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinitions
+  id: FilterDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FilterDefinitions
+  nameWithType: FilterDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("6397A935-6276-4CD8-A294-CE796A929A90")]
+
+      public interface FilterDefinitions : IFilterDefinitions, IEnumerable
+    content.vb: >-
+      <Guid("6397A935-6276-4CD8-A294-CE796A929A90")>
+
+      Public Interface FilterDefinitions
+          Inherits IFilterDefinitions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 6397A935-6276-4CD8-A294-CE796A929A90
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IFilterDefinitions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IFilterDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IFilterDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: Add(String, String, String)
+  nameWithType: IFilterDefinitions.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IFilterDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IFilterDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: StartWizard()
+  nameWithType: IFilterDefinitions.StartWizard()
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: IFilterDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: IFilterDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: Refresh()
+  nameWithType: IFilterDefinitions.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+    name: Refresh
+    nameWithType: IFilterDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+    name: Refresh
+    nameWithType: IFilterDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: CheckObjectUsability(String)
+  nameWithType: IFilterDefinitions.CheckObjectUsability(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IFilterDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IFilterDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: CheckObjectUsabilityEx(String, Boolean)
+  nameWithType: IFilterDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IFilterDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IFilterDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IFilterDefinitions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item[System.Object]
+  nameWithType.vb: IFilterDefinitions.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IFilterDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IFilterDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  isExternal: true
+  name: Count
+  nameWithType: IFilterDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IFilterDefinitions
+  nameWithType: IFilterDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions

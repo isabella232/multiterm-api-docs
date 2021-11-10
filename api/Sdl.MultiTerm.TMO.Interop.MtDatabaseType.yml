@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  id: MtDatabaseType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtJET
+  - Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtSQL
+  langs:
+  - csharp
+  - vb
+  name: MtDatabaseType
+  nameWithType: MtDatabaseType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("F215AC58-22B0-4DA2-965E-D827EA1972BD")]
+
+      public enum MtDatabaseType
+    content.vb: >-
+      <Guid("F215AC58-22B0-4DA2-965E-D827EA1972BD")>
+
+      Public Enum MtDatabaseType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: F215AC58-22B0-4DA2-965E-D827EA1972BD
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtJET
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtJET
+  id: mtJET
+  parent: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: mtJET
+  nameWithType: MtDatabaseType.mtJET
+  fullName: Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtJET
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtJET = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtSQL
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtSQL
+  id: mtSQL
+  parent: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: mtSQL
+  nameWithType: MtDatabaseType.mtSQL
+  fullName: Sdl.MultiTerm.TMO.Interop.MtDatabaseType.mtSQL
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSQL = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtDatabaseType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtDatabaseType
+  nameWithType: MtDatabaseType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtDatabaseType

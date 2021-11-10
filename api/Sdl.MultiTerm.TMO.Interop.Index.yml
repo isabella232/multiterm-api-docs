@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.Index
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Index
+  id: Index
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Index
+  fullName: Sdl.MultiTerm.TMO.Interop.Index
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")]
+
+      public interface Index : IIndex
+    content.vb: >-
+      <Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")>
+
+      Public Interface Index
+          Inherits IIndex
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Label
+  nameWithType: IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Language
+  nameWithType: IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Locale
+  nameWithType: IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Fields
+  nameWithType: IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: TermFields
+  nameWithType: IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: TargetOnly
+  nameWithType: IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndex
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IIndex
+  nameWithType: IIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex

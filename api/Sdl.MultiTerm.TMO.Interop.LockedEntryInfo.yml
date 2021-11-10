@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  id: LockedEntryInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LockedEntryInfo
+  nameWithType: LockedEntryInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("FA079926-C4CE-4938-8B40-41DE1BD09861")]
+
+      public interface LockedEntryInfo : ILockedEntryInfo
+    content.vb: >-
+      <Guid("FA079926-C4CE-4938-8B40-41DE1BD09861")>
+
+      Public Interface LockedEntryInfo
+          Inherits ILockedEntryInfo
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: FA079926-C4CE-4938-8B40-41DE1BD09861
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: ConceptId
+  nameWithType: ILockedEntryInfo.ConceptId
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: UserName
+  nameWithType: ILockedEntryInfo.UserName
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  isExternal: true
+  name: Date
+  nameWithType: ILockedEntryInfo.Date
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ILockedEntryInfo
+  nameWithType: ILockedEntryInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo

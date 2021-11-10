@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  id: TermbaseAccessPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TermbaseAccessPermissions
+  nameWithType: TermbaseAccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5")]
+
+      public interface TermbaseAccessPermissions : ITermbaseAccessPermissions
+    content.vb: >-
+      <Guid("7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5")>
+
+      Public Interface TermbaseAccessPermissions
+          Inherits ITermbaseAccessPermissions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryLevelRead
+  nameWithType: ITermbaseAccessPermissions.EntryLevelRead
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryLevelWrite
+  nameWithType: ITermbaseAccessPermissions.EntryLevelWrite
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: IndexesPermissions
+  nameWithType: ITermbaseAccessPermissions.IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryClasses
+  nameWithType: ITermbaseAccessPermissions.EntryClasses
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanChangeEntryClass
+  nameWithType: ITermbaseAccessPermissions.CanChangeEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanImport
+  nameWithType: ITermbaseAccessPermissions.CanImport
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanExport
+  nameWithType: ITermbaseAccessPermissions.CanExport
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: MustUseInputModel
+  nameWithType: ITermbaseAccessPermissions.MustUseInputModel
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanEditTermbaseDefinition
+  nameWithType: ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbaseAccessPermissions
+  nameWithType: ITermbaseAccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions

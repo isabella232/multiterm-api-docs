@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFields
+  id: EntryFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EntryFields
+  nameWithType: EntryFields
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFields
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("BCE64559-7892-4368-B3C2-6923D2B40BD2")]
+
+      public interface EntryFields : IEntryFields, IEnumerable
+    content.vb: >-
+      <Guid("BCE64559-7892-4368-B3C2-6923D2B40BD2")>
+
+      Public Interface EntryFields
+          Inherits IEntryFields
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String,System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IEntryFields.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: BCE64559-7892-4368-B3C2-6923D2B40BD2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryFields
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEntryFields.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryFields.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryFields.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String,System.Object)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String,System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryFields
+  isExternal: true
+  name: Add(String, Object)
+  nameWithType: IEntryFields.Add(String, Object)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String, System.Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String,System.Object)
+    name: Add
+    nameWithType: IEntryFields.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add(System.String,System.Object)
+    name: Add
+    nameWithType: IEntryFields.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryFields
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IEntryFields.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item[System.Object]
+  nameWithType.vb: IEntryFields.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+    name: Item
+    nameWithType: IEntryFields.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item(System.Object)
+    name: Item
+    nameWithType: IEntryFields.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryFields.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryFields.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryFields
+  isExternal: true
+  name: Count
+  nameWithType: IEntryFields.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryFields
+  nameWithType: IEntryFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields

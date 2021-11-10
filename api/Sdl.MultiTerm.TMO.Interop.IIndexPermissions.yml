@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  id: IIndexPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  langs:
+  - csharp
+  - vb
+  name: IIndexPermissions
+  nameWithType: IIndexPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")]
+
+      public interface IIndexPermissions
+    content.vb: >-
+      <Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")>
+
+      Public Interface IIndexPermissions
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: B960E41C-1B46-4A58-BDBC-BA05F80AB96D
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  id: Read
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: IIndexPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Read { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Read As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  id: Write
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  langs:
+  - csharp
+  - vb
+  name: Write
+  nameWithType: IIndexPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Write { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Write As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  id: Label
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: IIndexPermissions.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Label As String
+  overload: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  id: Remove
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  langs:
+  - csharp
+  - vb
+  name: Remove
+  nameWithType: IIndexPermissions.Remove
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Remove { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Remove As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  isExternal: true
+  name: Read
+  nameWithType: IIndexPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  isExternal: true
+  name: Write
+  nameWithType: IIndexPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  isExternal: true
+  name: Label
+  nameWithType: IIndexPermissions.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  isExternal: true
+  name: Remove
+  nameWithType: IIndexPermissions.Remove
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove

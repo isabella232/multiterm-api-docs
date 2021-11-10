@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtTaskType
+  id: MtTaskType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtTaskType.mtScript
+  - Sdl.MultiTerm.TMO.Interop.MtTaskType.mtWizard
+  langs:
+  - csharp
+  - vb
+  name: MtTaskType
+  nameWithType: MtTaskType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("66BAE712-3B95-48A5-B2A1-2838C8AE0DE0")]
+
+      public enum MtTaskType
+    content.vb: >-
+      <Guid("66BAE712-3B95-48A5-B2A1-2838C8AE0DE0")>
+
+      Public Enum MtTaskType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 66BAE712-3B95-48A5-B2A1-2838C8AE0DE0
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtTaskType.mtWizard
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtTaskType.mtWizard
+  id: mtWizard
+  parent: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  langs:
+  - csharp
+  - vb
+  name: mtWizard
+  nameWithType: MtTaskType.mtWizard
+  fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType.mtWizard
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtWizard = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtTaskType.mtScript
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtTaskType.mtScript
+  id: mtScript
+  parent: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  langs:
+  - csharp
+  - vb
+  name: mtScript
+  nameWithType: MtTaskType.mtScript
+  fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType.mtScript
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtScript = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtTaskType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtTaskType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtTaskType
+  nameWithType: MtTaskType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType

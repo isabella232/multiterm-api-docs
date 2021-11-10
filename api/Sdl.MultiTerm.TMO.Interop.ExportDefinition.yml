@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinition
+  id: ExportDefinition
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ExportDefinition
+  nameWithType: ExportDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("0E05344B-D4A4-4EB9-9762-49ADBC0AAB26")]
+
+      public interface ExportDefinition : IExportDefinition
+    content.vb: >-
+      <Guid("0E05344B-D4A4-4EB9-9762-49ADBC0AAB26")>
+
+      Public Interface ExportDefinition
+          Inherits IExportDefinition
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Name
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Description
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Content
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.ReadOnly
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Owner
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.IsSytemObject
+  - Sdl.MultiTerm.TMO.Interop.IExportDefinition.Usability
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 0E05344B-D4A4-4EB9-9762-49ADBC0AAB26
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: StartWizard(String, String, String)
+  nameWithType: IExportDefinition.StartWizard(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String,System.String,System.String)
+    name: StartWizard
+    nameWithType: IExportDefinition.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard(System.String,System.String,System.String)
+    name: StartWizard
+    nameWithType: IExportDefinition.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Delete()
+  nameWithType: IExportDefinition.Delete()
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+    name: Delete
+    nameWithType: IExportDefinition.Delete
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+    name: Delete
+    nameWithType: IExportDefinition.Delete
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: ProcessExport(MtTaskType, String, String)
+  nameWithType: IExportDefinition.ProcessExport(MtTaskType, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType,System.String,System.String)
+    name: ProcessExport
+    nameWithType: IExportDefinition.ProcessExport
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MtTaskType
+    name: MtTaskType
+    nameWithType: MtTaskType
+    fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType,System.String,System.String)
+    name: ProcessExport
+    nameWithType: IExportDefinition.ProcessExport
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ProcessExport
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MtTaskType
+    name: MtTaskType
+    nameWithType: MtTaskType
+    fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Save(String)
+  nameWithType: IExportDefinition.Save(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+    name: Save
+    nameWithType: IExportDefinition.Save
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save(System.String)
+    name: Save
+    nameWithType: IExportDefinition.Save
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Load(String)
+  nameWithType: IExportDefinition.Load(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+    name: Load
+    nameWithType: IExportDefinition.Load
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load(System.String)
+    name: Load
+    nameWithType: IExportDefinition.Load
+    fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Name
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Name
+  nameWithType: IExportDefinition.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Name
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Description
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Description
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Description
+  nameWithType: IExportDefinition.Description
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Description
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Content
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Content
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Content
+  nameWithType: IExportDefinition.Content
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Content
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.ReadOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IExportDefinition.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Owner
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Owner
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Owner
+  nameWithType: IExportDefinition.Owner
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Owner
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.IsSytemObject
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.IsSytemObject
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: IsSytemObject
+  nameWithType: IExportDefinition.IsSytemObject
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.IsSytemObject
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Usability
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IExportDefinition.Usability
+  parent: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  isExternal: true
+  name: Usability
+  nameWithType: IExportDefinition.Usability
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition.Usability
+- uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IExportDefinition
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IExportDefinition
+  nameWithType: IExportDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition

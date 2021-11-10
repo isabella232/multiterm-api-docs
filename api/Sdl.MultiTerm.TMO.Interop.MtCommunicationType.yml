@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  id: MtCommunicationType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
+  - Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
+  langs:
+  - csharp
+  - vb
+  name: MtCommunicationType
+  nameWithType: MtCommunicationType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("CEE7CDA9-7715-49FF-B74F-EA37644552F4")]
+
+      public enum MtCommunicationType
+    content.vb: >-
+      <Guid("CEE7CDA9-7715-49FF-B74F-EA37644552F4")>
+
+      Public Enum MtCommunicationType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CEE7CDA9-7715-49FF-B74F-EA37644552F4
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
+  id: mtSOAP
+  parent: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  langs:
+  - csharp
+  - vb
+  name: mtSOAP
+  nameWithType: MtCommunicationType.mtSOAP
+  fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSOAP = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
+  id: mtDCOM
+  parent: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  langs:
+  - csharp
+  - vb
+  name: mtDCOM
+  nameWithType: MtCommunicationType.mtDCOM
+  fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtDCOM = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtCommunicationType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtCommunicationType
+  nameWithType: MtCommunicationType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType

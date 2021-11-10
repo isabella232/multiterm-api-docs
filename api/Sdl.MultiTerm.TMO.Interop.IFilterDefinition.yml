@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  id: IFilterDefinition
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+  langs:
+  - csharp
+  - vb
+  name: IFilterDefinition
+  nameWithType: IFilterDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")]
+
+      public interface IFilterDefinition
+    content.vb: >-
+      <Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")>
+
+      Public Interface IFilterDefinition
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C01F2685-E732-4823-BE9C-9BC91D749B11
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
+  id: StartWizard(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: StartWizard(String)
+  nameWithType: IFilterDefinition.StartWizard(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: void StartWizard(string XMLFileName)
+    parameters:
+    - id: XMLFileName
+      type: System.String
+    content.vb: Sub StartWizard(XMLFileName As String)
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard*
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
+  id: Delete
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: IFilterDefinition.Delete()
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: void Delete()
+    content.vb: Sub Delete
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete*
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
+  id: Save(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Save(String)
+  nameWithType: IFilterDefinition.Save(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: void Save(string FileName)
+    parameters:
+    - id: FileName
+      type: System.String
+    content.vb: Sub Save(FileName As String)
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save*
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
+  id: Load(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: IFilterDefinition.Load(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: void Load(string FileName)
+    parameters:
+    - id: FileName
+      type: System.String
+    content.vb: Sub Load(FileName As String)
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load*
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+  id: Name
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IFilterDefinition.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+  id: Active
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: IFilterDefinition.Active
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Active As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+  id: Description
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: IFilterDefinition.Description
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Description As String
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+  id: Content
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: IFilterDefinition.Content
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Content { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Content As String
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+  id: ReadOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: IFilterDefinition.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool ReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property ReadOnly As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+  id: ID
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: IFilterDefinition.ID
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int ID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ID As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+  id: Owner
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: IFilterDefinition.Owner
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Owner { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Owner As String
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+  id: IsSytemObject
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: IsSytemObject
+  nameWithType: IFilterDefinition.IsSytemObject
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool IsSytemObject { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsSytemObject As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+  id: Usability
+  parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: Usability
+  nameWithType: IFilterDefinition.Usability
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUsability Usability { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+    content.vb: ReadOnly Property Usability As mtObjectUsability
+  overload: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard
+  isExternal: true
+  name: StartWizard
+  nameWithType: IFilterDefinition.StartWizard
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: IFilterDefinition.Delete
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save
+  isExternal: true
+  name: Save
+  nameWithType: IFilterDefinition.Save
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load
+  isExternal: true
+  name: Load
+  nameWithType: IFilterDefinition.Load
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+  isExternal: true
+  name: Name
+  nameWithType: IFilterDefinition.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+  isExternal: true
+  name: Active
+  nameWithType: IFilterDefinition.Active
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+  isExternal: true
+  name: Description
+  nameWithType: IFilterDefinition.Description
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+  isExternal: true
+  name: Content
+  nameWithType: IFilterDefinition.Content
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IFilterDefinition.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+  isExternal: true
+  name: ID
+  nameWithType: IFilterDefinition.ID
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: IFilterDefinition.Owner
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+  isExternal: true
+  name: IsSytemObject
+  nameWithType: IFilterDefinition.IsSytemObject
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
+- uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+  isExternal: true
+  name: Usability
+  nameWithType: IFilterDefinition.Usability
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: mtObjectUsability
+  nameWithType: mtObjectUsability
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability

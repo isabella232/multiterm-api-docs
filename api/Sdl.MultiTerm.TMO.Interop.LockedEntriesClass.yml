@@ -1,0 +1,669 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  id: LockedEntriesClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  - Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: LockedEntriesClass
+  nameWithType: LockedEntriesClass
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [ClassInterface(ClassInterfaceType.None)]
+
+      [Guid("7133BA36-98B3-4520-9EEB-22F5293ABE81")]
+
+      public class LockedEntriesClass : LockedEntries, ILockedEntries, IEnumerable
+    content.vb: >-
+      <ClassInterface(ClassInterfaceType.None)>
+
+      <Guid("7133BA36-98B3-4520-9EEB-22F5293ABE81")>
+
+      Public Class LockedEntriesClass
+          Implements LockedEntries, ILockedEntries, IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.LockedEntries
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 7133BA36-98B3-4520-9EEB-22F5293ABE81
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator
+  id: GetEnumerator
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntries.GetEnumerator()
+  nameWithType: LockedEntriesClass.ILockedEntries.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IEnumerator ILockedEntries.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements ILockedEntries.GetEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: LockedEntriesClass.GetEnumerator()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator()
+  name.vb: GetEnumerator()
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item(System.Int32)
+  id: Item(System.Int32)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntries.Item[Int32]
+  nameWithType: LockedEntriesClass.ILockedEntries.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item[System.Int32]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string ILockedEntries.this[int Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Item(Index As Integer) As String Implements ILockedEntries.this[]
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  nameWithType.vb: LockedEntriesClass.Item(Int32)
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  id: Count
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
+  langs:
+  - csharp
+  - vb
+  name: ILockedEntries.Count
+  nameWithType: LockedEntriesClass.ILockedEntries.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int ILockedEntries.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property Count As Integer Implements ILockedEntries.Count
+  overload: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  nameWithType.vb: LockedEntriesClass.Count
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  name.vb: Count
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntries
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: LockedEntries
+  nameWithType: LockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntries
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ILockedEntries
+  nameWithType: ILockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator
+  isExternal: true
+  name: ILockedEntries.GetEnumerator
+  nameWithType: LockedEntriesClass.ILockedEntries.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  nameWithType.vb: LockedEntriesClass.GetEnumerator
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.GetEnumerator
+  name.vb: GetEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ILockedEntries.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILockedEntries.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILockedEntries.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item
+  isExternal: true
+  name: ILockedEntries.Item
+  nameWithType: LockedEntriesClass.ILockedEntries.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item
+  nameWithType.vb: LockedEntriesClass.Item
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Item
+  name.vb: Item
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: ILockedEntries.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item[System.Int32]
+  nameWithType.vb: ILockedEntries.Item(Int32)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+    name: Item
+    nameWithType: ILockedEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+    name: Item
+    nameWithType: ILockedEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  isExternal: true
+  name: ILockedEntries.Count
+  nameWithType: LockedEntriesClass.ILockedEntries.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  nameWithType.vb: LockedEntriesClass.Count
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.Count
+  name.vb: Count
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: Count
+  nameWithType: ILockedEntries.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count

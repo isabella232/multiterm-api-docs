@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryIndexes
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIndexes
+  id: EntryIndexes
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EntryIndexes
+  nameWithType: EntryIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryIndexes
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("D3A93CA9-D179-432B-BDF3-07296CBD4C00")]
+
+      public interface EntryIndexes : IEntryIndexes, IEnumerable
+    content.vb: >-
+      <Guid("D3A93CA9-D179-432B-BDF3-07296CBD4C00")>
+
+      Public Interface EntryIndexes
+          Inherits IEntryIndexes
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: D3A93CA9-D179-432B-BDF3-07296CBD4C00
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEntryIndexes.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryIndexes.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryIndexes.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  isExternal: true
+  name: Add(String, String)
+  nameWithType: IEntryIndexes.Add(String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String,System.String)
+    name: Add
+    nameWithType: IEntryIndexes.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add(System.String,System.String)
+    name: Add
+    nameWithType: IEntryIndexes.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IEntryIndexes.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item[System.Object]
+  nameWithType.vb: IEntryIndexes.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+    name: Item
+    nameWithType: IEntryIndexes.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item(System.Object)
+    name: Item
+    nameWithType: IEntryIndexes.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  isExternal: true
+  name: Count
+  nameWithType: IEntryIndexes.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIndexes
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryIndexes
+  nameWithType: IEntryIndexes
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes

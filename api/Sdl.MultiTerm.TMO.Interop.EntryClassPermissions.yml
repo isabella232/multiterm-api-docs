@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  id: EntryClassPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EntryClassPermissions
+  nameWithType: EntryClassPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")]
+
+      public interface EntryClassPermissions : IEntryClassPermissions
+    content.vb: >-
+      <Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")>
+
+      Public Interface EntryClassPermissions
+          Inherits IEntryClassPermissions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Read
+  nameWithType: IEntryClassPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Write
+  nameWithType: IEntryClassPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: Name
+  nameWithType: IEntryClassPermissions.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: _id
+  nameWithType: IEntryClassPermissions._id
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  isExternal: true
+  name: IsDefault
+  nameWithType: IEntryClassPermissions.IsDefault
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryClassPermissions
+  nameWithType: IEntryClassPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions

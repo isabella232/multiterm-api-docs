@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.Entries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Entries
+  id: Entries
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Entries
+  nameWithType: Entries
+  fullName: Sdl.MultiTerm.TMO.Interop.Entries
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("2C2B904C-3E14-4C3D-BD80-D9CF5E50070D")]
+
+      public interface Entries : IEntries
+    content.vb: >-
+      <Guid("2C2B904C-3E14-4C3D-BD80-D9CF5E50070D")>
+
+      Public Interface Entries
+          Inherits IEntries
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+  - Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String,System.Boolean)
+  - Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+  - Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object,System.String,System.Int32)
+  - Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+  - Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+  - Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+  - Sdl.MultiTerm.TMO.Interop.IEntries.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 2C2B904C-3E14-4C3D-BD80-D9CF5E50070D
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: Item(Int32)
+  nameWithType: IEntries.Item(Int32)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+    name: Item
+    nameWithType: IEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.Item(System.Int32)
+    name: Item
+    nameWithType: IEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String,System.Boolean)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String,System.Boolean)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: New(String, Boolean)
+  nameWithType: IEntries.New(String, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String,System.Boolean)
+    name: New
+    nameWithType: IEntries.New
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.New(System.String,System.Boolean)
+    name: New
+    nameWithType: IEntries.New
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: GetEntryIDs()
+  nameWithType: IEntries.GetEntryIDs()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+    name: GetEntryIDs
+    nameWithType: IEntries.GetEntryIDs
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+    name: GetEntryIDs
+    nameWithType: IEntries.GetEntryIDs
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetEntryIDs
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object,System.String,System.Int32)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object,System.String,System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: GetCrossLinkedEntry(Object, String, Int32)
+  nameWithType: IEntries.GetCrossLinkedEntry(Object, String, Int32)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object, System.String, System.Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object,System.String,System.Int32)
+    name: GetCrossLinkedEntry
+    nameWithType: IEntries.GetCrossLinkedEntry
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry(System.Object,System.String,System.Int32)
+    name: GetCrossLinkedEntry
+    nameWithType: IEntries.GetCrossLinkedEntry
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.GetCrossLinkedEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: ActiveFilterHasChanged()
+  nameWithType: IEntries.ActiveFilterHasChanged()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+    name: ActiveFilterHasChanged
+    nameWithType: IEntries.ActiveFilterHasChanged
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+    name: ActiveFilterHasChanged
+    nameWithType: IEntries.ActiveFilterHasChanged
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ActiveFilterHasChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: ReloadLayout()
+  nameWithType: IEntries.ReloadLayout()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+    name: ReloadLayout
+    nameWithType: IEntries.ReloadLayout
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+    name: ReloadLayout
+    nameWithType: IEntries.ReloadLayout
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: ReloadTermbaseDefinition()
+  nameWithType: IEntries.ReloadTermbaseDefinition()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+    name: ReloadTermbaseDefinition
+    nameWithType: IEntries.ReloadTermbaseDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+    name: ReloadTermbaseDefinition
+    nameWithType: IEntries.ReloadTermbaseDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntries.ReloadTermbaseDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntries.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IEntries
+  isExternal: true
+  name: Count
+  nameWithType: IEntries.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IEntries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntries
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntries
+  nameWithType: IEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntries

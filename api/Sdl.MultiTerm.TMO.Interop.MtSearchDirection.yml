@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  id: MtSearchDirection
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
+  - Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
+  langs:
+  - csharp
+  - vb
+  name: MtSearchDirection
+  nameWithType: MtSearchDirection
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED")]
+
+      public enum MtSearchDirection
+    content.vb: >-
+      <Guid("A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED")>
+
+      Public Enum MtSearchDirection
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
+  id: mtSearchUp
+  parent: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  langs:
+  - csharp
+  - vb
+  name: mtSearchUp
+  nameWithType: MtSearchDirection.mtSearchUp
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSearchUp = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
+  id: mtSearchDown
+  parent: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  langs:
+  - csharp
+  - vb
+  name: mtSearchDown
+  nameWithType: MtSearchDirection.mtSearchDown
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSearchDown = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchDirection
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtSearchDirection
+  nameWithType: MtSearchDirection
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection

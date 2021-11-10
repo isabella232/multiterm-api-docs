@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinitions
+  id: ImportDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ImportDefinitions
+  nameWithType: ImportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C4CD9A64-7575-4F8C-9B04-D477E05C17CA")]
+
+      public interface ImportDefinitions : IImportDefinitions, IEnumerable
+    content.vb: >-
+      <Guid("C4CD9A64-7575-4F8C-9B04-D477E05C17CA")>
+
+      Public Interface ImportDefinitions
+          Inherits IImportDefinitions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C4CD9A64-7575-4F8C-9B04-D477E05C17CA
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IImportDefinitions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IImportDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IImportDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: Add(String, String, String)
+  nameWithType: IImportDefinitions.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IImportDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: IImportDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: StartWizard(String, String)
+  nameWithType: IImportDefinitions.StartWizard(String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+    name: StartWizard
+    nameWithType: IImportDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+    name: StartWizard
+    nameWithType: IImportDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: Refresh()
+  nameWithType: IImportDefinitions.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+    name: Refresh
+    nameWithType: IImportDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+    name: Refresh
+    nameWithType: IImportDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: CheckObjectUsability(String)
+  nameWithType: IImportDefinitions.CheckObjectUsability(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IImportDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: IImportDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: CheckObjectUsabilityEx(String, Boolean)
+  nameWithType: IImportDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IImportDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: IImportDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: Item[Object]
+  nameWithType: IImportDefinitions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item[System.Object]
+  nameWithType.vb: IImportDefinitions.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IImportDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: IImportDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  isExternal: true
+  name: Count
+  nameWithType: IImportDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IImportDefinitions
+  nameWithType: IImportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions

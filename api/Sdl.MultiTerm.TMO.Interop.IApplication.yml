@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IApplication
+  id: IApplication
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  - Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  - Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  langs:
+  - csharp
+  - vb
+  name: IApplication
+  nameWithType: IApplication
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("CACFF5D6-C449-464A-88A0-2F2D849A0AE3")]
+
+      public interface IApplication
+    content.vb: >-
+      <Guid("CACFF5D6-C449-464A-88A0-2F2D849A0AE3")>
+
+      Public Interface IApplication
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CACFF5D6-C449-464A-88A0-2F2D849A0AE3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  id: LocalRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  langs:
+  - csharp
+  - vb
+  name: LocalRepository
+  nameWithType: IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: TermbaseRepository LocalRepository { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+    content.vb: ReadOnly Property LocalRepository As TermbaseRepository
+  overload: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  id: ServerRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  langs:
+  - csharp
+  - vb
+  name: ServerRepository
+  nameWithType: IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: TermbaseRepository ServerRepository { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+    content.vb: ReadOnly Property ServerRepository As TermbaseRepository
+  overload: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  id: MultiSearch
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  langs:
+  - csharp
+  - vb
+  name: MultiSearch
+  nameWithType: IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: MultiSearch MultiSearch { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    content.vb: ReadOnly Property MultiSearch As MultiSearch
+  overload: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  isExternal: true
+  name: LocalRepository
+  nameWithType: IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: TermbaseRepository
+  nameWithType: TermbaseRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  isExternal: true
+  name: ServerRepository
+  nameWithType: IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  isExternal: true
+  name: MultiSearch
+  nameWithType: IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+- uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MultiSearch
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MultiSearch
+  nameWithType: MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch

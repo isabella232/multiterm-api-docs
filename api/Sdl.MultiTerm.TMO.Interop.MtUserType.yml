@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtUserType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtUserType
+  id: MtUserType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtUserType.mtNotAuthorized
+  - Sdl.MultiTerm.TMO.Interop.MtUserType.mtSuper
+  - Sdl.MultiTerm.TMO.Interop.MtUserType.mtUser
+  langs:
+  - csharp
+  - vb
+  name: MtUserType
+  nameWithType: MtUserType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtUserType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("94FD6261-CAEC-4437-A19A-70A44248E567")]
+
+      public enum MtUserType
+    content.vb: >-
+      <Guid("94FD6261-CAEC-4437-A19A-70A44248E567")>
+
+      Public Enum MtUserType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 94FD6261-CAEC-4437-A19A-70A44248E567
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtUserType.mtNotAuthorized
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtUserType.mtNotAuthorized
+  id: mtNotAuthorized
+  parent: Sdl.MultiTerm.TMO.Interop.MtUserType
+  langs:
+  - csharp
+  - vb
+  name: mtNotAuthorized
+  nameWithType: MtUserType.mtNotAuthorized
+  fullName: Sdl.MultiTerm.TMO.Interop.MtUserType.mtNotAuthorized
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtNotAuthorized = 0
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtUserType.mtUser
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtUserType.mtUser
+  id: mtUser
+  parent: Sdl.MultiTerm.TMO.Interop.MtUserType
+  langs:
+  - csharp
+  - vb
+  name: mtUser
+  nameWithType: MtUserType.mtUser
+  fullName: Sdl.MultiTerm.TMO.Interop.MtUserType.mtUser
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtUser = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtUserType.mtSuper
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtUserType.mtSuper
+  id: mtSuper
+  parent: Sdl.MultiTerm.TMO.Interop.MtUserType
+  langs:
+  - csharp
+  - vb
+  name: mtSuper
+  nameWithType: MtUserType.mtSuper
+  fullName: Sdl.MultiTerm.TMO.Interop.MtUserType.mtSuper
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSuper = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtUserType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtUserType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtUserType
+  nameWithType: MtUserType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtUserType

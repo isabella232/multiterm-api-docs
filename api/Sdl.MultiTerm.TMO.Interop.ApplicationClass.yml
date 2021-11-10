@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  id: ApplicationClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor
+  - Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  - Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  - Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  langs:
+  - csharp
+  - vb
+  name: ApplicationClass
+  nameWithType: ApplicationClass
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("DE9C39C5-7957-46C5-9DC9-B1B68CA55577")]
+
+      [ClassInterface(ClassInterfaceType.None)]
+
+      public class ApplicationClass : Application, IApplication
+    content.vb: >-
+      <Guid("DE9C39C5-7957-46C5-9DC9-B1B68CA55577")>
+
+      <ClassInterface(ClassInterfaceType.None)>
+
+      Public Class ApplicationClass
+          Implements Application, IApplication
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.Application
+  - Sdl.MultiTerm.TMO.Interop.IApplication
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DE9C39C5-7957-46C5-9DC9-B1B68CA55577
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor
+  id: '#ctor'
+  parent: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  langs:
+  - csharp
+  - vb
+  name: ApplicationClass()
+  nameWithType: ApplicationClass.ApplicationClass()
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ApplicationClass()
+  type: Constructor
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public ApplicationClass()
+    content.vb: Public Sub New
+  overload: Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  id: LocalRepository
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  langs:
+  - csharp
+  - vb
+  name: IApplication.LocalRepository
+  nameWithType: ApplicationClass.IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual TermbaseRepository IApplication.LocalRepository { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+    content.vb: Public Overridable ReadOnly Property LocalRepository As TermbaseRepository Implements IApplication.LocalRepository
+  overload: Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  nameWithType.vb: ApplicationClass.LocalRepository
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  name.vb: LocalRepository
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  id: ServerRepository
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  langs:
+  - csharp
+  - vb
+  name: IApplication.ServerRepository
+  nameWithType: ApplicationClass.IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual TermbaseRepository IApplication.ServerRepository { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+    content.vb: Public Overridable ReadOnly Property ServerRepository As TermbaseRepository Implements IApplication.ServerRepository
+  overload: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  nameWithType.vb: ApplicationClass.ServerRepository
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  name.vb: ServerRepository
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  id: MultiSearch
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.ApplicationClass
+  langs:
+  - csharp
+  - vb
+  name: IApplication.MultiSearch
+  nameWithType: ApplicationClass.IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual MultiSearch IApplication.MultiSearch { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MultiSearch
+    content.vb: Public Overridable ReadOnly Property MultiSearch As MultiSearch Implements IApplication.MultiSearch
+  overload: Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  nameWithType.vb: ApplicationClass.MultiSearch
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  name.vb: MultiSearch
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.Application
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Application
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Application
+  nameWithType: Application
+  fullName: Sdl.MultiTerm.TMO.Interop.Application
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IApplication
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IApplication
+  nameWithType: IApplication
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ApplicationClass.#ctor
+  isExternal: true
+  name: ApplicationClass
+  nameWithType: ApplicationClass.ApplicationClass
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ApplicationClass
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  isExternal: true
+  name: IApplication.LocalRepository
+  nameWithType: ApplicationClass.IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  nameWithType.vb: ApplicationClass.LocalRepository
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.LocalRepository
+  name.vb: LocalRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: LocalRepository
+  nameWithType: IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: TermbaseRepository
+  nameWithType: TermbaseRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  isExternal: true
+  name: IApplication.ServerRepository
+  nameWithType: ApplicationClass.IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  nameWithType.vb: ApplicationClass.ServerRepository
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.ServerRepository
+  name.vb: ServerRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: ServerRepository
+  nameWithType: IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+- uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  isExternal: true
+  name: IApplication.MultiSearch
+  nameWithType: ApplicationClass.IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass.Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  nameWithType.vb: ApplicationClass.MultiSearch
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ApplicationClass.MultiSearch
+  name.vb: MultiSearch
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: MultiSearch
+  nameWithType: IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+- uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MultiSearch
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MultiSearch
+  nameWithType: MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch

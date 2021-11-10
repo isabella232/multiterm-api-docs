@@ -1,0 +1,669 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  id: PicklistValuesClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  - Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PicklistValuesClass
+  nameWithType: PicklistValuesClass
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [ClassInterface(ClassInterfaceType.None)]
+
+      [Guid("03D3A87F-336E-4A91-B77A-09AADCD6DC27")]
+
+      public class PicklistValuesClass : PicklistValues, IPicklistValues, IEnumerable
+    content.vb: >-
+      <ClassInterface(ClassInterfaceType.None)>
+
+      <Guid("03D3A87F-336E-4A91-B77A-09AADCD6DC27")>
+
+      Public Class PicklistValuesClass
+          Implements PicklistValues, IPicklistValues, IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.PicklistValues
+  - Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 03D3A87F-336E-4A91-B77A-09AADCD6DC27
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator
+  id: GetEnumerator
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  langs:
+  - csharp
+  - vb
+  name: IPicklistValues.GetEnumerator()
+  nameWithType: PicklistValuesClass.IPicklistValues.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IEnumerator IPicklistValues.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IPicklistValues.GetEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: PicklistValuesClass.GetEnumerator()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator()
+  name.vb: GetEnumerator()
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item(System.Int32)
+  id: Item(System.Int32)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  langs:
+  - csharp
+  - vb
+  name: IPicklistValues.Item[Int32]
+  nameWithType: PicklistValuesClass.IPicklistValues.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item[System.Int32]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IPicklistValues.this[int Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Item(Index As Integer) As String Implements IPicklistValues.this[]
+  overload: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+  nameWithType.vb: PicklistValuesClass.Item(Int32)
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  id: Count
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
+  langs:
+  - csharp
+  - vb
+  name: IPicklistValues.Count
+  nameWithType: PicklistValuesClass.IPicklistValues.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int IPicklistValues.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IPicklistValues.Count
+  overload: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count
+  nameWithType.vb: PicklistValuesClass.Count
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  name.vb: Count
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValues
+  commentId: T:Sdl.MultiTerm.TMO.Interop.PicklistValues
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: PicklistValues
+  nameWithType: PicklistValues
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValues
+- uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IPicklistValues
+  nameWithType: IPicklistValues
+  fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator
+  isExternal: true
+  name: IPicklistValues.GetEnumerator
+  nameWithType: PicklistValuesClass.IPicklistValues.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+  nameWithType.vb: PicklistValuesClass.GetEnumerator
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.GetEnumerator
+  name.vb: GetEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IPicklistValues.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IPicklistValues.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IPicklistValues.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item
+  isExternal: true
+  name: IPicklistValues.Item
+  nameWithType: PicklistValuesClass.IPicklistValues.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item
+  nameWithType.vb: PicklistValuesClass.Item
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Item
+  name.vb: Item
+- uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IPicklistValues.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item[System.Int32]
+  nameWithType.vb: IPicklistValues.Item(Int32)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+    name: Item
+    nameWithType: IPicklistValues.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item(System.Int32)
+    name: Item
+    nameWithType: IPicklistValues.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  isExternal: true
+  name: IPicklistValues.Count
+  nameWithType: PicklistValuesClass.IPicklistValues.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count
+  nameWithType.vb: PicklistValuesClass.Count
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.Count
+  name.vb: Count
+- uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IPicklistValues
+  isExternal: true
+  name: Count
+  nameWithType: IPicklistValues.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues.Count

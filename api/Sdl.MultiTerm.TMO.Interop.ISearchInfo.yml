@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  id: ISearchInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  langs:
+  - csharp
+  - vb
+  name: ISearchInfo
+  nameWithType: ISearchInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("34006FF0-484A-4293-8150-F84FD66CF306")]
+
+      public interface ISearchInfo
+    content.vb: >-
+      <Guid("34006FF0-484A-4293-8150-F84FD66CF306")>
+
+      Public Interface ISearchInfo
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 34006FF0-484A-4293-8150-F84FD66CF306
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  id: TermbaseName
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: TermbaseName
+  nameWithType: ISearchInfo.TermbaseName
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string TermbaseName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TermbaseName As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  id: SourceIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceIndex
+  nameWithType: ISearchInfo.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string SourceIndex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SourceIndex As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  id: SourceLocale
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceLocale
+  nameWithType: ISearchInfo.SourceLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string SourceLocale { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SourceLocale As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  id: TargetIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: TargetIndex
+  nameWithType: ISearchInfo.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string TargetIndex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TargetIndex As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  id: TargetLocale
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: TargetLocale
+  nameWithType: ISearchInfo.TargetLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string TargetLocale { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TargetLocale As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  id: HitsFound
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: HitsFound
+  nameWithType: ISearchInfo.HitsFound
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool HitsFound { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HitsFound As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  id: ErrorMessage
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: ISearchInfo.ErrorMessage
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string ErrorMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ErrorMessage As String
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  id: ErrorCode
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: ISearchInfo.ErrorCode
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int ErrorCode { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ErrorCode As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+  isExternal: true
+  name: TermbaseName
+  nameWithType: ISearchInfo.TermbaseName
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+  isExternal: true
+  name: SourceIndex
+  nameWithType: ISearchInfo.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+  isExternal: true
+  name: SourceLocale
+  nameWithType: ISearchInfo.SourceLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+  isExternal: true
+  name: TargetIndex
+  nameWithType: ISearchInfo.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+  isExternal: true
+  name: TargetLocale
+  nameWithType: ISearchInfo.TargetLocale
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+  isExternal: true
+  name: HitsFound
+  nameWithType: ISearchInfo.HitsFound
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: ISearchInfo.ErrorMessage
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: ISearchInfo.ErrorCode
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

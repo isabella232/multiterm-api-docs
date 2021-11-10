@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchType
+  id: MtSearchType
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
+  - Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
+  - Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
+  langs:
+  - csharp
+  - vb
+  name: MtSearchType
+  nameWithType: MtSearchType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C852ED52-67A0-4D1C-BE63-4716F3F6CF2F")]
+
+      public enum MtSearchType
+    content.vb: >-
+      <Guid("C852ED52-67A0-4D1C-BE63-4716F3F6CF2F")>
+
+      Public Enum MtSearchType
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C852ED52-67A0-4D1C-BE63-4716F3F6CF2F
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
+  id: mtParallel
+  parent: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  langs:
+  - csharp
+  - vb
+  name: mtParallel
+  nameWithType: MtSearchType.mtParallel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtParallel = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
+  id: mtHierarchial
+  parent: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  langs:
+  - csharp
+  - vb
+  name: mtHierarchial
+  nameWithType: MtSearchType.mtHierarchial
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtHierarchial = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
+  id: mtSequential
+  parent: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  langs:
+  - csharp
+  - vb
+  name: mtSequential
+  nameWithType: MtSearchType.mtSequential
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtSequential = 3
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtSearchType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtSearchType
+  nameWithType: MtSearchType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType

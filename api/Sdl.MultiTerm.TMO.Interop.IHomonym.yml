@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IHomonym
+  id: IHomonym
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  - Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  - Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  langs:
+  - csharp
+  - vb
+  name: IHomonym
+  nameWithType: IHomonym
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9")]
+
+      public interface IHomonym
+    content.vb: >-
+      <Guid("47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9")>
+
+      Public Interface IHomonym
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  id: Term
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonym
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: IHomonym.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Term { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Term As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHomonym.Term*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  id: Index
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonym
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: IHomonym.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Index { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Index As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHomonym.Index*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  id: EntryID
+  parent: Sdl.MultiTerm.TMO.Interop.IHomonym
+  langs:
+  - csharp
+  - vb
+  name: EntryID
+  nameWithType: IHomonym.EntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int EntryID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property EntryID As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Term*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  isExternal: true
+  name: Term
+  nameWithType: IHomonym.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Index*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  isExternal: true
+  name: Index
+  nameWithType: IHomonym.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+- uid: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  isExternal: true
+  name: EntryID
+  nameWithType: IHomonym.EntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

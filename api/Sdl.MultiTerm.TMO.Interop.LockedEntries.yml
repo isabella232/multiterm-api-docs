@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.LockedEntries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntries
+  id: LockedEntries
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LockedEntries
+  nameWithType: LockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.LockedEntries
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C")]
+
+      public interface LockedEntries : ILockedEntries, IEnumerable
+    content.vb: >-
+      <Guid("C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C")>
+
+      Public Interface LockedEntries
+          Inherits ILockedEntries
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  - Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ILockedEntries.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILockedEntries.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILockedEntries.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: ILockedEntries.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item[System.Int32]
+  nameWithType.vb: ILockedEntries.Item(Int32)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+    name: Item
+    nameWithType: ILockedEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item(System.Int32)
+    name: Item
+    nameWithType: ILockedEntries.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+  parent: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  isExternal: true
+  name: Count
+  nameWithType: ILockedEntries.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries.Count
+- uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntries
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ILockedEntries
+  nameWithType: ILockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries

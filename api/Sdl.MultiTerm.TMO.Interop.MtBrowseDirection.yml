@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  id: MtBrowseDirection
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirDown
+  - Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirUp
+  langs:
+  - csharp
+  - vb
+  name: MtBrowseDirection
+  nameWithType: MtBrowseDirection
+  fullName: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("AACA5A15-7751-4D18-B19E-38293D07A619")]
+
+      public enum MtBrowseDirection
+    content.vb: >-
+      <Guid("AACA5A15-7751-4D18-B19E-38293D07A619")>
+
+      Public Enum MtBrowseDirection
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AACA5A15-7751-4D18-B19E-38293D07A619
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirUp
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirUp
+  id: mtBrowseDirUp
+  parent: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  langs:
+  - csharp
+  - vb
+  name: mtBrowseDirUp
+  nameWithType: MtBrowseDirection.mtBrowseDirUp
+  fullName: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirUp
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtBrowseDirUp = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirDown
+  commentId: F:Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirDown
+  id: mtBrowseDirDown
+  parent: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  langs:
+  - csharp
+  - vb
+  name: mtBrowseDirDown
+  nameWithType: MtBrowseDirection.mtBrowseDirDown
+  fullName: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.mtBrowseDirDown
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtBrowseDirDown = 2
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtBrowseDirection
+  nameWithType: MtBrowseDirection
+  fullName: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection

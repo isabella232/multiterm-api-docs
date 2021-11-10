@@ -1,0 +1,865 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.Entry
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Entry
+  id: Entry
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Entry
+  nameWithType: Entry
+  fullName: Sdl.MultiTerm.TMO.Interop.Entry
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("7C71928D-1851-49CE-8A1C-47A15840E4D2")]
+
+      public interface Entry : IEntry
+    content.vb: >-
+      <Guid("7C71928D-1851-49CE-8A1C-47A15840E4D2")>
+
+      Public Interface Entry
+          Inherits IEntry
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String,System.String,System.String,Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.Save
+  - Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+  - Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+  - Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+  - Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+  - Sdl.MultiTerm.TMO.Interop.IEntry.ID
+  - Sdl.MultiTerm.TMO.Interop.IEntry.Content
+  - Sdl.MultiTerm.TMO.Interop.IEntry.IsComplete
+  - Sdl.MultiTerm.TMO.Interop.IEntry.LockedBy
+  - Sdl.MultiTerm.TMO.Interop.IEntry.IsRtf
+  - Sdl.MultiTerm.TMO.Interop.IEntry._FirstDisplayedTerm
+  - Sdl.MultiTerm.TMO.Interop.IEntry.LockedDate
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 7C71928D-1851-49CE-8A1C-47A15840E4D2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String,System.String,System.String,Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String,System.String,System.String,Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ApplyLayout(String, String, String, LayoutDefinition)
+  nameWithType: IEntry.ApplyLayout(String, String, String, LayoutDefinition)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String, System.String, System.String, Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String,System.String,System.String,Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+    name: ApplyLayout
+    nameWithType: IEntry.ApplyLayout
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
+    name: LayoutDefinition
+    nameWithType: LayoutDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout(System.String,System.String,System.String,Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
+    name: ApplyLayout
+    nameWithType: IEntry.ApplyLayout
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
+    name: LayoutDefinition
+    nameWithType: LayoutDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: LockEntry(MtLockingState)
+  nameWithType: IEntry.LockEntry(MtLockingState)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+    name: LockEntry
+    nameWithType: IEntry.LockEntry
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState
+    name: MtLockingState
+    nameWithType: MtLockingState
+    fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState)
+    name: LockEntry
+    nameWithType: IEntry.LockEntry
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.LockEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState
+    name: MtLockingState
+    nameWithType: MtLockingState
+    fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ApplyExport(ExportDefinition, String, String)
+  nameWithType: IEntry.ApplyExport(ExportDefinition, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String)
+    name: ApplyExport
+    nameWithType: IEntry.ApplyExport
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    name: ExportDefinition
+    nameWithType: ExportDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String)
+    name: ApplyExport
+    nameWithType: IEntry.ApplyExport
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExport
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    name: ExportDefinition
+    nameWithType: ExportDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ApplyExportWithMultimedia(ExportDefinition, String, String, String, String)
+  nameWithType: IEntry.ApplyExportWithMultimedia(ExportDefinition, String, String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String,System.String,System.String)
+    name: ApplyExportWithMultimedia
+    nameWithType: IEntry.ApplyExportWithMultimedia
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    name: ExportDefinition
+    nameWithType: ExportDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia(Sdl.MultiTerm.TMO.Interop.ExportDefinition,System.String,System.String,System.String,System.String)
+    name: ApplyExportWithMultimedia
+    nameWithType: IEntry.ApplyExportWithMultimedia
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyExportWithMultimedia
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    name: ExportDefinition
+    nameWithType: ExportDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ApplyFilter(FilterDefinition, String, String)
+  nameWithType: IEntry.ApplyFilter(FilterDefinition, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String)
+    name: ApplyFilter
+    nameWithType: IEntry.ApplyFilter
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    name: FilterDefinition
+    nameWithType: FilterDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String)
+    name: ApplyFilter
+    nameWithType: IEntry.ApplyFilter
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    name: FilterDefinition
+    nameWithType: FilterDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.Save
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.Save
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: Save()
+  nameWithType: IEntry.Save()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Save()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Save
+    name: Save
+    nameWithType: IEntry.Save
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Save
+    name: Save
+    nameWithType: IEntry.Save
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: Delete()
+  nameWithType: IEntry.Delete()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Delete()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+    name: Delete
+    nameWithType: IEntry.Delete
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+    name: Delete
+    nameWithType: IEntry.Delete
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: Merge(Entry)
+  nameWithType: IEntry.Merge(Entry)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+    name: Merge
+    nameWithType: IEntry.Merge
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.Entry
+    name: Entry
+    nameWithType: Entry
+    fullName: Sdl.MultiTerm.TMO.Interop.Entry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.Merge(Sdl.MultiTerm.TMO.Interop.Entry)
+    name: Merge
+    nameWithType: IEntry.Merge
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.Entry
+    name: Entry
+    nameWithType: Entry
+    fullName: Sdl.MultiTerm.TMO.Interop.Entry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: MergeEx(String)
+  nameWithType: IEntry.MergeEx(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+    name: MergeEx
+    nameWithType: IEntry.MergeEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx(System.String)
+    name: MergeEx
+    nameWithType: IEntry.MergeEx
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.MergeEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ApplyFilterForSingleTerm(FilterDefinition, String, String, String)
+  nameWithType: IEntry.ApplyFilterForSingleTerm(FilterDefinition, String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String,System.String)
+    name: ApplyFilterForSingleTerm
+    nameWithType: IEntry.ApplyFilterForSingleTerm
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    name: FilterDefinition
+    nameWithType: FilterDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm(Sdl.MultiTerm.TMO.Interop.FilterDefinition,System.String,System.String,System.String)
+    name: ApplyFilterForSingleTerm
+    nameWithType: IEntry.ApplyFilterForSingleTerm
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ApplyFilterForSingleTerm
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    name: FilterDefinition
+    nameWithType: FilterDefinition
+    fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: CanDelete()
+  nameWithType: IEntry.CanDelete()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+    name: CanDelete
+    nameWithType: IEntry.CanDelete
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+    name: CanDelete
+    nameWithType: IEntry.CanDelete
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanDelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: CanCopy()
+  nameWithType: IEntry.CanCopy()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+    name: CanCopy
+    nameWithType: IEntry.CanCopy
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+    name: CanCopy
+    nameWithType: IEntry.CanCopy
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanCopy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: CanMerge()
+  nameWithType: IEntry.CanMerge()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+    name: CanMerge
+    nameWithType: IEntry.CanMerge
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+    name: CanMerge
+    nameWithType: IEntry.CanMerge
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.CanMerge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ExtractMultimediaToTemp()
+  nameWithType: IEntry.ExtractMultimediaToTemp()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+    name: ExtractMultimediaToTemp
+    nameWithType: IEntry.ExtractMultimediaToTemp
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+    name: ExtractMultimediaToTemp
+    nameWithType: IEntry.ExtractMultimediaToTemp
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ExtractMultimediaToTemp
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.ID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.ID
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: ID
+  nameWithType: IEntry.ID
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.ID
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.Content
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.Content
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: Content
+  nameWithType: IEntry.Content
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.Content
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.IsComplete
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.IsComplete
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: IsComplete
+  nameWithType: IEntry.IsComplete
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.IsComplete
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.LockedBy
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.LockedBy
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: LockedBy
+  nameWithType: IEntry.LockedBy
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.LockedBy
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.IsRtf
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.IsRtf
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: IsRtf
+  nameWithType: IEntry.IsRtf
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.IsRtf
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry._FirstDisplayedTerm
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry._FirstDisplayedTerm
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: _FirstDisplayedTerm
+  nameWithType: IEntry._FirstDisplayedTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry._FirstDisplayedTerm
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry.LockedDate
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntry.LockedDate
+  parent: Sdl.MultiTerm.TMO.Interop.IEntry
+  isExternal: true
+  name: LockedDate
+  nameWithType: IEntry.LockedDate
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry.LockedDate
+- uid: Sdl.MultiTerm.TMO.Interop.IEntry
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntry
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntry
+  nameWithType: IEntry
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntry

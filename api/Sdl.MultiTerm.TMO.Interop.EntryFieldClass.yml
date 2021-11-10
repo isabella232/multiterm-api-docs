@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  id: EntryFieldClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  - Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  - Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  langs:
+  - csharp
+  - vb
+  name: EntryFieldClass
+  nameWithType: EntryFieldClass
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("228AF537-4740-44DE-8969-09C71E0CF897")]
+
+      [ClassInterface(ClassInterfaceType.None)]
+
+      public class EntryFieldClass : EntryField, IEntryField
+    content.vb: >-
+      <Guid("228AF537-4740-44DE-8969-09C71E0CF897")>
+
+      <ClassInterface(ClassInterfaceType.None)>
+
+      Public Class EntryFieldClass
+          Implements EntryField, IEntryField
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.EntryField
+  - Sdl.MultiTerm.TMO.Interop.IEntryField
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 228AF537-4740-44DE-8969-09C71E0CF897
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  id: Name
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryField.Name
+  nameWithType: EntryFieldClass.IEntryField.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IEntryField.Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Name As String Implements IEntryField.Name
+  overload: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  nameWithType.vb: EntryFieldClass.Name
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  name.vb: Name
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  id: Value
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryField.Value
+  nameWithType: EntryFieldClass.IEntryField.Value
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IEntryField.Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String Implements IEntryField.Value
+  overload: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  nameWithType.vb: EntryFieldClass.Value
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  name.vb: Value
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  id: ReadOnly
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
+  langs:
+  - csharp
+  - vb
+  name: IEntryField.ReadOnly
+  nameWithType: EntryFieldClass.IEntryField.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool IEntryField.ReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property ReadOnly As Boolean Implements IEntryField.ReadOnly
+  overload: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  nameWithType.vb: EntryFieldClass.ReadOnly
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  name.vb: ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.EntryField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryField
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: EntryField
+  nameWithType: EntryField
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryField
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryField
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryField
+  nameWithType: IEntryField
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  isExternal: true
+  name: IEntryField.Name
+  nameWithType: EntryFieldClass.IEntryField.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  nameWithType.vb: EntryFieldClass.Name
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Name
+  name.vb: Name
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: Name
+  nameWithType: IEntryField.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  isExternal: true
+  name: IEntryField.Value
+  nameWithType: EntryFieldClass.IEntryField.Value
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  nameWithType.vb: EntryFieldClass.Value
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Value
+  name.vb: Value
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: Value
+  nameWithType: IEntryField.Value
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+- uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  isExternal: true
+  name: IEntryField.ReadOnly
+  nameWithType: EntryFieldClass.IEntryField.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  nameWithType.vb: EntryFieldClass.ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.ReadOnly
+  name.vb: ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IEntryField.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

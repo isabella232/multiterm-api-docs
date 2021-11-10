@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  id: IndexPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IndexPermissions
+  nameWithType: IndexPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")]
+
+      public interface IndexPermissions : IIndexPermissions
+    content.vb: >-
+      <Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")>
+
+      Public Interface IndexPermissions
+          Inherits IIndexPermissions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: B960E41C-1B46-4A58-BDBC-BA05F80AB96D
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  isExternal: true
+  name: Read
+  nameWithType: IIndexPermissions.Read
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  isExternal: true
+  name: Write
+  nameWithType: IIndexPermissions.Write
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  isExternal: true
+  name: Label
+  nameWithType: IIndexPermissions.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+  parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  isExternal: true
+  name: Remove
+  nameWithType: IIndexPermissions.Remove
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
+- uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IIndexPermissions
+  nameWithType: IIndexPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions

@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryField
+  id: EntryField
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EntryField
+  nameWithType: EntryField
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryField
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("CCC1C515-B9F8-41CF-B21D-BFC48674D339")]
+
+      public interface EntryField : IEntryField
+    content.vb: >-
+      <Guid("CCC1C515-B9F8-41CF-B21D-BFC48674D339")>
+
+      Public Interface EntryField
+          Inherits IEntryField
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  - Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CCC1C515-B9F8-41CF-B21D-BFC48674D339
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: Name
+  nameWithType: IEntryField.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.Name
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: Value
+  nameWithType: IEntryField.Value
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.Value
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryField
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IEntryField.ReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField.ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryField
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryField
+  nameWithType: IEntryField
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryField

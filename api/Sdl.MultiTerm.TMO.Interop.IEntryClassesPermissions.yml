@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  id: IEntryClassesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  langs:
+  - csharp
+  - vb
+  name: IEntryClassesPermissions
+  nameWithType: IEntryClassesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("4D2B71BC-EBBB-4F39-B4F7-4004529D7716")]
+
+      public interface IEntryClassesPermissions : IEnumerable
+    content.vb: >-
+      <Guid("4D2B71BC-EBBB-4F39-B4F7-4004529D7716")>
+
+      Public Interface IEntryClassesPermissions
+          Inherits IEnumerable
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4D2B71BC-EBBB-4F39-B4F7-4004529D7716
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
+  id: GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: IEntryClassesPermissions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function GetEnumerator As IEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator*
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
+  id: Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  langs:
+  - csharp
+  - vb
+  name: Item[Object]
+  nameWithType: IEntryClassesPermissions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: EntryClassPermissions this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+    content.vb: ReadOnly Property Item(Index As Object) As EntryClassPermissions
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item*
+  nameWithType.vb: IEntryClassesPermissions.Item(Object)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  id: Count
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IEntryClassesPermissions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  id: XML
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+  langs:
+  - csharp
+  - vb
+  name: XML
+  nameWithType: IEntryClassesPermissions.XML
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string XML { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property XML As String
+  overload: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: IEntryClassesPermissions.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
+  isExternal: true
+  name: Item
+  nameWithType: IEntryClassesPermissions.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: EntryClassPermissions
+  nameWithType: EntryClassPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  isExternal: true
+  name: Count
+  nameWithType: IEntryClassesPermissions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  isExternal: true
+  name: XML
+  nameWithType: IEntryClassesPermissions.XML
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

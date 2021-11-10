@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndex
+  id: IIndex
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  langs:
+  - csharp
+  - vb
+  name: IIndex
+  nameWithType: IIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")]
+
+      public interface IIndex
+    content.vb: >-
+      <Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")>
+
+      Public Interface IIndex
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  id: Label
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Label As String
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.Label*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  id: Language
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Language { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Language As String
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.Language*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  id: Locale
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: Locale
+  nameWithType: IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Locale { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Locale As String
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.Locale*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  id: Fields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: DescriptiveFields Fields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+    content.vb: ReadOnly Property Fields As DescriptiveFields
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.Fields*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  id: TermFields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: TermFields
+  nameWithType: IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: DescriptiveFields TermFields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+    content.vb: ReadOnly Property TermFields As DescriptiveFields
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  id: TargetOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  langs:
+  - csharp
+  - vb
+  name: TargetOnly
+  nameWithType: IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool TargetOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property TargetOnly As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Label*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  isExternal: true
+  name: Label
+  nameWithType: IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Language*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  isExternal: true
+  name: Language
+  nameWithType: IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Locale*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  isExternal: true
+  name: Locale
+  nameWithType: IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Fields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  isExternal: true
+  name: Fields
+  nameWithType: IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+- uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: DescriptiveFields
+  nameWithType: DescriptiveFields
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  isExternal: true
+  name: TermFields
+  nameWithType: IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  isExternal: true
+  name: TargetOnly
+  nameWithType: IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

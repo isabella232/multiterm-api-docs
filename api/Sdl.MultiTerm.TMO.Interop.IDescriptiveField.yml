@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  id: IDescriptiveField
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+  langs:
+  - csharp
+  - vb
+  name: IDescriptiveField
+  nameWithType: IDescriptiveField
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("EB597BE7-1BD7-4984-B9FB-6E0308DE4D22")]
+
+      public interface IDescriptiveField
+    content.vb: >-
+      <Guid("EB597BE7-1BD7-4984-B9FB-6E0308DE4D22")>
+
+      Public Interface IDescriptiveField
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EB597BE7-1BD7-4984-B9FB-6E0308DE4D22
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+  id: Label
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: IDescriptiveField.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Label As String
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+  id: Type
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IDescriptiveField.Type
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: MtFieldType Type { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldType
+    content.vb: ReadOnly Property Type As MtFieldType
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+  id: Level
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: Level
+  nameWithType: IDescriptiveField.Level
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: MtFieldLevel Level { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+    content.vb: ReadOnly Property Level As MtFieldLevel
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+  id: Mandatory
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: IDescriptiveField.Mandatory
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Mandatory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Mandatory As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+  id: Multiple
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: Multiple
+  nameWithType: IDescriptiveField.Multiple
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: bool Multiple { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Multiple As Boolean
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+  id: PicklistValues
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
+  langs:
+  - csharp
+  - vb
+  name: PicklistValues
+  nameWithType: IDescriptiveField.PicklistValues
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: PicklistValues PicklistValues { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.PicklistValues
+    content.vb: ReadOnly Property PicklistValues As PicklistValues
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+  isExternal: true
+  name: Label
+  nameWithType: IDescriptiveField.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+  isExternal: true
+  name: Type
+  nameWithType: IDescriptiveField.Type
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldType
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldType
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtFieldType
+  nameWithType: MtFieldType
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+  isExternal: true
+  name: Level
+  nameWithType: IDescriptiveField.Level
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
+- uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: MtFieldLevel
+  nameWithType: MtFieldLevel
+  fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+  isExternal: true
+  name: Mandatory
+  nameWithType: IDescriptiveField.Mandatory
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+  isExternal: true
+  name: Multiple
+  nameWithType: IDescriptiveField.Multiple
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+  isExternal: true
+  name: PicklistValues
+  nameWithType: IDescriptiveField.PicklistValues
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
+- uid: Sdl.MultiTerm.TMO.Interop.PicklistValues
+  commentId: T:Sdl.MultiTerm.TMO.Interop.PicklistValues
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: PicklistValues
+  nameWithType: PicklistValues
+  fullName: Sdl.MultiTerm.TMO.Interop.PicklistValues

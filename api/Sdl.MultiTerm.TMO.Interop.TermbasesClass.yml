@@ -1,0 +1,1342 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  id: TermbasesClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion(System.String)
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.New(System.String,System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TermbasesClass
+  nameWithType: TermbasesClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [ClassInterface(ClassInterfaceType.None)]
+
+      [Guid("70A0931D-FB10-48B0-B997-C3932B0C1A84")]
+
+      public class TermbasesClass : Termbases, ITermbases, IEnumerable
+    content.vb: >-
+      <ClassInterface(ClassInterfaceType.None)>
+
+      <Guid("70A0931D-FB10-48B0-B997-C3932B0C1A84")>
+
+      Public Class TermbasesClass
+          Implements Termbases, ITermbases, IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.Termbases
+  - Sdl.MultiTerm.TMO.Interop.ITermbases
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 70A0931D-FB10-48B0-B997-C3932B0C1A84
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator
+  id: GetEnumerator
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.GetEnumerator()
+  nameWithType: TermbasesClass.ITermbases.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IEnumerator ITermbases.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements ITermbases.GetEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: TermbasesClass.GetEnumerator()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator()
+  name.vb: GetEnumerator()
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.New(System.String,System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.New(System.String,System.String,System.String,System.String)
+  id: New(System.String,System.String,System.String,System.String)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.New(String, String, String, String)
+  nameWithType: TermbasesClass.ITermbases.New(String, String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual Termbase ITermbases.New(string TermbaseName, string Description, string TermbaseDefinitionFile, string TermbaseDestinationFilePath)
+    parameters:
+    - id: TermbaseName
+      type: System.String
+    - id: Description
+      type: System.String
+    - id: TermbaseDefinitionFile
+      type: System.String
+    - id: TermbaseDestinationFilePath
+      type: System.String
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.Termbase
+    content.vb: Public Overridable Function New(TermbaseName As String, Description As String, TermbaseDefinitionFile As String, TermbaseDestinationFilePath As String) As Termbase Implements ITermbases.New
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.New*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String,System.String,System.String,System.String)
+  nameWithType.vb: TermbasesClass.New(String, String, String, String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.New(System.String, System.String, System.String, System.String)
+  name.vb: New(String, String, String, String)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh
+  id: Refresh
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.Refresh()
+  nameWithType: TermbasesClass.ITermbases.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual void ITermbases.Refresh()
+    content.vb: Public Overridable Sub Refresh Implements ITermbases.Refresh
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+  nameWithType.vb: TermbasesClass.Refresh()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh()
+  name.vb: Refresh()
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add(System.String,System.String,System.String)
+  id: Add(System.String,System.String,System.String)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.Add(String, String, String)
+  nameWithType: TermbasesClass.ITermbases.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual void ITermbases.Add(string Path, string Name, string Description)
+    parameters:
+    - id: Path
+      type: System.String
+    - id: Name
+      type: System.String
+    - id: Description
+      type: System.String
+    content.vb: Public Overridable Sub Add(Path As String, Name As String, Description As String) Implements ITermbases.Add
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String,System.String,System.String)
+  nameWithType.vb: TermbasesClass.Add(String, String, String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add(System.String, System.String, System.String)
+  name.vb: Add(String, String, String)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  id: Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.Remove(Termbase, String)
+  nameWithType: TermbasesClass.ITermbases.Remove(Termbase, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase, System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual void ITermbases.Remove(Termbase Termbase, string DestinationPath)
+    parameters:
+    - id: Termbase
+      type: Sdl.MultiTerm.TMO.Interop.Termbase
+    - id: DestinationPath
+      type: System.String
+    content.vb: Public Overridable Sub Remove(Termbase As Termbase, DestinationPath As String) Implements ITermbases.Remove
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  nameWithType.vb: TermbasesClass.Remove(Termbase, String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove(Sdl.MultiTerm.TMO.Interop.Termbase, System.String)
+  name.vb: Remove(Termbase, String)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion(System.String)
+  id: CheckTermbaseFileVersion(System.String)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.CheckTermbaseFileVersion(String)
+  nameWithType: TermbasesClass.ITermbases.CheckTermbaseFileVersion(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbases.CheckTermbaseFileVersion(string Path)
+    parameters:
+    - id: Path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function CheckTermbaseFileVersion(Path As String) As Boolean Implements ITermbases.CheckTermbaseFileVersion
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+  nameWithType.vb: TermbasesClass.CheckTermbaseFileVersion(String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion(System.String)
+  name.vb: CheckTermbaseFileVersion(String)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  id: CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.CheckTermbaseFileVersionEx(String, out Boolean, out Boolean)
+  nameWithType: TermbasesClass.ITermbases.CheckTermbaseFileVersionEx(String, out Boolean, out Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String, out System.Boolean, out System.Boolean)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbases.CheckTermbaseFileVersionEx(string Path, out bool pvbUpdateable, out bool pvbNewerVersion)
+    parameters:
+    - id: Path
+      type: System.String
+    - id: pvbUpdateable
+      type: System.Boolean
+    - id: pvbNewerVersion
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function CheckTermbaseFileVersionEx(Path As String, ByRef pvbUpdateable As Boolean, ByRef pvbNewerVersion As Boolean) As Boolean Implements ITermbases.CheckTermbaseFileVersionEx
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  nameWithType.vb: TermbasesClass.CheckTermbaseFileVersionEx(String, ByRef Boolean, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx(System.String, ByRef System.Boolean, ByRef System.Boolean)
+  name.vb: CheckTermbaseFileVersionEx(String, ByRef Boolean, ByRef Boolean)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item(System.Object)
+  id: Item(System.Object)
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.Item[Object]
+  nameWithType: TermbasesClass.ITermbases.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual Termbase ITermbases.this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.Termbase
+    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As Termbase Implements ITermbases.this[]
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+  nameWithType.vb: TermbasesClass.Item(Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  id: Count
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbases.Count
+  nameWithType: TermbasesClass.ITermbases.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual int ITermbases.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property Count As Integer Implements ITermbases.Count
+  overload: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+  nameWithType.vb: TermbasesClass.Count
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  name.vb: Count
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.Termbases
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Termbases
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Termbases
+  nameWithType: Termbases
+  fullName: Sdl.MultiTerm.TMO.Interop.Termbases
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbases
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbases
+  nameWithType: ITermbases
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator
+  isExternal: true
+  name: ITermbases.GetEnumerator
+  nameWithType: TermbasesClass.ITermbases.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+  nameWithType.vb: TermbasesClass.GetEnumerator
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.GetEnumerator
+  name.vb: GetEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ITermbases.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ITermbases.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ITermbases.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.New*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.New
+  isExternal: true
+  name: ITermbases.New
+  nameWithType: TermbasesClass.ITermbases.New
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.New
+  nameWithType.vb: TermbasesClass.New
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.New
+  name.vb: New
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String,System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String,System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: New(String, String, String, String)
+  nameWithType: ITermbases.New(String, String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String,System.String,System.String,System.String)
+    name: New
+    nameWithType: ITermbases.New
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.New(System.String,System.String,System.String,System.String)
+    name: New
+    nameWithType: ITermbases.New
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.Termbase
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Termbase
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Termbase
+  nameWithType: Termbase
+  fullName: Sdl.MultiTerm.TMO.Interop.Termbase
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh
+  isExternal: true
+  name: ITermbases.Refresh
+  nameWithType: TermbasesClass.ITermbases.Refresh
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+  nameWithType.vb: TermbasesClass.Refresh
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Refresh
+  name.vb: Refresh
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: Refresh()
+  nameWithType: ITermbases.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+    name: Refresh
+    nameWithType: ITermbases.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+    name: Refresh
+    nameWithType: ITermbases.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add
+  isExternal: true
+  name: ITermbases.Add
+  nameWithType: TermbasesClass.ITermbases.Add
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Add
+  nameWithType.vb: TermbasesClass.Add
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Add
+  name.vb: Add
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: Add(String, String, String)
+  nameWithType: ITermbases.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: ITermbases.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: ITermbases.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove
+  isExternal: true
+  name: ITermbases.Remove
+  nameWithType: TermbasesClass.ITermbases.Remove
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Remove
+  nameWithType.vb: TermbasesClass.Remove
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Remove
+  name.vb: Remove
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: Remove(Termbase, String)
+  nameWithType: ITermbases.Remove(Termbase, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+    name: Remove
+    nameWithType: ITermbases.Remove
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.Termbase
+    name: Termbase
+    nameWithType: Termbase
+    fullName: Sdl.MultiTerm.TMO.Interop.Termbase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove(Sdl.MultiTerm.TMO.Interop.Termbase,System.String)
+    name: Remove
+    nameWithType: ITermbases.Remove
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Sdl.MultiTerm.TMO.Interop.Termbase
+    name: Termbase
+    nameWithType: Termbase
+    fullName: Sdl.MultiTerm.TMO.Interop.Termbase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion
+  isExternal: true
+  name: ITermbases.CheckTermbaseFileVersion
+  nameWithType: TermbasesClass.ITermbases.CheckTermbaseFileVersion
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion
+  nameWithType.vb: TermbasesClass.CheckTermbaseFileVersion
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersion
+  name.vb: CheckTermbaseFileVersion
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: CheckTermbaseFileVersion(String)
+  nameWithType: ITermbases.CheckTermbaseFileVersion(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+    name: CheckTermbaseFileVersion
+    nameWithType: ITermbases.CheckTermbaseFileVersion
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion(System.String)
+    name: CheckTermbaseFileVersion
+    nameWithType: ITermbases.CheckTermbaseFileVersion
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx
+  isExternal: true
+  name: ITermbases.CheckTermbaseFileVersionEx
+  nameWithType: TermbasesClass.ITermbases.CheckTermbaseFileVersionEx
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx
+  nameWithType.vb: TermbasesClass.CheckTermbaseFileVersionEx
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.CheckTermbaseFileVersionEx
+  name.vb: CheckTermbaseFileVersionEx
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: CheckTermbaseFileVersionEx(String, Boolean, Boolean)
+  nameWithType: ITermbases.CheckTermbaseFileVersionEx(String, Boolean, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+    name: CheckTermbaseFileVersionEx
+    nameWithType: ITermbases.CheckTermbaseFileVersionEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx(System.String,System.Boolean@,System.Boolean@)
+    name: CheckTermbaseFileVersionEx
+    nameWithType: ITermbases.CheckTermbaseFileVersionEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.CheckTermbaseFileVersionEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item
+  isExternal: true
+  name: ITermbases.Item
+  nameWithType: TermbasesClass.ITermbases.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Item
+  nameWithType.vb: TermbasesClass.Item
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Item
+  name.vb: Item
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: Item[Object]
+  nameWithType: ITermbases.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Item[System.Object]
+  nameWithType.vb: ITermbases.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+    name: Item
+    nameWithType: ITermbases.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Item(System.Object)
+    name: Item
+    nameWithType: ITermbases.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  isExternal: true
+  name: ITermbases.Count
+  nameWithType: TermbasesClass.ITermbases.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+  nameWithType.vb: TermbasesClass.Count
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbasesClass.Count
+  name.vb: Count
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbases
+  isExternal: true
+  name: Count
+  nameWithType: ITermbases.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbases.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

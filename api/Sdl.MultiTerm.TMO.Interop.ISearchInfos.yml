@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  id: ISearchInfos
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ISearchInfos
+  nameWithType: ISearchInfos
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("949405C9-EE75-4D50-9308-9A4FD3A7EFF7")]
+
+      public interface ISearchInfos : IEnumerable
+    content.vb: >-
+      <Guid("949405C9-EE75-4D50-9308-9A4FD3A7EFF7")>
+
+      Public Interface ISearchInfos
+          Inherits IEnumerable
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 949405C9-EE75-4D50-9308-9A4FD3A7EFF7
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
+  id: GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: ISearchInfos.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function GetEnumerator As IEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator*
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
+  id: Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  langs:
+  - csharp
+  - vb
+  name: Item[Object]
+  nameWithType: ISearchInfos.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: SearchInfo this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.SearchInfo
+    content.vb: ReadOnly Property Item(Index As Object) As SearchInfo
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item*
+  nameWithType.vb: ISearchInfos.Item(Object)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  id: Count
+  parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: ISearchInfos.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: ISearchInfos.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item
+  isExternal: true
+  name: Item
+  nameWithType: ISearchInfos.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.SearchInfo
+  commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfo
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: SearchInfo
+  nameWithType: SearchInfo
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  isExternal: true
+  name: Count
+  nameWithType: ISearchInfos.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

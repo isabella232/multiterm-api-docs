@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
+  id: TermbaseBrowser
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TermbaseBrowser
+  nameWithType: TermbaseBrowser
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("34F4380A-AF30-4BF8-AEFA-C83632F588A3")]
+
+      public interface TermbaseBrowser : ITermbaseBrowser
+    content.vb: >-
+      <Guid("34F4380A-AF30-4BF8-AEFA-C83632F588A3")>
+
+      Public Interface TermbaseBrowser
+          Inherits ITermbaseBrowser
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.StartTerm
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.EntryID
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.MaximumTermCount
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Direction
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.SourceIndex
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.TargetIndex
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.IgnoreFilter
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 34F4380A-AF30-4BF8-AEFA-C83632F588A3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: Execute()
+  nameWithType: ITermbaseBrowser.Execute()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+    name: Execute
+    nameWithType: ITermbaseBrowser.Execute
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+    name: Execute
+    nameWithType: ITermbaseBrowser.Execute
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.StartTerm
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.StartTerm
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: StartTerm
+  nameWithType: ITermbaseBrowser.StartTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.StartTerm
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.EntryID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.EntryID
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: EntryID
+  nameWithType: ITermbaseBrowser.EntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.EntryID
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.MaximumTermCount
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.MaximumTermCount
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: MaximumTermCount
+  nameWithType: ITermbaseBrowser.MaximumTermCount
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.MaximumTermCount
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Direction
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Direction
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: Direction
+  nameWithType: ITermbaseBrowser.Direction
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.Direction
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.SourceIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.SourceIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: SourceIndex
+  nameWithType: ITermbaseBrowser.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.SourceIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.TargetIndex
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.TargetIndex
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: TargetIndex
+  nameWithType: ITermbaseBrowser.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.TargetIndex
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.IgnoreFilter
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.IgnoreFilter
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  isExternal: true
+  name: IgnoreFilter
+  nameWithType: ITermbaseBrowser.IgnoreFilter
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.IgnoreFilter
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbaseBrowser
+  nameWithType: ITermbaseBrowser
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser

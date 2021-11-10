@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  id: IImportDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  - Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IImportDefinitions
+  nameWithType: IImportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("C4CD9A64-7575-4F8C-9B04-D477E05C17CA")]
+
+      public interface IImportDefinitions : IEnumerable
+    content.vb: >-
+      <Guid("C4CD9A64-7575-4F8C-9B04-D477E05C17CA")>
+
+      Public Interface IImportDefinitions
+          Inherits IEnumerable
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: C4CD9A64-7575-4F8C-9B04-D477E05C17CA
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  id: GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: IImportDefinitions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function GetEnumerator As IEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator*
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String,System.String,System.String)
+  id: Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: Add(String, String, String)
+  nameWithType: IImportDefinitions.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: ImportDefinition Add(string Name, string Description, string FileName)
+    parameters:
+    - id: Name
+      type: System.String
+    - id: Description
+      type: System.String
+    - id: FileName
+      type: System.String
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+    content.vb: Function Add(Name As String, Description As String, FileName As String) As ImportDefinition
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add*
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String,System.String)
+  id: StartWizard(System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: StartWizard(String, String)
+  nameWithType: IImportDefinitions.StartWizard(String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard(System.String, System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: ImportDefinition StartWizard(string SourceIndex, string TargetIndex)
+    parameters:
+    - id: SourceIndex
+      type: System.String
+    - id: TargetIndex
+      type: System.String
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+    content.vb: Function StartWizard(SourceIndex As String, TargetIndex As String) As ImportDefinition
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard*
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  id: Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: IImportDefinitions.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: void Refresh()
+    content.vb: Sub Refresh
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh*
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  id: CheckObjectUsability(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: CheckObjectUsability(String)
+  nameWithType: IImportDefinitions.CheckObjectUsability(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability(System.String)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUsability CheckObjectUsability(string FileName)
+    parameters:
+    - id: FileName
+      type: System.String
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+    content.vb: Function CheckObjectUsability(FileName As String) As mtObjectUsability
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability*
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  id: CheckObjectUsabilityEx(System.String,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: CheckObjectUsabilityEx(String, out Boolean)
+  nameWithType: IImportDefinitions.CheckObjectUsabilityEx(String, out Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String, out System.Boolean)
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUsability CheckObjectUsabilityEx(string FileName, out bool newerVersion)
+    parameters:
+    - id: FileName
+      type: System.String
+    - id: newerVersion
+      type: System.Boolean
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+    content.vb: Function CheckObjectUsabilityEx(FileName As String, ByRef newerVersion As Boolean) As mtObjectUsability
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx*
+  nameWithType.vb: IImportDefinitions.CheckObjectUsabilityEx(String, ByRef Boolean)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx(System.String, ByRef System.Boolean)
+  name.vb: CheckObjectUsabilityEx(String, ByRef Boolean)
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  id: Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: Item[Object]
+  nameWithType: IImportDefinitions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: ImportDefinition this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+    content.vb: ReadOnly Property Item(Index As Object) As ImportDefinition
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item*
+  nameWithType.vb: IImportDefinitions.Item(Object)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  id: Count
+  parent: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IImportDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: IImportDefinitions.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add
+  isExternal: true
+  name: Add
+  nameWithType: IImportDefinitions.Add
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinition
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ImportDefinition
+  nameWithType: ImportDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard
+  isExternal: true
+  name: StartWizard
+  nameWithType: IImportDefinitions.StartWizard
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.StartWizard
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+  isExternal: true
+  name: Refresh
+  nameWithType: IImportDefinitions.Refresh
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Refresh
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability
+  isExternal: true
+  name: CheckObjectUsability
+  nameWithType: IImportDefinitions.CheckObjectUsability
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsability
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: mtObjectUsability
+  nameWithType: mtObjectUsability
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx
+  isExternal: true
+  name: CheckObjectUsabilityEx
+  nameWithType: IImportDefinitions.CheckObjectUsabilityEx
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.CheckObjectUsabilityEx
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item
+  isExternal: true
+  name: Item
+  nameWithType: IImportDefinitions.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Item
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+  isExternal: true
+  name: Count
+  nameWithType: IImportDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

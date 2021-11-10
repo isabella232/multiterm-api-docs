@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerm
+  id: IHitTerm
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  langs:
+  - csharp
+  - vb
+  name: IHitTerm
+  nameWithType: IHitTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("0DE38117-86FA-49CE-9242-B85C90568620")]
+
+      public interface IHitTerm
+    content.vb: >-
+      <Guid("0DE38117-86FA-49CE-9242-B85C90568620")>
+
+      Public Interface IHitTerm
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 0DE38117-86FA-49CE-9242-B85C90568620
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  id: Text
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: IHitTerm.Text
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Text As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  id: ParentEntryID
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  langs:
+  - csharp
+  - vb
+  name: ParentEntryID
+  nameWithType: IHitTerm.ParentEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string ParentEntryID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ParentEntryID As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  id: SearchScore
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  langs:
+  - csharp
+  - vb
+  name: SearchScore
+  nameWithType: IHitTerm.SearchScore
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int SearchScore { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SearchScore As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  id: Index
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: IHitTerm.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Index { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Index As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  id: Termbase
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  langs:
+  - csharp
+  - vb
+  name: Termbase
+  nameWithType: IHitTerm.Termbase
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: string Termbase { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Termbase As String
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  isExternal: true
+  name: Text
+  nameWithType: IHitTerm.Text
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  isExternal: true
+  name: ParentEntryID
+  nameWithType: IHitTerm.ParentEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  isExternal: true
+  name: SearchScore
+  nameWithType: IHitTerm.SearchScore
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  isExternal: true
+  name: Index
+  nameWithType: IHitTerm.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  isExternal: true
+  name: Termbase
+  nameWithType: IHitTerm.Termbase
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase

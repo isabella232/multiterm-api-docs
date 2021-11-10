@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.HitTerm
+  commentId: T:Sdl.MultiTerm.TMO.Interop.HitTerm
+  id: HitTerm
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HitTerm
+  nameWithType: HitTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.HitTerm
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("0DE38117-86FA-49CE-9242-B85C90568620")]
+
+      public interface HitTerm : IHitTerm
+    content.vb: >-
+      <Guid("0DE38117-86FA-49CE-9242-B85C90568620")>
+
+      Public Interface HitTerm
+          Inherits IHitTerm
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  - Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 0DE38117-86FA-49CE-9242-B85C90568620
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  isExternal: true
+  name: Text
+  nameWithType: IHitTerm.Text
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  isExternal: true
+  name: ParentEntryID
+  nameWithType: IHitTerm.ParentEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  isExternal: true
+  name: SearchScore
+  nameWithType: IHitTerm.SearchScore
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  isExternal: true
+  name: Index
+  nameWithType: IHitTerm.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  isExternal: true
+  name: Termbase
+  nameWithType: IHitTerm.Termbase
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerm
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerm
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IHitTerm
+  nameWithType: IHitTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm

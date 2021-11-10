@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.Application
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Application
+  id: Application
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Application
+  fullName: Sdl.MultiTerm.TMO.Interop.Application
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("CACFF5D6-C449-464A-88A0-2F2D849A0AE3")]
+
+      public interface Application : IApplication
+    content.vb: >-
+      <Guid("CACFF5D6-C449-464A-88A0-2F2D849A0AE3")>
+
+      Public Interface Application
+          Inherits IApplication
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  - Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  - Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CACFF5D6-C449-464A-88A0-2F2D849A0AE3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: LocalRepository
+  nameWithType: IApplication.LocalRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.LocalRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: ServerRepository
+  nameWithType: IApplication.ServerRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.ServerRepository
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+  parent: Sdl.MultiTerm.TMO.Interop.IApplication
+  isExternal: true
+  name: MultiSearch
+  nameWithType: IApplication.MultiSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication.MultiSearch
+- uid: Sdl.MultiTerm.TMO.Interop.IApplication
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IApplication
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IApplication
+  nameWithType: IApplication
+  fullName: Sdl.MultiTerm.TMO.Interop.IApplication

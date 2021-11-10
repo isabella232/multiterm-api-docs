@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexClass
+  id: IndexClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  - Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  langs:
+  - csharp
+  - vb
+  name: IndexClass
+  nameWithType: IndexClass
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("B50583D6-F883-4CC1-8A1D-6D89210CB84E")]
+
+      [ClassInterface(ClassInterfaceType.None)]
+
+      public class IndexClass : Index, IIndex
+    content.vb: >-
+      <Guid("B50583D6-F883-4CC1-8A1D-6D89210CB84E")>
+
+      <ClassInterface(ClassInterfaceType.None)>
+
+      Public Class IndexClass
+          Implements Index, IIndex
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.Index
+  - Sdl.MultiTerm.TMO.Interop.IIndex
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: B50583D6-F883-4CC1-8A1D-6D89210CB84E
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  id: Label
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.Label
+  nameWithType: IndexClass.IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IIndex.Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Label As String Implements IIndex.Label
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.Label*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  nameWithType.vb: IndexClass.Label
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  name.vb: Label
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  id: Language
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.Language
+  nameWithType: IndexClass.IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IIndex.Language { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Language As String Implements IIndex.Language
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.Language*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  nameWithType.vb: IndexClass.Language
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  name.vb: Language
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  id: Locale
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.Locale
+  nameWithType: IndexClass.IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual string IIndex.Locale { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Locale As String Implements IIndex.Locale
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.Locale*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  nameWithType.vb: IndexClass.Locale
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  name.vb: Locale
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  id: Fields
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.Fields
+  nameWithType: IndexClass.IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual DescriptiveFields IIndex.Fields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+    content.vb: Public Overridable ReadOnly Property Fields As DescriptiveFields Implements IIndex.Fields
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.Fields*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  nameWithType.vb: IndexClass.Fields
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  name.vb: Fields
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  id: TermFields
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.TermFields
+  nameWithType: IndexClass.IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual DescriptiveFields IIndex.TermFields { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+    content.vb: Public Overridable ReadOnly Property TermFields As DescriptiveFields Implements IIndex.TermFields
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  nameWithType.vb: IndexClass.TermFields
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  name.vb: TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  id: TargetOnly
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.IndexClass
+  langs:
+  - csharp
+  - vb
+  name: IIndex.TargetOnly
+  nameWithType: IndexClass.IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool IIndex.TargetOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property TargetOnly As Boolean Implements IIndex.TargetOnly
+  overload: Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  nameWithType.vb: IndexClass.TargetOnly
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  name.vb: TargetOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.Index
+  commentId: T:Sdl.MultiTerm.TMO.Interop.Index
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Index
+  nameWithType: Index
+  fullName: Sdl.MultiTerm.TMO.Interop.Index
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IIndex
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IIndex
+  nameWithType: IIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Label*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  isExternal: true
+  name: IIndex.Label
+  nameWithType: IndexClass.IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  nameWithType.vb: IndexClass.Label
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Label
+  name.vb: Label
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Label
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Label
+  nameWithType: IIndex.Label
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Language*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  isExternal: true
+  name: IIndex.Language
+  nameWithType: IndexClass.IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  nameWithType.vb: IndexClass.Language
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Language
+  name.vb: Language
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Language
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Language
+  nameWithType: IIndex.Language
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Language
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Locale*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  isExternal: true
+  name: IIndex.Locale
+  nameWithType: IndexClass.IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  nameWithType.vb: IndexClass.Locale
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Locale
+  name.vb: Locale
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Locale
+  nameWithType: IIndex.Locale
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Locale
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.Fields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  isExternal: true
+  name: IIndex.Fields
+  nameWithType: IndexClass.IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  nameWithType.vb: IndexClass.Fields
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.Fields
+  name.vb: Fields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: Fields
+  nameWithType: IIndex.Fields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.Fields
+- uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: DescriptiveFields
+  nameWithType: DescriptiveFields
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  isExternal: true
+  name: IIndex.TermFields
+  nameWithType: IndexClass.IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  nameWithType.vb: IndexClass.TermFields
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.TermFields
+  name.vb: TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: TermFields
+  nameWithType: IIndex.TermFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TermFields
+- uid: Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  isExternal: true
+  name: IIndex.TargetOnly
+  nameWithType: IndexClass.IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexClass.Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  nameWithType.vb: IndexClass.TargetOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexClass.TargetOnly
+  name.vb: TargetOnly
+- uid: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+  parent: Sdl.MultiTerm.TMO.Interop.IIndex
+  isExternal: true
+  name: TargetOnly
+  nameWithType: IIndex.TargetOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndex.TargetOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

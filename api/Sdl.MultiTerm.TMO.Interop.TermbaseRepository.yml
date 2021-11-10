@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  id: TermbaseRepository
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TermbaseRepository
+  nameWithType: TermbaseRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("86D5591A-B497-41BB-ADFD-FAE3CF814D8B")]
+
+      public interface TermbaseRepository : ITermbaseRepository
+    content.vb: >-
+      <Guid("86D5591A-B497-41BB-ADFD-FAE3CF814D8B")>
+
+      Public Interface TermbaseRepository
+          Inherits ITermbaseRepository
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object,System.String)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Location
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Protocol
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Termbases
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsRemote
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsConnected
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.DatabaseType
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ServerVersion
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.TerminologyConnectorCOM
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 86D5591A-B497-41BB-ADFD-FAE3CF814D8B
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: Connect(String, String)
+  nameWithType: ITermbaseRepository.Connect(String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String,System.String)
+    name: Connect
+    nameWithType: ITermbaseRepository.Connect
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect(System.String,System.String)
+    name: Connect
+    nameWithType: ITermbaseRepository.Connect
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Connect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: Disconnect()
+  nameWithType: ITermbaseRepository.Disconnect()
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+    name: Disconnect
+    nameWithType: ITermbaseRepository.Disconnect
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+    name: Disconnect
+    nameWithType: ITermbaseRepository.Disconnect
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Disconnect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: ChangePassword(String, String)
+  nameWithType: ITermbaseRepository.ChangePassword(String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String,System.String)
+    name: ChangePassword
+    nameWithType: ITermbaseRepository.ChangePassword
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword(System.String,System.String)
+    name: ChangePassword
+    nameWithType: ITermbaseRepository.ChangePassword
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ChangePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: ConnectWithAuthServerConnection(Object, String)
+  nameWithType: ITermbaseRepository.ConnectWithAuthServerConnection(Object, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object,System.String)
+    name: ConnectWithAuthServerConnection
+    nameWithType: ITermbaseRepository.ConnectWithAuthServerConnection
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection(System.Object,System.String)
+    name: ConnectWithAuthServerConnection
+    nameWithType: ITermbaseRepository.ConnectWithAuthServerConnection
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectWithAuthServerConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: ConnectEx(String, String, CredentialsPersistOption)
+  nameWithType: ITermbaseRepository.ConnectEx(String, String, CredentialsPersistOption)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String, System.String, Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+    name: ConnectEx
+    nameWithType: ITermbaseRepository.ConnectEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    name: CredentialsPersistOption
+    nameWithType: CredentialsPersistOption
+    fullName: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+    name: ConnectEx
+    nameWithType: ITermbaseRepository.ConnectEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    name: CredentialsPersistOption
+    nameWithType: CredentialsPersistOption
+    fullName: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: ConnectSso(String, String, CredentialsPersistOption)
+  nameWithType: ITermbaseRepository.ConnectSso(String, String, CredentialsPersistOption)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String, System.String, Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+    name: ConnectSso
+    nameWithType: ITermbaseRepository.ConnectSso
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    name: CredentialsPersistOption
+    nameWithType: CredentialsPersistOption
+    fullName: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso(System.String,System.String,Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption)
+    name: ConnectSso
+    nameWithType: ITermbaseRepository.ConnectSso
+    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ConnectSso
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    name: CredentialsPersistOption
+    nameWithType: CredentialsPersistOption
+    fullName: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Location
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Location
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: Location
+  nameWithType: ITermbaseRepository.Location
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Location
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Protocol
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Protocol
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: Protocol
+  nameWithType: ITermbaseRepository.Protocol
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Protocol
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Termbases
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Termbases
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: Termbases
+  nameWithType: ITermbaseRepository.Termbases
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.Termbases
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsRemote
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsRemote
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: IsRemote
+  nameWithType: ITermbaseRepository.IsRemote
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsRemote
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsConnected
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsConnected
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: IsConnected
+  nameWithType: ITermbaseRepository.IsConnected
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.IsConnected
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.DatabaseType
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.DatabaseType
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: DatabaseType
+  nameWithType: ITermbaseRepository.DatabaseType
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.DatabaseType
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ServerVersion
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ServerVersion
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: ServerVersion
+  nameWithType: ITermbaseRepository.ServerVersion
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.ServerVersion
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.TerminologyConnectorCOM
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.TerminologyConnectorCOM
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  isExternal: true
+  name: TerminologyConnectorCOM
+  nameWithType: ITermbaseRepository.TerminologyConnectorCOM
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.TerminologyConnectorCOM
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbaseRepository
+  nameWithType: ITermbaseRepository
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository

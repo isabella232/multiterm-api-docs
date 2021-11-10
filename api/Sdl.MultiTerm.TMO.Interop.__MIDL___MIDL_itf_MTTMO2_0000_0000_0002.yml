@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  commentId: T:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  id: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectEditable
+  - Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUnusable
+  - Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUsable
+  langs:
+  - csharp
+  - vb
+  name: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public enum __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+    content.vb: Public Enum __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUnusable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUnusable
+  id: mtObjectUnusable
+  parent: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  langs:
+  - csharp
+  - vb
+  name: mtObjectUnusable
+  nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUnusable
+  fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUnusable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUnusable = -1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectEditable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectEditable
+  id: mtObjectEditable
+  parent: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  langs:
+  - csharp
+  - vb
+  name: mtObjectEditable
+  nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectEditable
+  fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectEditable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectEditable = 0
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUsable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUsable
+  id: mtObjectUsable
+  parent: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  langs:
+  - csharp
+  - vb
+  name: mtObjectUsable
+  nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUsable
+  fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.mtObjectUsable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUsable = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  commentId: T:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002

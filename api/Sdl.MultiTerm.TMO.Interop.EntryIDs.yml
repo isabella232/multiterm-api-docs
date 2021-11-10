@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.EntryIDs
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIDs
+  id: EntryIDs
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EntryIDs
+  nameWithType: EntryIDs
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryIDs
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("428EB7AC-6A77-461E-9F9D-96A8A3B03BF5")]
+
+      public interface EntryIDs : IEntryIDs, IEnumerable
+    content.vb: >-
+      <Guid("428EB7AC-6A77-461E-9F9D-96A8A3B03BF5")>
+
+      Public Interface EntryIDs
+          Inherits IEntryIDs
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+  - Sdl.MultiTerm.TMO.Interop.IEntryIDs.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 428EB7AC-6A77-461E-9F9D-96A8A3B03BF5
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIDs
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEntryIDs.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryIDs.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEntryIDs.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIDs
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IEntryIDs.Item[Int32]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item[System.Int32]
+  nameWithType.vb: IEntryIDs.Item(Int32)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+    name: Item
+    nameWithType: IEntryIDs.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item(System.Int32)
+    name: Item
+    nameWithType: IEntryIDs.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIDs.Count
+  parent: Sdl.MultiTerm.TMO.Interop.IEntryIDs
+  isExternal: true
+  name: Count
+  nameWithType: IEntryIDs.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs.Count
+- uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIDs
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IEntryIDs
+  nameWithType: IEntryIDs
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs

@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerms
+  id: IHitTerms
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+  - Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IHitTerms
+  nameWithType: IHitTerms
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("13E24CD4-3484-4B88-983C-32E061C0320A")]
+
+      public interface IHitTerms : IEnumerable
+    content.vb: >-
+      <Guid("13E24CD4-3484-4B88-983C-32E061C0320A")>
+
+      Public Interface IHitTerms
+          Inherits IEnumerable
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 13E24CD4-3484-4B88-983C-32E061C0320A
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
+  id: GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: IHitTerms.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function GetEnumerator As IEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator*
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
+  id: Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
+  langs:
+  - csharp
+  - vb
+  name: Item[Object]
+  nameWithType: IHitTerms.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: HitTerm this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.HitTerm
+    content.vb: ReadOnly Property Item(Index As Object) As HitTerm
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item*
+  nameWithType.vb: IHitTerms.Item(Object)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+  id: Count
+  parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IHitTerms.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: IHitTerms.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerms.Item
+  isExternal: true
+  name: Item
+  nameWithType: IHitTerms.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.HitTerm
+  commentId: T:Sdl.MultiTerm.TMO.Interop.HitTerm
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: HitTerm
+  nameWithType: HitTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.HitTerm
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+  isExternal: true
+  name: Count
+  nameWithType: IHitTerms.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

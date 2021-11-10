@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  id: TermbaseAccessPermissionsClass
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  langs:
+  - csharp
+  - vb
+  name: TermbaseAccessPermissionsClass
+  nameWithType: TermbaseAccessPermissionsClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  type: Class
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("82DAC693-76A8-4155-9A43-091980C4F7B9")]
+
+      [ClassInterface(ClassInterfaceType.None)]
+
+      public class TermbaseAccessPermissionsClass : TermbaseAccessPermissions, ITermbaseAccessPermissions
+    content.vb: >-
+      <Guid("82DAC693-76A8-4155-9A43-091980C4F7B9")>
+
+      <ClassInterface(ClassInterfaceType.None)>
+
+      Public Class TermbaseAccessPermissionsClass
+          Implements TermbaseAccessPermissions, ITermbaseAccessPermissions
+  inheritance:
+  - System.Object
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 82DAC693-76A8-4155-9A43-091980C4F7B9
+  - type: System.Runtime.InteropServices.ClassInterfaceAttribute
+    ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ClassInterfaceType
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  id: EntryLevelRead
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.EntryLevelRead
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryLevelRead
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.EntryLevelRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property EntryLevelRead As Boolean Implements ITermbaseAccessPermissions.EntryLevelRead
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryLevelRead
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  name.vb: EntryLevelRead
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  id: EntryLevelWrite
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.EntryLevelWrite
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryLevelWrite
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.EntryLevelWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property EntryLevelWrite As Boolean Implements ITermbaseAccessPermissions.EntryLevelWrite
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryLevelWrite
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  name.vb: EntryLevelWrite
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  id: IndexesPermissions
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.IndexesPermissions
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual IndexesPermissions ITermbaseAccessPermissions.IndexesPermissions { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+    content.vb: Public Overridable ReadOnly Property IndexesPermissions As IndexesPermissions Implements ITermbaseAccessPermissions.IndexesPermissions
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  nameWithType.vb: TermbaseAccessPermissionsClass.IndexesPermissions
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  name.vb: IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  id: EntryClasses
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.EntryClasses
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryClasses
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual EntryClassesPermissions ITermbaseAccessPermissions.EntryClasses { get; }
+    parameters: []
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+    content.vb: Public Overridable ReadOnly Property EntryClasses As EntryClassesPermissions Implements ITermbaseAccessPermissions.EntryClasses
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryClasses
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  name.vb: EntryClasses
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  id: CanChangeEntryClass
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.CanChangeEntryClass
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanChangeEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.CanChangeEntryClass { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property CanChangeEntryClass As Boolean Implements ITermbaseAccessPermissions.CanChangeEntryClass
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanChangeEntryClass
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  name.vb: CanChangeEntryClass
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  id: CanImport
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.CanImport
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanImport
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.CanImport { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property CanImport As Boolean Implements ITermbaseAccessPermissions.CanImport
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanImport
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  name.vb: CanImport
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  id: CanExport
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.CanExport
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanExport
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.CanExport { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property CanExport As Boolean Implements ITermbaseAccessPermissions.CanExport
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanExport
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  name.vb: CanExport
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  id: MustUseInputModel
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.MustUseInputModel
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.MustUseInputModel
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.MustUseInputModel { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property MustUseInputModel As Boolean Implements ITermbaseAccessPermissions.MustUseInputModel
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  nameWithType.vb: TermbaseAccessPermissionsClass.MustUseInputModel
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  name.vb: MustUseInputModel
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  id: CanEditTermbaseDefinition
+  isEii: true
+  parent: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
+  langs:
+  - csharp
+  - vb
+  name: ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public virtual bool ITermbaseAccessPermissions.CanEditTermbaseDefinition { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property CanEditTermbaseDefinition As Boolean Implements ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  overload: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition*
+  implements:
+  - Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  name.vb: CanEditTermbaseDefinition
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: TermbaseAccessPermissions
+  nameWithType: TermbaseAccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ITermbaseAccessPermissions
+  nameWithType: ITermbaseAccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  isExternal: true
+  name: ITermbaseAccessPermissions.EntryLevelRead
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryLevelRead
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryLevelRead
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelRead
+  name.vb: EntryLevelRead
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryLevelRead
+  nameWithType: ITermbaseAccessPermissions.EntryLevelRead
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelRead
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  isExternal: true
+  name: ITermbaseAccessPermissions.EntryLevelWrite
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryLevelWrite
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryLevelWrite
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryLevelWrite
+  name.vb: EntryLevelWrite
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryLevelWrite
+  nameWithType: ITermbaseAccessPermissions.EntryLevelWrite
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryLevelWrite
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  isExternal: true
+  name: ITermbaseAccessPermissions.IndexesPermissions
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  nameWithType.vb: TermbaseAccessPermissionsClass.IndexesPermissions
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.IndexesPermissions
+  name.vb: IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: IndexesPermissions
+  nameWithType: ITermbaseAccessPermissions.IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: IndexesPermissions
+  nameWithType: IndexesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  isExternal: true
+  name: ITermbaseAccessPermissions.EntryClasses
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.EntryClasses
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  nameWithType.vb: TermbaseAccessPermissionsClass.EntryClasses
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.EntryClasses
+  name.vb: EntryClasses
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: EntryClasses
+  nameWithType: ITermbaseAccessPermissions.EntryClasses
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.EntryClasses
+- uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: EntryClassesPermissions
+  nameWithType: EntryClassesPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  isExternal: true
+  name: ITermbaseAccessPermissions.CanChangeEntryClass
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanChangeEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanChangeEntryClass
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanChangeEntryClass
+  name.vb: CanChangeEntryClass
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanChangeEntryClass
+  nameWithType: ITermbaseAccessPermissions.CanChangeEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanChangeEntryClass
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  isExternal: true
+  name: ITermbaseAccessPermissions.CanImport
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanImport
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanImport
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanImport
+  name.vb: CanImport
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanImport
+  nameWithType: ITermbaseAccessPermissions.CanImport
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanImport
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  isExternal: true
+  name: ITermbaseAccessPermissions.CanExport
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanExport
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanExport
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanExport
+  name.vb: CanExport
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanExport
+  nameWithType: ITermbaseAccessPermissions.CanExport
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanExport
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  isExternal: true
+  name: ITermbaseAccessPermissions.MustUseInputModel
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.MustUseInputModel
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  nameWithType.vb: TermbaseAccessPermissionsClass.MustUseInputModel
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.MustUseInputModel
+  name.vb: MustUseInputModel
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: MustUseInputModel
+  nameWithType: ITermbaseAccessPermissions.MustUseInputModel
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.MustUseInputModel
+- uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  isExternal: true
+  name: ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  nameWithType: TermbaseAccessPermissionsClass.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  nameWithType.vb: TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.CanEditTermbaseDefinition
+  name.vb: CanEditTermbaseDefinition
+- uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  parent: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
+  isExternal: true
+  name: CanEditTermbaseDefinition
+  nameWithType: ITermbaseAccessPermissions.CanEditTermbaseDefinition
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.CanEditTermbaseDefinition

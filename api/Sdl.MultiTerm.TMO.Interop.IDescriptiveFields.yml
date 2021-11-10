@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  id: IDescriptiveFields
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IDescriptiveFields
+  nameWithType: IDescriptiveFields
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("D086110E-03EE-4E5E-9516-C3F4402B7DE7")]
+
+      public interface IDescriptiveFields : IEnumerable
+    content.vb: >-
+      <Guid("D086110E-03EE-4E5E-9516-C3F4402B7DE7")>
+
+      Public Interface IDescriptiveFields
+          Inherits IEnumerable
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: D086110E-03EE-4E5E-9516-C3F4402B7DE7
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
+  id: GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: IDescriptiveFields.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator()
+  type: Method
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function GetEnumerator As IEnumerator
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator*
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
+  id: Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  langs:
+  - csharp
+  - vb
+  name: Item[Object]
+  nameWithType: IDescriptiveFields.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item[System.Object]
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: DescriptiveField this[object Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Object
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.DescriptiveField
+    content.vb: ReadOnly Property Item(Index As Object) As DescriptiveField
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item*
+  nameWithType.vb: IDescriptiveFields.Item(Object)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
+  name.vb: Item(Object)
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  id: Count
+  parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IDescriptiveFields.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  type: Property
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: IDescriptiveFields.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item
+  isExternal: true
+  name: Item
+  nameWithType: IDescriptiveFields.Item
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Sdl.MultiTerm.TMO.Interop.DescriptiveField
+  commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveField
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: DescriptiveField
+  nameWithType: DescriptiveField
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveField
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count*
+  commentId: Overload:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  isExternal: true
+  name: Count
+  nameWithType: IDescriptiveFields.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

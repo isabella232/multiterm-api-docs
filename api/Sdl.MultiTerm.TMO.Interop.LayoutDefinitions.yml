@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
+  id: LayoutDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LayoutDefinitions
+  nameWithType: LayoutDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
+  type: Interface
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: >-
+      [Guid("522E1B60-8D1F-46AF-974F-578D5F05B805")]
+
+      public interface LayoutDefinitions : ILayoutDefinitions, IEnumerable
+    content.vb: >-
+      <Guid("522E1B60-8D1F-46AF-974F-578D5F05B805")>
+
+      Public Interface LayoutDefinitions
+          Inherits ILayoutDefinitions
+  inheritedMembers:
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+  - Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 522E1B60-8D1F-46AF-974F-578D5F05B805
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ILayoutDefinitions.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILayoutDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ILayoutDefinitions.GetEnumerator
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: Add(String, String, String)
+  nameWithType: ILayoutDefinitions.Add(String, String, String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: ILayoutDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
+    name: Add
+    nameWithType: ILayoutDefinitions.Add
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: StartWizard()
+  nameWithType: ILayoutDefinitions.StartWizard()
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: ILayoutDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+    name: StartWizard
+    nameWithType: ILayoutDefinitions.StartWizard
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: Refresh()
+  nameWithType: ILayoutDefinitions.Refresh()
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh()
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+    name: Refresh
+    nameWithType: ILayoutDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+    name: Refresh
+    nameWithType: ILayoutDefinitions.Refresh
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: CheckObjectUsability(String)
+  nameWithType: ILayoutDefinitions.CheckObjectUsability(String)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: ILayoutDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+    name: CheckObjectUsability
+    nameWithType: ILayoutDefinitions.CheckObjectUsability
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: CheckObjectUsabilityEx(String, Boolean)
+  nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
+    name: CheckObjectUsabilityEx
+    nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: Item[Object]
+  nameWithType: ILayoutDefinitions.Item[Object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item[System.Object]
+  nameWithType.vb: ILayoutDefinitions.Item(Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+  name.vb: Item(Object)
+  spec.csharp:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: ILayoutDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
+    name: Item
+    nameWithType: ILayoutDefinitions.Item
+    fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
+  commentId: P:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
+  parent: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  isExternal: true
+  name: Count
+  nameWithType: ILayoutDefinitions.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
+- uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  commentId: T:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: ILayoutDefinitions
+  nameWithType: ILayoutDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions

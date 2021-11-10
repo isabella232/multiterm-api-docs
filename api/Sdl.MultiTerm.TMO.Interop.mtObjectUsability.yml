@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  id: mtObjectUsability
+  parent: Sdl.MultiTerm.TMO.Interop
+  children:
+  - Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectEditable
+  - Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUnusable
+  - Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUsable
+  langs:
+  - csharp
+  - vb
+  name: mtObjectUsability
+  nameWithType: mtObjectUsability
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  type: Enum
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: public enum mtObjectUsability
+    content.vb: Public Enum mtObjectUsability
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUnusable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUnusable
+  id: mtObjectUnusable
+  parent: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  langs:
+  - csharp
+  - vb
+  name: mtObjectUnusable
+  nameWithType: mtObjectUsability.mtObjectUnusable
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUnusable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUnusable = -1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectEditable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectEditable
+  id: mtObjectEditable
+  parent: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  langs:
+  - csharp
+  - vb
+  name: mtObjectEditable
+  nameWithType: mtObjectUsability.mtObjectEditable
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectEditable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectEditable = 0
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUsable
+  commentId: F:Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUsable
+  id: mtObjectUsable
+  parent: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  langs:
+  - csharp
+  - vb
+  name: mtObjectUsable
+  nameWithType: mtObjectUsability.mtObjectUsable
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.mtObjectUsable
+  type: Field
+  source:
+    path: Sdl.MultiTerm.TMO.Interop
+    isExternal: true
+  assemblies:
+  - Sdl.MultiTerm.TMO.Interop
+  namespace: Sdl.MultiTerm.TMO.Interop
+  syntax:
+    content: mtObjectUsable = 1
+    return:
+      type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Sdl.MultiTerm.TMO.Interop
+  commentId: N:Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: Sdl.MultiTerm.TMO.Interop
+  nameWithType: Sdl.MultiTerm.TMO.Interop
+  fullName: Sdl.MultiTerm.TMO.Interop
+- uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+  parent: Sdl.MultiTerm.TMO.Interop
+  isExternal: true
+  name: mtObjectUsability
+  nameWithType: mtObjectUsability
+  fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
