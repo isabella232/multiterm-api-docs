@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <span class="glyphicon glyphicon-search search-icon"></span>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar-default">
+          <div class="container hide-when-search">
+            <div class="breadcrumb-container" id="breadcrumb">
+              <ul class="breadcrumb col-md-10">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="-"></h1>
+
+<pre><code>Sdl.MultiTerm.TMO.Interop.Termbase class
+</code></pre><h2 id="name">Name</h2>
+<p>Sdl.MultiTerm.TMO.Interop.Termbase —          Provides programmatic access to a particular termbase.</p>
+<h2 id="description">Description</h2>
+<p>A termbase is a database that is physically stored in a JET, SQL Server or Oracle backend. A termbase contains a number of entries (i.e. concepts), a set of so-called termbase or catalog objects (e.g. filter and layout definitions, etc.) and possibly also multimedia blobs.</p>
+<p>The Termbase class allows you to retrieve various information on a specified termbase, e.g. the termbase name, location, the entry count, the number of indexes in the termbase definition, etc.</p>
+<p>Apart from that you can also configure a number of settings for a selected termbase, e.g. the source and target index, the active filter, etc.</p>
+<p>To select a termbase from a termbase repository you can either use the termbase path (for local termbases), the termbase name (for server termbases) or the index number, e.g.:</p>
+<p>oTb = oTbs[&quot;C:\Testdata\Sample Termbase.sdltb&quot;] or</p>
+<p>oTb = oTbs[&quot;Sample Termbase&quot;] or</p>
+<p>oTb = oTbs[0]</p>
+<h2 id="properties">Properties</h2>
+<ul>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._Cookie.html">_Cookie</a>: [For internal use only.]</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.html">_DefaultEntryClassID</a>: Returns the default entry class id.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._IsLocal.html">_IsLocal</a>: Flags whether a termbase is local or not.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.AccessPermissions.html">AccessPermissions</a>: Provides programmatic access to the permissions the currently logged-in user has to a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ActiveFilter.html">ActiveFilter</a>: Returns the active filter for a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Browse.html">Browse</a>: Provides access to the browse functionality for a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ChangeDate.html">ChangeDate</a>: Returns the last termbase change date.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.CopyrightText.html">CopyrightText</a>: Returns the copyright text for a particular termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.DefaultEntryClass.html">DefaultEntryClass</a>: Returns the default entry class for a particular termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Definition.html">Definition</a>: Provides programmatic access to a termbase definition.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.DownloadedCopyrightIcoPath.html">DownloadedCopyrightIcoPath</a>: Returns the path and name of the termbase icon file.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.DownloadedCopyrightInfoPath.html">DownloadedCopyrightInfoPath</a>: Returns the path and name of the termbase reference document.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.DownloadedCopyrightSplashPath.html">DownloadedCopyrightSplashPath</a>: Returns the path and name of the termbase splash screen image.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Entries.html">Entries</a>: Provides programmatic access to the entries of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ExpiryDate.html">ExpiryDate</a>: Returns the expiry date of the termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ExportDefinitions.html">ExportDefinitions</a>: Provides programmatic access to the export definitions of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.FilterDefinitions.html">FilterDefinitions</a>: Provides programmatic access to the filter definitions of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ImportDefinitions.html">ImportDefinitions</a>: Provides programmatic access to the filter definitions of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.IncompleteEntries.html">IncompleteEntries</a>: Provides programmatic access to the incomplete entries of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Information.html">Information</a>: Provides programmatic access to the termbase information.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.InputModelDefinitions.html">InputModelDefinitions</a>: Provides programmatic access to the input model definitions of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.IsReadOnly.html">IsReadOnly</a>: Returns True or False depending on whether a termbase is read-only or not.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.LayoutDefinitions.html">LayoutDefinitions</a>: Provides programmatic access to the layout definitions of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.LockedEntries.html">LockedEntries</a>: Provides programmatic access to the locked entries of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Name.html">Name</a>: Returns the name of a termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Search.html">Search</a>: Provides programmatic access to the search functionality for a particular termbase.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._Reorganise.html">_Reorganise</a>: [For internal use only.]</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Close.html">Close</a>: Closes a specified termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Delete.html">Delete</a>: Deletes a particular termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.ExtractToFile.html">ExtractToFile</a>: Saves the a termbase to an *.mdb file.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms.html">GetHomonyms</a>: Retrieves all homonym entries of a particular termbase.</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.Termbase.Reorganise.html">Reorganise</a>: Reorganises a specified termbase.</li>
+</ul>
+<h2 id="sample">Sample</h2>
+<pre><code class="lang-cs">Termbases oTbs = oLocalRep.Termbases;
+Termbase oTb = oTbs[&quot;Termbase Path&quot;];
+
+Debug.Write(&quot;Total number of termbase entries: &quot; + oTb.Information.TotalNumberOfEntries.ToString());
+</code></pre><h2 id="provide-feedback">Provide Feedback</h2>
+<p><a href="mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase">Make annotation</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RWS/multiterm-api-docs/blob/main/apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h4>On this page</h4>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

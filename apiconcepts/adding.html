@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Adding new Entries </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Adding new Entries ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <span class="glyphicon glyphicon-search search-icon"></span>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar-default">
+          <div class="container hide-when-search">
+            <div class="breadcrumb-container" id="breadcrumb">
+              <ul class="breadcrumb col-md-10">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="adding-new-entries">Adding new Entries</h1>
+
+<p>To add new entries to a termbase, you first need to &#39;construct&#39; the entry XML content to store in the termbase. Below you see a simplified example of what a MultiTerm XML entry can look like:</p>
+<pre><code class="lang-xml">&lt;conceptGrp&gt;
+  &lt;system type=&quot;entryClass&quot;&gt;1&lt;/system&gt;
+  &lt;languageGrp&gt;
+  &lt;language type=&quot;English&quot; lang=&quot;EN&quot;/&gt;
+  &lt;termGrp&gt;
+  &lt;term&gt;starship&lt;/term&gt;
+  &lt;/termGrp&gt;
+  &lt;/languageGrp&gt;
+&lt;/conceptGrp&gt;
+</code></pre><p>For more detailed information on the MultiTerm XML format, please refer to the <a href="../other/MTF-Schema.htm">MTF Schema</a>. To add the above entry XML as a new entry to a selected termbase, you first have to store the XML stream in a string variable, e.g.:</p>
+<pre><code class="lang-cs">String entryContent = &quot;&lt;conceptGrp&gt; .... &lt;/conceptGrp&gt;&quot;
+</code></pre><p>Then you need to apply the <strong>New</strong> method to the termbase entries collection, i.e.:</p>
+<pre><code class="lang-cs">Entries oEntries = oTb.Entries;
+oEntries.New (entryContent, true);
+</code></pre><p>The second parameter is a boolean parameter that indicates whether the new entry should be flagged as incomplete. An entry is considered incomplete when it lacks one or more fields that are mandatory according to the termbase definition. Note that the <strong>New</strong> method does <em>not</em>verify whether the entry XML content is complete according to the termbase definition or not. This means that if you want to check for completeness, you would have to implement the verification logic yourself on the client side.</p>
+<p>Depending on the outcome of this verification you can set the boolean parameter to <em>true</em>or <em>false</em>. When implementing a quick entry function, e.g. to add new entries from MS Word to the termbase, you may set this parameter always to <em>true</em>by default. That way you can make sure that any entries added via your quick entry function can be singled out easily for post-editing using the &#39;Incomplete Search&#39; of MultiTerm Workstation.</p>
+<p>Note that the entry number is not provided in the XML content. The number will be generated automatically upon adding the entry.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RWS/multiterm-api-docs/blob/main/apiconcepts/adding.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h4>On this page</h4>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

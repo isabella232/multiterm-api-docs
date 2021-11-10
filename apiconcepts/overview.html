@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SDL MultiTerm Desktop SDK </title>
+    <title>MultiTerm Desktop SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="SDL MultiTerm Desktop SDK ">
-    <meta name="generator" content="docfx 2.58.5.0">
+    <meta name="title" content="MultiTerm Desktop SDK ">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,14 +80,55 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="sdl-multiterm-desktop-sdk">SDL MultiTerm Desktop SDK</h1>
+<h1 id="multiterm-desktop-sdk">MultiTerm Desktop SDK</h1>
 
 <p>The Software Development Kit (SDK) contains an introduction to the MultiTerm Client API as well as a full programming reference. It contains various practical examples of how to implement functionality into third-party party applications and custom workflows. </p>
-<h2 id="where-to-find-the-sdk">Where to find the SDK</h2>
-<p>The SDK is a client-side SDK that is installed with the MultiTerm desktop application as a chm file. It can be found here:</p>
-<p>c:\Program Files (x86)\SDL\SDL MultiTerm\MultiTerm[<em>VersionNumber</em>]\SDK\MultiTerm Desktop SDK.chm</p>
-<h2 id="development-language">Development language</h2>
-<p>Whilst any programming language can be used to write your own standalone applications the sample code in this guide is provided in Microsoft C#.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This Software Development Kit (SDK) contains an introduction to the MultiTerm Client API as well as a full programming reference. It contains various practical examples of how to implement functionality into third-party party applications and custom workflows.</p>
+<h2 id="in-this-version-of-the-multiterm-sdk-the-following-apis-are-documented">In this version of the MultiTerm SDK, the following APIs are documented:</h2>
+<p>This enables you, for example, to make the MultiTerm lookup and editing functionality available directly from within various applications or document management/authoring systems.</p>
+<table>
+<thead>
+<tr>
+<th><!----></th>
+<th><!----></th>
+<th><!----></th>
+<th><!----></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Component</strong></td>
+<td><strong>MultiTerm version</strong></td>
+<td><strong>API Version</strong></td>
+<td><strong>Main Class</strong></td>
+</tr>
+<tr>
+<td>TRADOS MultiTerm 16.0 Client API</td>
+<td>2021 SR2</td>
+<td>11.0</td>
+<td>Sdl.MultiTerm.TMO.Interop.Application (C#)<br> MultiTermIX (VBA)</td>
+</tr>
+</tbody>
+</table>
+<p>The corresponding DLL library can be found in your SDL Common Files installation folder, e.g.: <em>C:\Program Files (x86)\Common Files\SDL\MultiTerm16\Sdl.MultiTerm.TMO.dll</em></p>
+<p>The interop dll for use in C# can be found in the same folder, e.g.: <em>C:\Program Files (x86)\Common Files\SDL\MultiTerm16\Sdl.MultiTerm.TMO.Interop.dll</em></p>
+<p>For use in VBA, reference the COM component <strong>MultiTerm.TMO</strong></p>
+<h2 id="conventions">Conventions</h2>
+<p>Names of objects, classes, methods, properties, events and settings are formatted in bold. Example: &quot;Use <strong>Sdl.MultiTerm.TMO.Interop.Application</strong> to create a new MultiTerm client instance.&quot;</p>
+<p>Sample code is formatted in Courier and is separated from the body text. Example:</p>
+<pre><code class="lang-cs">Termbase.SourceIndex =
+Termbase.Definition.Indexes.Item(&quot;English&quot;)
+</code></pre><p>All sample code in this guide is provided in Microsoft C#.</p>
+<h2 id="other-information-resources">Other information resources</h2>
+<p><a href="https://developers.rws.com/">RWS Software Development Kit</a></p>
+<p><a href="https://www.rws.com/contact/product-enquiry/">RWS products</a></p>
+<h2 id="sdk-support">SDK Support</h2>
+<p>Please note that the SDK is provided as is and for use at your own risk. RWS does not provide support and consulting services unless expressly agreed upon in a Support &amp; Maintenance contract.</p>
+<p><a href="LegalNotice.html">Legal notice</a></p>
+<p>Copyright and trademark information relating to this product release.</p>
+<p><a href="Acknowledgements.md">Acknowledgments</a></p>
+<p>MultiTerm includes open source or similar third-party software.</p>
 </article>
           </div>
           

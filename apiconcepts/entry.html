@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Retrieving Entry Content </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Retrieving Entry Content ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <span class="glyphicon glyphicon-search search-icon"></span>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar-default">
+          <div class="container hide-when-search">
+            <div class="breadcrumb-container" id="breadcrumb">
+              <ul class="breadcrumb col-md-10">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="retrieving-entry-content">Retrieving Entry Content</h1>
+
+<p>MultiTerm entries are physically stored as XML blobs in the database backend. Retrieving an entry basically involves retrieving the XML content from the database. Once you have retrieved the content of an entry, you can, for example, parse it using the DOM API, apply an XSL stylesheet to it for transformation, etc.</p>
+<p>In the first step you need to create a termbase entries collection object using the <strong>Entries</strong> class, e.g.:</p>
+<pre><code class="lang-cs">Entries oEntries = oTermbase.Entries;
+</code></pre><p>To pick a particular entry, you need to provide the corresponding entry id. The entry id is used to uniquely identify an entry, e.g.:</p>
+<pre><code class="lang-cs">Entry oEntry = oEntries.Item(5);
+</code></pre><p>The above sample code selects the entry with the id 5. Take care to provide only entry ids that actually exist in the termbase. Otherwise, an exception will be thrown. The entry content can be retrieved in the following way:</p>
+<pre><code class="lang-cs">Debug.Write(oEntry.Content.Content);
+</code></pre><p>The above line will output the complete entry XML content. Let&#39;s take this one step further: suppose you would like to develop a MultiTerm client application that allows users to display the entire entry by clicking the corresponding hit term in the hit list. This can be done easily, as the **HitTerm **object allows you to retrieve the id of the entry a hit term comes from. Example:</p>
+<pre><code class="lang-cs">HitTerms oHits = oSearch.Execute();
+  Debug.WriteLine(&quot;Hit count: &quot; + oHits.Count.ToString());
+  for(int i=0;i&lt;oHits.Count;i++)
+  {
+   Debug.WriteLine(oHits[i].Text);
+   //retrieve entry id for current hit term
+   int thisEntryId = Convert.ToInt32(oHits[i].ParentEntryID);
+   oEntry = oEntries[thisEntryId];
+   //output content of current entry
+   Debug.WriteLine(oEntry.Content.Content);
+}
+</code></pre><p>The above sample code executes a search and stores the search results in a <strong>HitTerms</strong> object. The code then loops through all hits, retrieves the entry id of each hit, and then outputs the entire entry content for each hit term.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RWS/multiterm-api-docs/blob/main/apiconcepts/entry.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h4>On this page</h4>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
