@@ -707,4 +707,4 @@
 - name: Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Unadvise
   href: Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Unadvise.md
 - name: API Reference
-  href: ../api/toc.yml
+  href: ../../api/toc.yml
