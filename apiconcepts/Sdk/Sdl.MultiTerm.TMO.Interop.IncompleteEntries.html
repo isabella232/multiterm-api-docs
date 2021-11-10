@@ -86,8 +86,9 @@
 </code></pre><h2 id="name">Name</h2>
 <p>Sdl.MultiTerm.TMO.Interop.IncompleteEntries —          Provides access to all incomplete entries of a termbase.</p>
 <h2 id="description">Description</h2>
-<p>Incomplete entries are entries that lack one or more fields that are mandatory according to the termbase definition. For example, if the termbase definition imposes that the field &quot;Subject&quot; is mandatory and an entry does not have a &quot;Subject&quot; field, it is considered incomplete. In this case the corresponding XML data stored in the mtConcepts table of the database backend will be marked as incomplete, i.e. it will have the value &#39;1&#39; in the &#39;incomplete&#39; column.</p>
-<p>When adding a new entry programmatically via the <a href="Sdl.MultiTerm.TMO.Interop.Entries.New.html">New</a> method, you can flag it as incomplete by setting the incomplete parameter to true.</p>
+<p>Incomplete entries are entries that lack one or more fields that are mandatory according to the termbase definition. For example, if the termbase definition imposes that the field &quot;Subject&quot; is mandatory and an entry does not have a &quot;Subject&quot; field, it is considered incomplete. In this case the corresponding XML data stored in the mtConcepts table of the database backend will be marked as incomplete, i.e. it will have the value &#39;1&#39; in the &#39;incomplete&#39; column.
+.md)
+When adding a new entry programmatically via the <a href="Sdl.MultiTerm.TMO.Interop.Entries.New.html">New</a> method, you can flag it as incomplete by setting the incomplete parameter to true.</p>
 <p>This is, for example, the case for all entries that are added via the Quick Entry function from Word. Note that your client needs to implement the logic that decides whether an entry is incomplete or not. This is not done on the server side.</p>
 <p>You can use the IncompleteEntries class, for example, to compile a list of all termbase entries that are flagged as incomplete, which can be useful for maintenance purposes. Thus you can implement a feature similar to the Incomplete Search in MultiTerm Workstation.</p>
 <h2 id="properties">Properties</h2>

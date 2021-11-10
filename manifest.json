@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sdl.MultiTerm.TMO.Interop.Homonyms.html",
-          "hash": "aKKWLOcP/ZrTz0KeGCekpLNv0AXlj0R6AgPSi7oAYxU="
+          "hash": "i8WhaLsrYGyICz3lUP1OXohJSoI2mTPefcnPgNjzhz4="
         }
       },
       "is_incremental": false,
@@ -1909,15 +1909,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/LegalNotice.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/LegalNotice.html",
-          "hash": "pVvfH1ztenpkoH39TdY8RVQ+y4yWf8zLowCF90X0K8s="
+          "hash": "2ZQZWtmmzXH5p7PODsVjMEYdl/6SmbQDxrOodrXiRw8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apiconcepts/MTF/DatatypeReference.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/MTF/DatatypeReference.html",
+          "hash": "WM5xP//VL35NIqyhzg3kgPxwiBGR8KPDL0eyqbD8MyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apiconcepts/MTF/MTFAttributes.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/MTF/MTFAttributes.html",
+          "hash": "1j51GunQeY04TxWGl7B1f5VorW0e6HAJ0wKVYZ0msZU="
         }
       },
       "is_incremental": false,
@@ -1928,56 +1949,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Application.LocalRepository.md",
+      "source_relative_path": "apiconcepts/MTF/MTFElements.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Application.LocalRepository.html",
-          "hash": "VPF8VHFRF4+1lk2PFOjCNf9OUwLrVW44TuLMSOR5+EI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Application.MultiSearch.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Application.MultiSearch.html",
-          "hash": "GoSMBTQXxRd89MUVqj7gB1comJqugNHn/w/cWSbH4tg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Application.ServerRepository.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Application.ServerRepository.html",
-          "hash": "fOmRfSAYV0ERPAiHS7+t2qTKTZv7s6VLgHeNcDav7E8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Application.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Application.html",
-          "hash": "iU95vEciclmmTPzgdo2PuRAQigOPJR2U+Az9QN8QLDA="
+          "relative_path": "apiconcepts/MTF/MTFElements.html",
+          "hash": "qBKZ25pF/YbEIK3RMmvTb4M5tC+oUDWJuFGAwJxDF8c="
         }
       },
       "is_incremental": false,
@@ -1985,26 +1961,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Label.md",
+      "source_relative_path": "apiconcepts/MTF/MTFSource.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Label.html",
-          "hash": "TA9f4OeCgXRD+U4zrBXvr+vVKtnqpd00GtuYKW1SDN4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Level.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Level.html",
-          "hash": "TPXYI1Be05AVyvkw2kSNFF+89YM+Bd7rqRkHCx5nXQg="
+          "relative_path": "apiconcepts/MTF/MTFSource.html",
+          "hash": "rqw68MgAZqA3nvrpso0RXcqJqEfZQ7e701AA2CIN2q0="
         }
       },
       "is_incremental": false,
@@ -2012,11 +1973,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Mandatory.md",
+      "source_relative_path": "apiconcepts/MTF/SchemaAttributesReference.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Mandatory.html",
-          "hash": "rqaCs/NuXA6RA04HFm2FLN06vyyDyZgJuhpRhT3cWAg="
+          "relative_path": "apiconcepts/MTF/SchemaAttributesReference.html",
+          "hash": "mnbgvkUmB3xtbaTtpyaXbTpNGtGKgHXOq2iMhMkIW4E="
         }
       },
       "is_incremental": false,
@@ -2024,56 +1985,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Multiple.md",
+      "source_relative_path": "apiconcepts/MTF/XMLSchemaMTF.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Multiple.html",
-          "hash": "HRzdaQzVw9p8IAvh+SC/SnpBfL4GQFwl/UI3lMAeSNw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.PicklistValues.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.PicklistValues.html",
-          "hash": "jFCALzO9wAMH4M9fLR8cL+euSf8TrG7vffxT+YS4/lM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Type.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.Type.html",
-          "hash": "lJmKaEJZI/KVr+Arrr5R1BYoovP2pGtk6E2b+eKtAXY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveField.html",
-          "hash": "MywjalfQVPUeQBAPl40OjsjO6OF8mVRGk4y4FKhiiRM="
+          "relative_path": "apiconcepts/MTF/XMLSchemaMTF.html",
+          "hash": "7H2TuttD4RDJ+LoN6Z59asLMIgF6PHvqf1MSMHTqtJU="
         }
       },
       "is_incremental": false,
@@ -2081,125 +1997,59 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.Count.md",
+      "source_relative_path": "apiconcepts/MTF/xsd_schema.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.Count.html",
-          "hash": "wHZEHiDx6k2zwDS8lZkEVvmsUYdtG0uZqpH3/d6cWyA="
+          "relative_path": "apiconcepts/MTF/xsd_schema.html",
+          "hash": "CQUno/+8R0Mb71zg93duLLMNMLForEKe1sS/oTYUJaQ="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.Item.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.Item.html",
-          "hash": "jlQJjaVJccwaohmyeu3D6BxkduJH8IXIBOFXdRWFBqE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.DescriptiveFields.html",
-          "hash": "tlDGxy+WEgATTZWHuK44wQxwLmJdlRN7wu1fPbsD6AU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Entries.ActiveFilterHasChanged.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Entries.ActiveFilterHasChanged.html",
-          "hash": "sqNAlSxraTSjnvp06yMwXVCuaKD6zFpniwj9kYbGmC4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/Sdk/MultiTermIX.Entries.Count.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/Sdk/MultiTermIX.Entries.Count.html",
-          "hash": "idX4bhzq777hxfmXYQnXtQ+tbGdzIL25USTjs6gQCac="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.LocalRepository.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.LocalRepository.html",
-          "hash": "BZf2QY8Pz81GnUA6dQoEL3d5sP5m9odMzP0Cl8Ey/oY="
+          "hash": "k+HD2ne+QZ09Ix3bj46vMOln4ctbKCNkrdLyAbz44pI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.MultiSearch.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.MultiSearch.html",
-          "hash": "DHrfdrtISk4nU+7DYcaf3Ya86c6sL3xeFaCIwpqn0j8="
+          "hash": "FSMkse1p8FcYB2C+NgTHLKwyJyTz8eAHJpspD6Bsc4Q="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.ServerRepository.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.ServerRepository.html",
-          "hash": "tWgqR6OcHSggreX6bvFn7l04Z7VDpyW6R1OJmpSDEhc="
+          "hash": "bAEfAQtW26aAoezQYugKA4OVriFPsn7XlaZUFaZbRdw="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Application.html",
-          "hash": "NTb7oi+0XbQTg5w3Ju/diLUh3DqbI3J66aFLw6/+XR4="
+          "hash": "KY5oxxBloh4WDVzMAi4oG+5/lF0zH+CnIIegF86nkec="
         }
       },
       "is_incremental": false,
@@ -2211,22 +2061,19 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Label.html",
-          "hash": "5axxy/EoOTuKsFyl/lHY6h3NLmetz8BlWqj+L7uHVZ0="
+          "hash": "oKOMKNiaJ8lAGRMdk9Ck1OEHlLVeRBL9Zl7+jDYWaGE="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Level.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Level.html",
-          "hash": "eZg3FUPt5ePR5sb+E+mQWc+1Qk4V9Cu2tTReI+UbyDo="
+          "hash": "8praeIy1v1XR4o0TpzPNFh46Y1PiWg8hqOrMIfnuiKU="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Mandatory.html",
-          "hash": "s14jNoesVCTHHiWJTllDQWQzUw0hf4JzR3wsg4AYbPo="
+          "hash": "PAfsg+fy8GxuYRb8G13IUnToEIRrQJGHXqfsSoQuEuI="
         }
       },
       "is_incremental": false,
@@ -2250,52 +2097,43 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Multiple.html",
-          "hash": "cc9W4FejDIbRAWDfRhqa9U7KXXpoJe63q0+0Dwv0k08="
+          "hash": "a3NnZ8XzmhJOMWFPQQKciv+F1RL1GDAGhubyPWWdukU="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.PicklistValues.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.PicklistValues.html",
-          "hash": "xC22lVmic8IYongOAzuEcGNrBUdsMnndc9IvRm34x1E="
+          "hash": "FA2dJ/O1SAxWf4Jab1j8josDtsFfZY6ryE1Off7Fst4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Type.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.Type.html",
-          "hash": "Rao2UBSTubsqdy/stheWrnpQbPlCC8e8PS5rvHz1EnM="
+          "hash": "ZurhhJtfDF792mXCwRD2Blpdr5ILf48fEUO8t96o/t0="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveField.html",
-          "hash": "mjoDOWtTyjWCeWgKIo1R5vVEvTgvsRf2FBQDwIdesjQ="
+          "hash": "koAvtmehS/zDLxxoQwz7irzVWjVLuC98CWy8POX6Iv0="
         }
       },
       "is_incremental": false,
@@ -2307,37 +2145,31 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveFields.Count.html",
-          "hash": "J4fnNjPiFK9QQN1gbmNLcJRKrtZ8kL6F1ED3+0o7Lsc="
+          "hash": "ZvKcm1+wJSrXWIZtVv3/6nQPF+KVQeXG4uVj+hNZNGY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveFields.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveFields.Item.html",
-          "hash": "DH4yKJ+eGHbq8CHk233zZEnnaI9zEUvFx/1MEtlKXIE="
+          "hash": "047uFbNs3RGDyAtRYmqFbpvZ1Uu9haemg+JbXRP8h4w="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveFields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html",
-          "hash": "iYrnmiafThwYxuBAPK6Z989fFnNV1FKbIeho8kbMyHw="
+          "hash": "VTTD0FVn96Pi52TCawnk1vfuAPvoQm5xVaW4KWeAbM8="
         }
       },
       "is_incremental": false,
@@ -2380,45 +2212,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.GetEntryIDs.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.GetEntryIDs.html",
-          "hash": "AAP2nH334DI60EkkfKMfYwGJaovXwhuoHI0mqA53mTg="
+          "hash": "JfRqfNSPdgGcIwOkLuKgG714toAHrlQRJralP9MoYgk="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.Item.html",
-          "hash": "JWxpVAvB2lqabXntPwO/rLe0oih1GSbFUGu4Y/eqUws="
+          "hash": "TySF+sWLhVUofu3AylloAPoZbE0hwODbU/Gh7GUK3bs="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.New.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.New.html",
-          "hash": "nAQ9SQyITWNyRbIzBxbC770IIT7DwP+hnkcW7RYwNMU="
+          "hash": "uEWVt977SdUB1yNItGKHX/XKCrF5ZRlkRfKE1uKWKBI="
         }
       },
       "is_incremental": false,
@@ -2449,75 +2272,60 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entries.html",
-          "hash": "s3LrmrYxn0WNitFLFbtAgUBkE3GngEdKKVGY0FF4iAs="
+          "hash": "N1aFgfZsbGs3+YDurHzTASinb/0S29NnhYRUiXAftHI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyExport.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyExport.html",
-          "hash": "9aFExiMkSTuO1UyNs3lXUpbZ5DQqwyj2uoFTitDfPYA="
+          "hash": "RHV2ZCp4a4f8lFzPqyUAihVoShGHle0XW+KGscNjbJ0="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyFilter.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyFilter.html",
-          "hash": "DeH2Hr3yHvcZHCvuQivFEys09ZV6N1ZVETCBqNzPD68="
+          "hash": "IXB7J0xPdDO8rJ8rPjHxjTMcP35pVFbj9ALfc7S+3GU="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyLayout.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.ApplyLayout.html",
-          "hash": "O8g+CaMESVJ3ilIVcW0PUxNTx5KQjEg2/5IoNV7PtNI="
+          "hash": "ml3DJsx9tWxdZ3vnSUj7e6m9NzESa69FnQdu4UXIJbo="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.Content.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.Content.html",
-          "hash": "a9VIjsp14gMsyCAPZtIVpwEJVvm2dUWBQ0Ki4Ih+S5I="
+          "hash": "qqChWRKcrOf75wOKZomOsWxOhKS1ZcnmXO6msfqmcE4="
         }
       },
       "is_incremental": false,
@@ -2572,15 +2380,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.LockEntry.html",
-          "hash": "AwzOSIsjPBwVJtw+Ge9dHQbhLMCBsr8pHMA4Bf9Psn8="
+          "hash": "1HP7PUmHQp5eUq0/FyXCJvW/EQ9lvRzBSNwCfFGgiMo="
         }
       },
       "is_incremental": false,
@@ -2599,15 +2404,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.Merge.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.Merge.html",
-          "hash": "4Ha7yiT5CnO83liPItVJ/JagfXs4kuqx/bQFRwW5qJM="
+          "hash": "4CqW+5KXhIj4u3FHm1fiCOiZatlk00+fnEOmfnocEjc="
         }
       },
       "is_incremental": false,
@@ -2638,15 +2440,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Entry.html",
-          "hash": "LZ3yyvm7AGJqachaBBw1ST+DuqO4ahxBog2eFyJFhbk="
+          "hash": "rMlocMD/cymkJY+YlPFT8Il65F0CoeOW6ACrLLJZ5Jo="
         }
       },
       "is_incremental": false,
@@ -2689,15 +2488,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.html",
-          "hash": "bQuiY/U0cMwWXB6EfcGpz6ZAi2idx/2jqYSgsBR/bv0="
+          "hash": "qMuOyQ29ca/bVTk/rIuG+Jups1AwJthIaLEaLB1H7WM="
         }
       },
       "is_incremental": false,
@@ -2716,15 +2512,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item.html",
-          "hash": "9EbA2DV0ICPW3qF/sRhD4VZP+4WspS0OnvK1t6YOafc="
+          "hash": "C8KPRl7oBlkBoHmFUN/aFuT1oeEVbnfuU93JaGJr5vM="
         }
       },
       "is_incremental": false,
@@ -2743,15 +2536,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.html",
-          "hash": "rUkiOPwKanIWDV7ObVdvIurDskaXHqDHBa2T2WyXS9k="
+          "hash": "Xu0DHvDIGy504tqJW5+5bwN4ffE1yZ04souU1rXtvBc="
         }
       },
       "is_incremental": false,
@@ -2782,30 +2572,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes.html",
-          "hash": "D+9Pku9mrTwBPkgNcwc8ockVhAPXugsN6+8CvE1V0Zk="
+          "hash": "InerGs6bpdeX5zRrF2/MwMWzFWZbHkJoVLq80IKSES0="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.Fields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.Fields.html",
-          "hash": "AtXbLUmnuBtbg8Mvagfcfy0cwzhgs+D25IAme2pT4nY="
+          "hash": "D5t0gplxJbfVGDnjO/ZPS0xU72Z9YbD0KQNnbXRxOwo="
         }
       },
       "is_incremental": false,
@@ -2824,30 +2608,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.Update.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.Update.html",
-          "hash": "TR7eHq1bLsX2f0nbLAyXHbiamtmDIOde6hUlsy3Jdpc="
+          "hash": "9KblokqySsOsmacUhJr8dDsouBlF0TZzrnhizeMi1PE="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryContent.html",
-          "hash": "HLykH49rT3a5buLubd8rOuVQ8IIHVvO89wlz9fCNt8s="
+          "hash": "1PSpi+WV1WvEM3MKOOq9NZzfRROe+vk8p/2c/TCI0Iw="
         }
       },
       "is_incremental": false,
@@ -2890,30 +2668,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryField.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryField.html",
-          "hash": "76MW3lXAPpoFY2YXepEQL+wb2UOpSUSBkaBlnjJ4WAE="
+          "hash": "NcagkB8KsdauxzOxCNzxYzIngh/nDsZlJ9Vg5EbrBh4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.Add.html",
-          "hash": "r5YX7RrC5cdaZmU2gDk5lElCbIP27ZpGk3dT53H7iio="
+          "hash": "iboCPkOW8o0+T/zGNqkc2IsJbVa+C36tK4JEBf0XA24="
         }
       },
       "is_incremental": false,
@@ -2932,30 +2704,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.Item.html",
-          "hash": "lAx16Wl0nK5xyaspgp65TlmqkybOFO/FkoLkAo6j/BQ="
+          "hash": "DRWghHfQIeo98MJAHiVHJuggQ9H4hl0roV0eoUbRCx4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryFields.html",
-          "hash": "pkhgmhxch3ST/LYrRHBveDBu/nBh0fF4wC1EM3QhdiY="
+          "hash": "BRQvrVe/QbsfOwchwSU2HcAjjti66HvU9o5tYkkfqkk="
         }
       },
       "is_incremental": false,
@@ -2986,30 +2752,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIDs.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIDs.html",
-          "hash": "hcRpj6RUpAiaVG7hvXEI4bF0ccmdMF6TnSJQ5VfHxJI="
+          "hash": "MRplTrx9mQJUB973iQPseDgyZKfbE6fvgUP2zNi+rIs="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields.html",
-          "hash": "uPcowSR5ebNPSNE7eXDqztN1FZwj3/x19DdqWrzf7u0="
+          "hash": "+S2Igj8v+xQlYdbwStDOQ3XPsgmKfDOn9fNw1q/Hbjo="
         }
       },
       "is_incremental": false,
@@ -3052,45 +2812,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields.html",
-          "hash": "gwN+DF8HxDGCHS08pYhoupd/G78RpQ8Uxz0L3KblZBM="
+          "hash": "9HF7hAuisC69llQGQXeIsBQ1R+olOqueNl0XZo/RuaM="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndex.html",
-          "hash": "4GeKUAgs7NOTduvtSdCHIu6VM4YQ28BkfThBd/+Y78A="
+          "hash": "jzSqjIrLiv6VsPGHsppPEHcl6HYmsksLhzATzxcu3rg="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.Add.html",
-          "hash": "+sU1DibMIgpjpqY28y4MuRH5LlvMRCKJ4lz9Xx/3Clg="
+          "hash": "zITpVgoFjjLOzZKhViUQaeqy+4b7rTRP0YtQqgMGLE0="
         }
       },
       "is_incremental": false,
@@ -3109,30 +2860,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item.html",
-          "hash": "TPUSLjVjuO8FNI0k3PY+e+Oaum77ZqGHVUZF5OnmMRU="
+          "hash": "pPFeD+Ylkt8UVuYFfdtvKlerLt+0TuPWwJRS2J8ZFPM="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.EntryIndexes.html",
-          "hash": "Kso7//lG9u7INdvoHpY9twnl3v62RIqLBJL8ffKNza0="
+          "hash": "gCBbt8iHd0t6nmKIYXeSxPlRpeolsVctvYKzvo91Bq4="
         }
       },
       "is_incremental": false,
@@ -3211,15 +2956,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinition.ProcessExport.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinition.ProcessExport.html",
-          "hash": "pY4Lgcyvh0so2iJJIISwMaOUxk/KqR1z4Dnc8PgO0QU="
+          "hash": "1wASYlwpbO+9Cq94KbdlahoQaQ4vDOxPMGzBLuTvm5Q="
         }
       },
       "is_incremental": false,
@@ -3262,30 +3004,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinition.html",
-          "hash": "LuX/kFMp2+IOv72y+SOc3UgzfMoKcYX0NEBhBNh+ziM="
+          "hash": "zN3mHfO9Ni/O7OlQfDK3iqiebV+d00DVNiUtSDLq7cE="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add.html",
-          "hash": "O0GSoHqg4WvU6pRHHFke681HNeVF4QCnX3yh7TIz3RQ="
+          "hash": "4hxh/wYKFlr/5wYFOh4aOE6ERtlt1zeQv0+NxRecJpg="
         }
       },
       "is_incremental": false,
@@ -3304,15 +3040,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item.html",
-          "hash": "RSwWUMBCdzda/sHkeNdYXmfba8L/OHQkiUr38FStxQ4="
+          "hash": "A2Ou3wiEeTuwWMaZajeLyFH3+sO5HAli42WExq2RkX4="
         }
       },
       "is_incremental": false,
@@ -3331,30 +3064,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard.html",
-          "hash": "BIAQLykxDgQHSbm9IgUu+XzHmUXEnyXk1SH9bFlKaaA="
+          "hash": "4oYDkfTb6PxfSsP1GLV9MxfMmBM8HF7XbNBJlYIctvY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ExportDefinitions.html",
-          "hash": "LGMkCoF4eErPVqCq/8+7orv3oRi2nAnup/kAIx5SpEU="
+          "hash": "+f+7+F+14+HxF0Yl8ykQLj7q7lHpwVf1YhWb3pMXRFY="
         }
       },
       "is_incremental": false,
@@ -3493,30 +3220,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinition.html",
-          "hash": "aLhwYxhmslvqg0GkrfJIYVmqNo9UrBZ25YOIrrrQ1Tg="
+          "hash": "oKX8qYFLYcrPNDGT+6Ip5Zg2luzBgTakPav3h0o21nY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add.html",
-          "hash": "fz+zNdUdLpP8S+RBKgEBpu6ylmGt4UI/yUFo46PPB3Y="
+          "hash": "ZXxTP5SSH7f7aQwPJDHfGgOxkLkXwGC/FMgpAM5+NuI="
         }
       },
       "is_incremental": false,
@@ -3535,15 +3256,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Item.html",
-          "hash": "JFG2c9IjzLhKiotQYrFK5Z03nxI363kYRy/zovdYhxU="
+          "hash": "i34LFRf+XQWDDiQh/LcD/edjo/VCqbzNMGCw6+2cRnY="
         }
       },
       "is_incremental": false,
@@ -3562,30 +3280,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard.html",
-          "hash": "3Hzb+Ys1KUweTxOWzIfKmItr8Mrzkv876OMAM8Jb2Xo="
+          "hash": "5SvT1PolTr1OcidwgL3tBPm1raqmn9Mr4XGDGF+l23I="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.FilterDefinitions.html",
-          "hash": "c8+U6r4VS9y5Bc8960sHCcCyFS/Vw6lQGv2aIuanPuE="
+          "hash": "QYzpPDAKIGaYAhZUIUxmtnF96Ros4+7BkdG3uPfjVWU="
         }
       },
       "is_incremental": false,
@@ -3652,15 +3364,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerm.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerm.html",
-          "hash": "2ehx5iNnbAYHRpln2hhrNyZofbQXpsoXV/poPahW1rU="
+          "hash": "BCDhncvOwbWAiOJgqHs+YP2on7z2P/WJr79kJNpwbrg="
         }
       },
       "is_incremental": false,
@@ -3679,30 +3388,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerms.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerms.Item.html",
-          "hash": "9c3vhe6ftK0jarq2Vx+hc7dL675VFSmuCV0q1vO3NuU="
+          "hash": "SWMZafNsVjKg3dAOkFkxbzurZ85DJq/SPniVxuS58HU="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerms.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.HitTerms.html",
-          "hash": "xD1aH9gPYR1wgAN9s9RBQbPT0sWPFi3aVrpGpMI3/jA="
+          "hash": "NkalDq7zcz5ytu3K4HJ5WvQxBMbtjkcwt3+Hi1LZytQ="
         }
       },
       "is_incremental": false,
@@ -3745,15 +3448,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonym.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonym.html",
-          "hash": "p2YxDhhnW42ksvFMrSf+x8m225VpnrBYNLDv8PrPLdA="
+          "hash": "uyJ7EgzBcKk4u4RffMwTYhQTG8XEB10HZ24dSXl7b1I="
         }
       },
       "is_incremental": false,
@@ -3772,30 +3472,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonyms.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonyms.Item.html",
-          "hash": "aUPDhYjObfFr8dIACmPukM8esGl/H+O0eo34UX1vDRE="
+          "hash": "F5igNaaAXy4Q0RdONL2N4m4YgCGUObHzB48nTTOK6Ww="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonyms.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Homonyms.html",
-          "hash": "iV1eMf4WKv7aCDYOBIUwu0M6AUvwLsWzVuSNtxBK7/Q="
+          "hash": "xvg8nAHsCrTnNI2eavconfr/Dr3XqPoiet1sdKcM7rQ="
         }
       },
       "is_incremental": false,
@@ -3874,15 +3568,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinition.ProcessImport.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinition.ProcessImport.html",
-          "hash": "baweULoUz1Zt7/RU190sJa/PoU77JSRT4PAQs+k7rGk="
+          "hash": "TkDHM0JthGOCYQq1diEwnMQMamLK5/09ddZrfHuv9qE="
         }
       },
       "is_incremental": false,
@@ -3925,30 +3616,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinition.html",
-          "hash": "q41EXK0IRNbmHf9ts4VHm1vG9aSmXHL/F6XGByN7wlg="
+          "hash": "gphwFia0uW/RVMm2RZgJdMFJPUnnwZjInta49S+F7/U="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Add.html",
-          "hash": "j8dOTdx7N5aamH4UdKy3IBYiVr+EDQGOItY7GD67Pug="
+          "hash": "yvSA1ekPYJlEqlc76e/n3kXBZ6MoGroEHFrM+SY1dQg="
         }
       },
       "is_incremental": false,
@@ -3967,15 +3652,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.Item.html",
-          "hash": "lLqcUETNJOPTC2olZhQJP5avVcB7CJOJMAzoUnT8zKM="
+          "hash": "6k2QRnLqZhbcen0lsqakq6+O/stgabJN7u/E7BoTtfA="
         }
       },
       "is_incremental": false,
@@ -3994,30 +3676,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.StartWizard.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.StartWizard.html",
-          "hash": "XlvjgM1lNiQx9bds0nTZSF0T+Z5b9FBiRe5zYqliU9Q="
+          "hash": "Zx+sY38yecdbXHuZgduKTeNQMxitd6LjQiTNVqbfRHI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.ImportDefinitions.html",
-          "hash": "87u6teiST7uBW1XFq6xajBwPlocL5hoF/v7PxHf63u4="
+          "hash": "+z1+pXiU/Jn0XCMgubbiiufIG6TMYXgDGThFMaj6xSY="
         }
       },
       "is_incremental": false,
@@ -4048,30 +3724,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IncompleteEntries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html",
-          "hash": "/GCvWKar3tswqWg0dfEJsfgfFwGieaRFayM0lPL7qHk="
+          "hash": "fZpHuCF44+5Qhu7r92Vi/apetEkm/Yff4LBZpep7nKQ="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.Fields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.Fields.html",
-          "hash": "iKXDkN3R0v0333+5CgZ3JTpSEbwRWY33g5L9FJqkKbw="
+          "hash": "w4R+FwtEoM7OZo9qclKVXKWN2AiuMSoR7JmID0bfoyg="
         }
       },
       "is_incremental": false,
@@ -4090,15 +3760,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.Language.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.Language.html",
-          "hash": "dd4XdLCEEbZNkt4iO8uJkEhF/eF12yjAC6tMQRoag34="
+          "hash": "giCyv2w2owbtol9Aw2evc8EtY75b805SDmd9sOFgx+c="
         }
       },
       "is_incremental": false,
@@ -4129,30 +3796,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.TermFields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.TermFields.html",
-          "hash": "Q+DV0lEGWphvQ1lY0RFwvERRZCLV7x3MqtbxkEu2wXU="
+          "hash": "RprbYA61H9EGZtLPEytJqgq0vcNbPN7DIho+cqQVlCY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Index.html",
-          "hash": "iBU6mOpvqadv8LcTH942hkflGWK0WhUcrX7Afr7o5qk="
+          "hash": "XhgkqTBUo/OXu3diT4N0LZyvnMZXYzS66IbMav3KMx0="
         }
       },
       "is_incremental": false,
@@ -4195,15 +3856,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexPermissions.html",
-          "hash": "U9ms4HBl/93TkEv8ACrD/UdzeUTJuAPiCKa7DMq/E2w="
+          "hash": "pQxCOYKdQTkqnWBHiKmZoUgw14fGnszhfN4kQvOy5zw="
         }
       },
       "is_incremental": false,
@@ -4222,30 +3880,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Indexes.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Indexes.Item.html",
-          "hash": "vUrbYDP0Ov99M0P2shq8gk/lbKOYeb+Td2MxSJMYSzc="
+          "hash": "DH884BCyDn+xXH8EIz4Tyo1F2gInZxoUJMAqQVtOHng="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Indexes.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Indexes.html",
-          "hash": "LfutGHBg5rV7mdbhlS/CPc3djY6r7PycKyrvOpUIogk="
+          "hash": "Dob4TW/XvrM6sTVq4oyH7uGciicS1UZxqS8Ey1uB10o="
         }
       },
       "is_incremental": false,
@@ -4264,15 +3916,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item.html",
-          "hash": "fy0cZVNUC4kp0MSb22/vM7eGg8rxQST7o7Y08cxi2nc="
+          "hash": "pGsFhdHaXU74uTVXa91ULO5apwnQ6wD5hxnZsgqBT2k="
         }
       },
       "is_incremental": false,
@@ -4303,15 +3952,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexesPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.IndexesPermissions.html",
-          "hash": "fBXZPnz5EMyRPUWTw6V+nIbqzqW/7cS38yLVs00N1bw="
+          "hash": "zLq0vFUPoJ4HU2L3rSKlGEm5Q3oSyN4rk9uuDlNf+pM="
         }
       },
       "is_incremental": false,
@@ -4450,30 +4096,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinition.html",
-          "hash": "Rrzn7ldrTLoxXosNP0TFLgn3zzCIv6C9sNe6Cu1Hi/k="
+          "hash": "dAWwP5ch8W2axmccnI2BY9kiHt1PBlBPnzp+lvALA1g="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Add.html",
-          "hash": "+bLhTvcx8opYOwM2WjK2xjf2Znx+Nn6z6iNaeMxPNTA="
+          "hash": "qiQ850wWZKmohzCxmMRyAUUSGvatfv+WCoGOiaqLsYI="
         }
       },
       "is_incremental": false,
@@ -4492,15 +4132,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.Item.html",
-          "hash": "seBiz1onEQWJAGfeE2Ow0hna5RzGTezQPbVvFRBS83E="
+          "hash": "76KDL85xTIuJOVvci4jKNLlqcjw4EZHqT8clemIQ5Hg="
         }
       },
       "is_incremental": false,
@@ -4519,30 +4156,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.StartWizard.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.StartWizard.html",
-          "hash": "KMpDggj5CAxAtohZZ+NJv+Kk8V2k/BpDWb9EcKtSFg8="
+          "hash": "2YJ3CZTWqw6VJPdv/I0C3A7p6KnK7vtV1lye7YGxnHY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.html",
-          "hash": "mA2RY6ZD5kCzRb2hCO+7msTjUfa0noT1QfNXm1c3zQ4="
+          "hash": "jDcPuTMtPNxJBBkO0/ObT0LO3AxKjaoWT2hq1i+N7hs="
         }
       },
       "is_incremental": false,
@@ -4669,30 +4300,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html",
-          "hash": "OXRFA6pNMcjyHzfp8OX+8Nj3rYS/8nX7mdVGLMogh6w="
+          "hash": "l+W2pEfkR+BrXiPU33pqbPEwQje/rEp4p0I9j3rMBxA="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Add.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Add.html",
-          "hash": "aaJ+S/KjIwvHUrsWyBSzKPpWPNRuuOrzJgXwy6MeNE0="
+          "hash": "cZRzdV6Nwzc7SpWyjpsQ7zcTLsOOjbvBQubeijx5v9o="
         }
       },
       "is_incremental": false,
@@ -4711,15 +4336,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.Item.html",
-          "hash": "IrT5gACqbrgWXO3z/xmwvGzR3ittVeuv9xNwOYSlovc="
+          "hash": "kCKvkDwCEy0ntw34dc4vsX89g1T6AIRhEQzbbmkLA0Q="
         }
       },
       "is_incremental": false,
@@ -4738,30 +4360,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.StartWizard.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.StartWizard.html",
-          "hash": "n7wOyB3QHLwjB/mfUlds91+iIuQOYH9HII0ngO722BU="
+          "hash": "PKY3WXFIqCRVmDSxzQIld/OVv/gqhMBziV/RQpeMGQE="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.html",
-          "hash": "Nrs8GzyKzW8ILQx5HwKbfItMiAeAvfj4HW8EiS2SFTk="
+          "hash": "ju3sgCmINrlNjQKDZ/tiuh8oTaXCZSBTY16jPPDpHo4="
         }
       },
       "is_incremental": false,
@@ -4792,15 +4408,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LockedEntries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.LockedEntries.html",
-          "hash": "INtY8COD7u3P2CTlwzhHibqaOyy0LlUQmJ59Kw1qjMs="
+          "hash": "ZLi/kZDjWq91fLNKAx7qOtlwmxqacRpC5wM6520Oi4I="
         }
       },
       "is_incremental": false,
@@ -4879,15 +4492,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MtLockingState.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MtLockingState.html",
-          "hash": "Tz9oycCWgcbCDH4w6y2CS9eiQHfiPdwtnhrirVSFoBU="
+          "hash": "uI9EaS1JbYNL+D72vvZfxpLhuLdym2ifk9oemJna1/c="
         }
       },
       "is_incremental": false,
@@ -4942,15 +4552,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.AddSearchTermbase.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.AddSearchTermbase.html",
-          "hash": "/hSGMgt24iSw/EBUJZxm7i6/wEBminnQMAKhe7xSJ18="
+          "hash": "uFnLJHWz0y+NzMG+HQ/vyqGoIl+M1LeLA1Eawuw9wvA="
         }
       },
       "is_incremental": false,
@@ -4981,15 +4588,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.Direction.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.Direction.html",
-          "hash": "7eEIca1HwwTxK+9cJzcYV3Qzdt5tbB11KJh7qQshBJY="
+          "hash": "9xEuaMjtuxrfXBoUJUU+DbbhXyUt7FUvDb5nQbQmbDg="
         }
       },
       "is_incremental": false,
@@ -5008,15 +4612,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute.html",
-          "hash": "l8km6jtvPFTCfEfMRw/W3pVLDTL/+QIIQoGgVitkGNA="
+          "hash": "/PLlk8v+58m9tleJjihIqn9sMsrfdRXHo2EjKTXJOFk="
         }
       },
       "is_incremental": false,
@@ -5047,15 +4648,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.html",
-          "hash": "OpC0iOCVFUvPkr2I1+0XbwoR2PH/Dd7/AMA1CSxwyyw="
+          "hash": "WODhphREnIefG+QodH+zj+DmTgYiavzr4vBlq/kWStg="
         }
       },
       "is_incremental": false,
@@ -5086,15 +4684,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchInfo.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchInfo.html",
-          "hash": "HcM+rmLDdKDPcjcozPr0muniJFeDyuSeGGMuDyCdrB0="
+          "hash": "qVIuFgoYE5l9EKjcjeNaLOnQAf77/U1Y8liWD1La8S0="
         }
       },
       "is_incremental": false,
@@ -5113,15 +4708,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType.html",
-          "hash": "ixwcnhSkVR/jChKR/lUWQxlDq5m9Blq3FnakPc16DU4="
+          "hash": "OEh9CAXHmh3XI68szftvvnCuUumvyw9CVo1YPIeUblQ="
         }
       },
       "is_incremental": false,
@@ -5152,15 +4744,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.MultiSearch.html",
-          "hash": "b9R3Za4iPtHjnJwvVizElPzCbFBpiTpob/ZMe3eKX/o="
+          "hash": "OF+rRihDWXiebY/nZXofcOZr8/+jpqvAB6f3WYDAJ9o="
         }
       },
       "is_incremental": false,
@@ -5191,15 +4780,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.PicklistValues.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.PicklistValues.html",
-          "hash": "kMBYBfwsEMQXSF1BrGXjySTsCsmYlzN+FLsq0X7pZMQ="
+          "hash": "Ry9r6VbW1/GWuLQRrr+mo7ItQmZCmhxdWSl0GxENGxg="
         }
       },
       "is_incremental": false,
@@ -5302,15 +4888,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfo.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfo.html",
-          "hash": "V3vvHKW5CA7VItou0BayyLKC1W+RScR1cBg3eqVlEG8="
+          "hash": "EBMrtrHCT3QuvOTBpJ2nZH+J9IupY9+QoR6gjzmoSQk="
         }
       },
       "is_incremental": false,
@@ -5329,75 +4912,60 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfos.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfos.Item.html",
-          "hash": "ILk30b0vN/nfwGXWoC5+rW7WfM+6TrhTOMwOzkzSeVA="
+          "hash": "yRP8GVMWONzkFk6D0Y8GI2NJJkepqWuV2dJN10vUXrA="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfos.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.SearchInfos.html",
-          "hash": "mDpHQeQiy8hh9BPRmNaC1DGE+j6eGBsx+FgS4NV9o9c="
+          "hash": "klrazIjrQcF8F2zmiIMS6025Wq6Wt4eanPIyjSWebSA="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.AccessPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.AccessPermissions.html",
-          "hash": "WakMhLqkvFN6yDVOuCmoyqW6U2nCnNtFtkS1bcO3Ks4="
+          "hash": "ALNh16eUmfqBcp/Jtapq2xvGHhsQTJJVKfEuz9NYskY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ActiveFilter.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ActiveFilter.html",
-          "hash": "Fws9CIXR4zB2dhKmoFtIzn8gS2vUvQ5JIpOBsYoG3ik="
+          "hash": "0s9S39MO93T2KXCmblb0mU/l9oagORVwcrYgF821FCc="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Browse.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Browse.html",
-          "hash": "0fudDR0V+J2oCvOVOdWmqnkSJlO9MZBBqBe6eMEQWaU="
+          "hash": "2CcSJQs9fATYJ9Uqjg2qHvpmNHqPeaUvxN8buJAaX8k="
         }
       },
       "is_incremental": false,
@@ -5452,15 +5020,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Definition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Definition.html",
-          "hash": "ATskfcMsrx9tKzcWh22etGaBrrFq2AVY+b+Z0ZEHpHM="
+          "hash": "ruFDaelU12iB2da4qbkvpt6HXy2FCR7Q6FV4MA85SCM="
         }
       },
       "is_incremental": false,
@@ -5515,15 +5080,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Entries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Entries.html",
-          "hash": "kmw6Ia3ggZTKb1SW8UTu4joBcCGSo2qs1JNZXM09zrI="
+          "hash": "MmfZ0E+LINhTKO4tS0VbNpGYlQfse3XClGJQKa08G4g="
         }
       },
       "is_incremental": false,
@@ -5542,15 +5104,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ExportDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ExportDefinitions.html",
-          "hash": "jK5/HYIO4kuOal/vD3bn4CwParAm12Bd2jSKV4Rz2aU="
+          "hash": "iRYDoRCZKZeBZOK7ytUAjze+wpr2jAaV7L+NKoIN4j4="
         }
       },
       "is_incremental": false,
@@ -5569,90 +5128,72 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.FilterDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.FilterDefinitions.html",
-          "hash": "B3r9QSPXe8pa5RRBrHZ4kIHcYdsB4OYH/iW/4kgDCE8="
+          "hash": "yrD8i2s5P2PwlYREowHxox6pZZ/68wqqOW117CyVLm8="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms.html",
-          "hash": "Q3uFUHHmdTWJ/BhK7Wlk8l/AzlSN1AzvtXkVCEKQ9yE="
+          "hash": "9SKHxldt+ZeOzIz7Rikt3ieYkD4zjsMnhm/HnaKyxr8="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ImportDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.ImportDefinitions.html",
-          "hash": "f+iSrudwgP/lTTHePHcswZP60DscHWel087siVXeOJk="
+          "hash": "hzWCqpj2UVR3pyowaU5z7nVYi8J5XFYcSSw/yViVEdo="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.IncompleteEntries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.IncompleteEntries.html",
-          "hash": "+/GX/HeoxP9p0GqQ85Eq7qSb8YLX8hg6DpIjZWkGKEc="
+          "hash": "m1fqC2aM7asPz9rosChMEKkEGlviUNf8o8CzlP+ytpU="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Information.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Information.html",
-          "hash": "W0fkezSvec9sMJfijK9VtLaCBxlbINNb84W3yidMYJY="
+          "hash": "A4CWC5nXjQycBz6elxfTDylV+ONxI5BfJAav3+W4CXY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.InputModelDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.InputModelDefinitions.html",
-          "hash": "WRzfWTVh/XZrg8ncnX2a0G2tif+jnVixzkY+y8iqeA0="
+          "hash": "VX3RDpSIj3rA2pdv75XGhX4on4243vtD2duDfS9tPiY="
         }
       },
       "is_incremental": false,
@@ -5671,30 +5212,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.LayoutDefinitions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.LayoutDefinitions.html",
-          "hash": "HG/qLn1dFqpegki4yP+BL+uEshrZOJQsIZeYgLDG0wA="
+          "hash": "uH9m8N+K1Sx9f/0hbO7rb7lapcZtf8LCSnxT/i8m3AM="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.LockedEntries.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.LockedEntries.html",
-          "hash": "p+ox7XaMujrKIln/cvrxRn5dWU81yeCGOwqWHt6Jcrk="
+          "hash": "Bu3axOqF2pXpmCwEntN7zDslsweXXnNnL4dG29JB758="
         }
       },
       "is_incremental": false,
@@ -5725,15 +5260,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Search.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.Search.html",
-          "hash": "rjNKru2LC400CF7DaoJpl7pSWd9k5numv9PseWQXQss="
+          "hash": "oeI10+ZcWsXIR7+STQj3jIqH/ldNkxn2ghEYSxLNCT8="
         }
       },
       "is_incremental": false,
@@ -5752,15 +5284,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.html",
-          "hash": "g+jDt54aNUEWb4XeTOBtG/lc67vuCCjn5vvv4+/KDvk="
+          "hash": "4CzUaeIH5Tv0zBV/K8mW3Ibi6p4eKaZMetDzHGtnSBU="
         }
       },
       "is_incremental": false,
@@ -5791,15 +5320,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbase.html",
-          "hash": "8PnfkSM4WyUlDMH+XxXZ/USZ1EMcexC7/ggaAnzEbYU="
+          "hash": "Jc6L1OohEnO9P4+NIVp4cmtLGvrYqafJhI3NZ34MaKo="
         }
       },
       "is_incremental": false,
@@ -5842,15 +5368,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.EntryClasses.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.EntryClasses.html",
-          "hash": "5dMUZmqDJG57j+BmfsArXVAz3RYxLyCmBmmxpQ9sAc0="
+          "hash": "EQn2jkE1yQ0i9/KHJNX+ERnN511pX1QuW+KvSg00Yp0="
         }
       },
       "is_incremental": false,
@@ -5881,45 +5404,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.IndexesPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.IndexesPermissions.html",
-          "hash": "gI9NOcTOFmd3XtPUI5rOzDt8YC8h2DoI2dTevkW/8AE="
+          "hash": "OfdWy+7uEB3gRP2NpheZWUB/jZ4kuIxXsc2EkJ+jYYc="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.html",
-          "hash": "q8A2nFjVNruF2BUzzmh80xlsRucjh5Boe9W1mwwcXAU="
+          "hash": "mCeU4vRmcqDmsOjmWfSdmL3vApZsQSnRjzmqYrjcKOc="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Direction.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Direction.html",
-          "hash": "k+NrFRWFyRRrNXGX9cjd/zoXOTeZu3o+Jjea14EJAKE="
+          "hash": "aEaVNRh6WcPxaDmJ+/sSiB2o0V51eoCkb/9xL3qd8mU="
         }
       },
       "is_incremental": false,
@@ -5938,15 +5452,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Execute.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.Execute.html",
-          "hash": "l1N6sx+YrmbB4h3DyPgcA7RpWI24c7dor1yhFb3EXic="
+          "hash": "/NJBRK0j4pLasBsuP1XaNXbsqknA+XvaaWnplEiODWc="
         }
       },
       "is_incremental": false,
@@ -5989,45 +5500,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.html",
-          "hash": "bvHSF7s8nWstmfzMkZvJBQCEUFvtk1tFPOzvktSm9bM="
+          "hash": "O1sYSWh378bFRfsYfiTJVH7lzz466ofGXOL+HsU1v80="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Fields.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Fields.html",
-          "hash": "xIh1IMFLH414FWnVAHgGREWlexNCwN+45hryShrjTbc="
+          "hash": "AJ/rX7yXjkLuHD1X0pZXknpVmdZqOy0LdDopRRKM9EM="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Indexes.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.Indexes.html",
-          "hash": "4/mpJoFst9Kl3fzZYoVErJFMlUKUk51K/T8F+aimOF0="
+          "hash": "07tSyIw71+YybNXI91FZNZR2X1vkq8bTNZKWh0s4cQ4="
         }
       },
       "is_incremental": false,
@@ -6070,15 +5572,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.html",
-          "hash": "+TR/2rswom7IPl17cvzPxbg4RxwGxiPYYffS8ALN70M="
+          "hash": "lZaFPjY+iLXu3bRsSQ6FjEIlfI7+PtxnbHQQ8BRo1zs="
         }
       },
       "is_incremental": false,
@@ -6169,15 +5668,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseInformation.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseInformation.html",
-          "hash": "nzSvCk5r5DEwSAdOTvrBBsOPWgDK4iHHgTPeOkr3t+Y="
+          "hash": "tRKtoToFmAisSLW9X/UhIfYsELH2umqIegAXeJLT2pk="
         }
       },
       "is_incremental": false,
@@ -6196,30 +5692,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Connect.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Connect.html",
-          "hash": "ZnedIlb2EFBRNiKxTAejWrixfCfRvlRHvAXyn5PH7f8="
+          "hash": "W1q3oYVfPhlyCV4dXA8Cj9DkUngWQOhOXMr+67QFFnc="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.DatabaseType.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.DatabaseType.html",
-          "hash": "Hm91S8z7I3abXdXQC3YskXqBXffQBsEfV1trTKAe36s="
+          "hash": "ijcLu6B+UyGntJP/TOnzwVGUsgQqbwxWPcGIMGgRmr8="
         }
       },
       "is_incremental": false,
@@ -6274,60 +5764,48 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Protocol.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Protocol.html",
-          "hash": "PhG1i0Afzk6J3f4nc2skZtK8Y9ob32v3J/pNHDWU+qQ="
+          "hash": "Dinx2HN2MvHTlyl3ydPJzPP1fVLH0jzlAl/onu70IS8="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Termbases.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.Termbases.html",
-          "hash": "7xaisWEf4RfW4/W52SC4M85cqF4DNKtpbGB4hZnmqm4="
+          "hash": "2o9bXATm7W6rbF+nuhq5m1Z+WKIYyfOYSzs7gvD4rGs="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseRepository.html",
-          "hash": "tbMMFACOTtnL4nRSTGxJWm0+5K4dCuzWkt6sW+Aoq3M="
+          "hash": "xt2Wygsr284f992TKcdNqswJp68mSpmDJh4ZxlriMjw="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Advise.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Advise.html",
-          "hash": "yNcxJr4oJykJ9IiZMW1vUEIMuOsO9QEmu31d/D/CH9A="
+          "hash": "slk0dvo8BCCoyLQovO1jTUrNxB3fIcDMw1PjN64ispI="
         }
       },
       "is_incremental": false,
@@ -6346,30 +5824,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction.html",
-          "hash": "/tLWroJMXkRzmHp7oxKSr+MW3C3jfrIpAtF+R5BC4Lw="
+          "hash": "Pz0g7sXb+LqW+KaBVCOLkq/Idy5TEJ3ANJSvYNvMNrg="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Execute.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Execute.html",
-          "hash": "9v/wqjf4kIzf6zxCQUCo1fTW/xOdDPUiXYwsSzaAgZI="
+          "hash": "3Hy32fDjc56l2yIkWmokvcBFUfCvPtPnbg9IVlwvQq4="
         }
       },
       "is_incremental": false,
@@ -6484,15 +5956,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html",
-          "hash": "4gm1EMs5fIGbczWrrq79KEghO5EBCNxefU+fWHHwubY="
+          "hash": "+Mp3ZF6BFF5mue3MsmEvkKLei3c5llrgpwjhMbkDXQo="
         }
       },
       "is_incremental": false,
@@ -6523,30 +5992,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.Item.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.Item.html",
-          "hash": "2oqi7gKfGADYkvug3hBT9A96asjZbEyAsa53BWQ7k6k="
+          "hash": "Z0DElOZlRYqVHsuGMCAj4xapiHsEKvM6XiGhBkdLP58="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.New.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.New.html",
-          "hash": "9SOIUY0mfGqvw4gzhOi7sasxpVlD1Ed1d9ic2i8Fwao="
+          "hash": "HIaheXYmlA7/Cybfa2SXeaku6IFXOjQsxqWCQ3MiTLE="
         }
       },
       "is_incremental": false,
@@ -6565,60 +6028,48 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.Remove.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.Remove.html",
-          "hash": "ahQuP7HYR+MTfyy/TFfen3fMe0vox9djkE0mLT+JpvM="
+          "hash": "6Vf9KPx0+tHwGoNpX9yKTfYv5DshScVXso29nyNIFz4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.Termbases.html",
-          "hash": "aedHWemYFLBY3BWscPgCELhxos9hZlz095kDWhX0774="
+          "hash": "9RQHsIr+dy3e9j9++iVt/pDQak89aKfblZny5KpQpjI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/Sdk/Sdl.MultiTerm.TMO.Interop.html",
-          "hash": "n64MF/TJia1V3oECQTqc/hnqUZgAbsITVERt6Sgg6ds="
+          "hash": "UC1ZK0JWY3+4gyD/hm6BBDtcOfxZdUgZVCco7TyFzs0="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/adding.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/adding.html",
-          "hash": "oQD7jWJPQszdlmWT1kX3ause+GM7xKFnxFMYKN6Xmug="
+          "hash": "Tw/D2HhEqHTT25RaIlrX5bMVlI3fldfphko3q97ihP4="
         }
       },
       "is_incremental": false,
@@ -6695,27 +6146,27 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/overview.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/overview.html",
-          "hash": "i4uZv4MGk7hcUIC6f87m8lomXGgVy97yOzqozpBQxfc="
+          "hash": "dHlVG+nbB7NmgLofHFoFbqXH2KgcEHFS8g/tw5YH3y8="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/sample.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/sample.html",
-          "hash": "fRvCevVmyYN/ydy97fCIx8BUHHblKDmryhcej0Nfwro="
+          "hash": "H8XTZ8G4ue3gmCk0T4s62cj2CvAacxrKKruMkjwRYaM="
         }
       },
       "is_incremental": false,
@@ -6766,7 +6217,7 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/toc.html",
-          "hash": "fwbbGjjcAqsM+Sz2/MjxbT89ouqmCnnZ+HtLFLmIXdM="
+          "hash": "mwSk8OPgYjNzLYkUBF+LVVX4qyoTPOHFc01UgWQ9N1A="
         }
       },
       "is_incremental": false,
@@ -6779,18 +6230,6 @@
         ".html": {
           "relative_path": "apiconcepts/userguide.html",
           "hash": "f3HIKjVL+z69wdCbhJnoXy/BN9xWWGF14IiTNEghWD0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/xsd_schema.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/xsd_schema.html",
-          "hash": "LS5+g/tlJRkHnGOXoNgBWF29jH2gmO+YQN3H+GwS1tA="
         }
       },
       "is_incremental": false,
@@ -6859,13 +6298,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 371,
+          "total_file_count": 361,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 158,
+          "total_file_count": 157,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

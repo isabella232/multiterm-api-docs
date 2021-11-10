@@ -92,7 +92,7 @@
   &lt;/termGrp&gt;
   &lt;/languageGrp&gt;
 &lt;/conceptGrp&gt;
-</code></pre><p>For more detailed information on the MultiTerm XML format, please refer to the <a href="../other/MTF-Schema.htm">MTF Schema</a>. To add the above entry XML as a new entry to a selected termbase, you first have to store the XML stream in a string variable, e.g.:</p>
+</code></pre><p>For more detailed information on the MultiTerm XML format, please refer to the <a href="MTF/XMLSchemaMTF.html">MTF Schema</a>. To add the above entry XML as a new entry to a selected termbase, you first have to store the XML stream in a string variable, e.g.:</p>
 <pre><code class="lang-cs">String entryContent = &quot;&lt;conceptGrp&gt; .... &lt;/conceptGrp&gt;&quot;
 </code></pre><p>Then you need to apply the <strong>New</strong> method to the termbase entries collection, i.e.:</p>
 <pre><code class="lang-cs">Entries oEntries = oTb.Entries;

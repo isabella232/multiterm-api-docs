@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Schema Attributes Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Schema Attributes Reference ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -80,31 +80,29 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="-"></h1>
+<h1 id="schema-attributes-reference">Schema Attributes Reference</h1>
 
-<pre><code>PicklistValues property
-</code></pre><h2 id="name">Name</h2>
-<p>MultiTermIX.DescriptiveField.PicklistValues —          Provides access to the picklist values of a picklist field.</p>
-<h2 id="type">Type</h2>
-<p><a href="MultiTermIX.PicklistValues.html">MultiTermIX.PicklistValues</a></p>
-<p>(read)</p>
-<h2 id="index-parameters">Index Parameters</h2>
-<p><em>none</em></p>
-<h2 id="description">Description</h2>
-<p>Descriptive fields that have the field type &quot;picklist&quot; are associated with a number of values that are defined by the termbase creator/administrator in the termbase definition. This ensures consistent use of the field values when new entries are created (e.g. &quot;Subject -&gt; Engineering, Medicine, Biology&quot;).</p>
-<p>This property is used to access the picklist values associated with a particular field.</p>
-<h2 id="sample">Sample</h2>
-<pre><code class="lang-cs">//select termbase
-Termbase oTb = oTbs[&quot;Termbase name&quot;];
+<dl class="dl">       <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-E782DE6B-80A8-4205-A70C-678633CC592A">open model      </dt>
+      <dd class="dd">The element can contain elements, attributes, and text not specified in the content model. This is the default value.    </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-83C99CAE-E4D2-41AC-80A4-3A25E1734968">closed model    </dt>
+      <dd class="dd">The element cannot contain elements, attributes, and text except for that specified in the content model. DTDs use a closed model.       </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-4FA7AE9C-8DD5-4E89-AF74-C6E19065AA5E">textOnly content    </dt>
+      <dd class="dd">The element can contain only text, not elements. Note that if the model attribute is set to &quot;open&quot;, the element can contain text and additional elements.    </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-5286741B-5821-43CF-9105-3604EC331274">eltOnly content     </dt>
+      <dd class="dd">The element can contain only the elements, not free text. Note that if the model attribute is set to &quot;open&quot;, the element can contain text and additional elements.   </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-FA08BF40-B7BC-4F5C-8561-39CA8CC069FC">empty content   </dt>
+      <dd class="dd">The element cannot contain text or elements. Note that if the model attribute is set to &quot;open&quot;, the element can contain text and additional elements.    </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-EB52FE80-7522-4598-A066-D7C49CA85545">mixed content   </dt>
+      <dd class="dd">The element can contain a mix of named elements and text. This is the default value.     </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-9BB17F57-F975-4AF9-ADB2-053A5140F0A0">one order   </dt>
+      <dd class="dd">Permits only one of a set of elements.       </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-9C814F30-C1BB-4C05-B5E2-A89996B83A81">seq order   </dt>
+      <dd class="dd">Requires the elements to appear in the specified sequence.       </dd>
+              <dt class="dt dlterm" id="GUID-267CBDE0-2132-4192-ABAE-F683BE77335F__GUID-388E535B-D98A-40F6-B218-872E39079A0D">many order      </dt>
+      <dd class="dd">Permits the elements to appear (or not appear) in any order. This is the default.    </dd>
+     </dl>
 
-//access termbase definition
-TermbaseDefinition oDef = oTb.Definition;
-//select first descriptive field
-DescriptiveField oField = oDef.Fields[0];
-PicklistValues oValues = oField.PicklistValues;
-Debug.WriteLine(&quot;Picklist value count: &quot; + oValues.Count.ToString());
-</code></pre><h2 id="provide-feedback">Provide Feedback</h2>
-<p><a href="mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20MultiTermIX.DescriptiveField.PicklistValues">Make annotation</a></p>
+
 </article>
           </div>
           
@@ -113,7 +111,7 @@ Debug.WriteLine(&quot;Picklist value count: &quot; + oValues.Count.ToString());
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RWS/multiterm-api-docs/blob/main/apiconcepts/Sdk/MultiTermIX.DescriptiveField.PicklistValues.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RWS/multiterm-api-docs/blob/main/apiconcepts/MTF/SchemaAttributesReference.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
