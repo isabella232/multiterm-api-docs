@@ -1,7 +1,4 @@
-
-
-# 
-    StartWizard method
+# StartWizard method
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard —          Starts the 
 
 
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 
 
@@ -40,9 +36,4 @@ FilterDefinitions oFilters = oTb.FilterDefinitions;
 oFilters.StartWizard();
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.FilterDefinitions.StartWizard)
 

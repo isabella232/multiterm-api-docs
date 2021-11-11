@@ -1,26 +1,15 @@
-
-
-# 
-    ApplyFilter method
-
-
-
+# ApplyFilter method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.ApplyFilter —          Applies a filter definition to a specified entry and returns True or False, depending on whether the entry matches the filter.
 
-
-
 ## Returntype
-
 Boolean
 
 
-
 ## Parameters
-.md)
-* FilterObject ([Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md))
+* FilterObject ([Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
 
@@ -28,8 +17,6 @@ Boolean
 
 
 ## Description
-
-
 
 Filters are used to search for a subset of entries in the termbase, e.g. all entries that were created after a specified date, all entries that contain or do not contain a certain field, etc.
 
@@ -61,10 +48,3 @@ FilterDefinition oFilter = oFilters["Missing target"];
 //apply export definition
 Debug.Write("Entry matches filter: "  + oEntry.ApplyFilter(oFilter, "English", "German"));
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.ApplyFilter)
-

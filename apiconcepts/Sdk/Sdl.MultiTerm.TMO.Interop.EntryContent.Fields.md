@@ -1,21 +1,11 @@
-
-
-# 
-    Fields property
-
-
-
+# Fields property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryContent.Fields —          Provides access to the descriptive fields of a particular entry.
 
-
-
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
-
 (read)
 
 
@@ -52,10 +42,3 @@ for(int i=0;i<oFields.Count;i++)
    	Debug.WriteLine(oFields[i].Name + ": " + oFields[i].Value);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryContent.Fields)
-

@@ -1,35 +1,19 @@
-
-
-# 
-    ApplyExport method
-
-
-
+#  ApplyExport method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.ApplyExport —          Exports a particular entry.
 
-
-
 ## Returntype
 
 String
 
-
-
 ## Parameters
-.md)
 * ExportDefinition ([Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md))
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
 
-
-
-
 ## Description
-
-
 
 Export definitions are used to export termbase entries to an external file according to the specifications of the corresponding export definition.
 
@@ -60,10 +44,4 @@ ExportDefinition oExpDef = oExpDefs["Default export definition"];
 string result =oEntry.ApplyExport(oExpDef, "English", "German");
 Debug.Write(result);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.ApplyExport)
 

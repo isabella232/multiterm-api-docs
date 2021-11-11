@@ -1,7 +1,4 @@
-
-
-# 
-    ProcessExport method
+# ProcessExport method
 
 
 
@@ -19,7 +16,6 @@ void
 
 
 ## Parameters
-.md)
 * Value ([Sdl.MultiTerm.TMO.Interop.MtTaskType](Sdl.MultiTerm.TMO.Interop.MtTaskType.md))
 * SourceIndex (String, *optional, default is ""*)
 * TargetIndex (String, *optional, default is ""*)
@@ -47,10 +43,4 @@ ExportDefinitions oExpDefs = oTb.ExportDefinitions;
 ExportDefinition oExpDef = oExpDefs["Default export definition"];
 oExpDef.ProcessExport(Sdl.MultiTerm.TMO.Interop.MtTaskType.mtScript, "English", "German");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinition.ProcessExport)
 

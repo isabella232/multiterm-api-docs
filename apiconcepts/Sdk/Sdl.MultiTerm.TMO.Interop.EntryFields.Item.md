@@ -1,9 +1,4 @@
-
-
-# 
-    Item property
-
-
+# Item property
 
 
 ## Name
@@ -13,7 +8,6 @@ Sdl.MultiTerm.TMO.Interop.EntryFields.Item —          Refers to a particular e
 
 
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.EntryField](Sdl.MultiTerm.TMO.Interop.EntryField.md)
 
 (read)
@@ -51,9 +45,4 @@ EntryField oField = oFields[0];
 Debug.WriteLine(oField.Value);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryFields.Item)
 

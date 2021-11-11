@@ -1,9 +1,5 @@
 
-
-# 
-    ActiveFilterHasChanged method
-
-
+# ActiveFilterHasChanged method
 
 ## Name
 
@@ -12,9 +8,7 @@ Sdl.MultiTerm.TMO.Interop.Entries.ActiveFilterHasChanged —          Returns tr
 
 
 ## Returntype
-
 void
-
 
 
 ## Parameters
@@ -22,12 +16,3 @@ void
 
 
 ## Description
-
-
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries.ActiveFilterHasChanged)
-

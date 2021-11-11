@@ -1,9 +1,4 @@
-
-
-# 
-    TermFields property
-
-
+# TermFields property
 
 
 ## Name
@@ -13,7 +8,6 @@ Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields —          Provides programmat
 
 
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
 
 (read)
@@ -51,10 +45,3 @@ EntryIndex oIndex = oIndexes[0];
 //return number of descriptive fields for the first term
 Debug.WriteLine("Number of term-level descriptive fields: " + oIndex.TermFields.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex.TermFields)
-

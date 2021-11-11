@@ -1,10 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.EntryFields class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.EntryFields class
 
 ## Name
 
@@ -21,7 +15,7 @@ Via this class you can retrieve the descriptive fields that refer to the entry a
 
 
 ## Properties
-.md)
+
 * [Count](Sdl.MultiTerm.TMO.Interop.EntryFields.Count.md): Returns the number of entry-level descriptive fields.
 * [Item](Sdl.MultiTerm.TMO.Interop.EntryFields.Item.md): Refers to a particular entry-level descriptive field.
 
@@ -49,10 +43,3 @@ EntryContent content = oEntry.Content;
 EntryFields oFields = content.Fields;
 Debug.WriteLine(oFields.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryFields)
-

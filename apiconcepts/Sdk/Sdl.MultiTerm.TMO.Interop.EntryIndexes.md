@@ -1,10 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.EntryIndexes class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.EntryIndexes class
 
 ## Name
 
@@ -21,7 +15,6 @@ Via this class you can retrieve the indexes (i.e. languages) and terms contained
 
 
 ## Properties
-.md)
 * [Count](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Count.md): Returns the number of indexes contained in a particular entry.
 * [Item](Sdl.MultiTerm.TMO.Interop.EntryIndexes.Item.md): Refers to a particular entry index.
 
@@ -48,10 +41,4 @@ for(int i=0;i<oIndexes.Count;i++)
    	Debug.WriteLine(oIndexes[i].IndexName + ": " + oIndexes[i].Term);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndexes)
 

@@ -1,34 +1,20 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.Entry class
-
-
-
+#  Sdl.MultiTerm.TMO.Interop.Entry class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry —          Provides programmatic access to a particular entry.
 
-
-
 ## Description
-
-
 
 This class allows you to access a particular entry, e.g. for outputting the entire entry content, for applying an entry layout, etc. Entries are programmatically selected via the unique entry id.
 
 
-
 ## Properties
-.md)
 * [Content](Sdl.MultiTerm.TMO.Interop.Entry.Content.md): Provides access to the content of an entry.
 * [ID](Sdl.MultiTerm.TMO.Interop.Entry.ID.md): Returns the id of an entry.
 * [IsComplete](Sdl.MultiTerm.TMO.Interop.Entry.IsComplete.md): Returns whether an entry is complete or not.
 * [IsRtf](Sdl.MultiTerm.TMO.Interop.Entry.IsRtf.md): Returns whether an entry is RTF.
 * [LockedBy](Sdl.MultiTerm.TMO.Interop.Entry.LockedBy.md): Returns the name of the user who locked the entry.
-
-
 
 
 ## Methods
@@ -43,8 +29,6 @@ This class allows you to access a particular entry, e.g. for outputting the enti
 * [Save](Sdl.MultiTerm.TMO.Interop.Entry.Save.md): Saves an entry to the termbase.
 
 
-
-
 ## Sample
 
 
@@ -57,8 +41,6 @@ Entries oEntries = oTb.Entries;
 Entry oEntry = oEntries.Item(1);
 Debug.Write(oEntry.Content.Content);
 ```
-
-
 
 ## Provide Feedback
 

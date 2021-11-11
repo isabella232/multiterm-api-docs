@@ -1,26 +1,17 @@
 
 
-# 
-    Merge method
-
-
-
+# Merge method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.Merge —          Merges the content of two entries into one.
 
-
-
 ## Returntype
-
 void
 
 
-
 ## Parameters
-.md)
-* MergeWithEntry ([Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md))
+* MergeWithEntry ([Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md)
 
 
 
@@ -61,9 +52,4 @@ firstEntry.LockEntry(Sdl.MultiTerm.TMO.Interop.MtLockingState.mtUnlock);
 secondEntry.Delete();
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.Merge)
 

@@ -1,35 +1,22 @@
-
-
-# 
-    IsComplete property
-
-
+# IsComplete property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.IsComplete —          Returns whether an entry is complete or not.
 
-
-
 ## Type
 
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
-
 
 ## Description
 
 
 
 An entry is considered incomplete if it lacks one or more fields that are mandatory according to the termbase definition. This property returns true if the current entry is complete, false if it is incomplete.
-
-
 
 ## Sample
 
@@ -44,9 +31,4 @@ Entry oEntry = oEntries.Item(1);
 Debug.Write("Is entry complete? " + oEntry.IsComplete);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.IsComplete)
 

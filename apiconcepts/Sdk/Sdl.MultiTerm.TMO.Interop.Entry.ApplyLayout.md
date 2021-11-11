@@ -1,22 +1,11 @@
-
-
-# 
-    ApplyLayout method
-
-
-
+#  ApplyLayout method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.ApplyLayout —          Applies a layout definition to a MultiTerm entry XML stream.
 
-
-
 ## Returntype
-
 String
-
-
 
 ## Parameters
 
@@ -25,11 +14,7 @@ String
 * LayoutDefinitionObject ([Sdl.MultiTerm.TMO.Interop.LayoutDefinition](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.md))
 
 
-
-
 ## Description
-
-
 
 MultiTerm entries are stored in XML format, i.e. each entry can be output as an XML stream. For display purposes entries should be rendered in a more readable format, e.g. HTML.
 
@@ -60,10 +45,3 @@ LayoutDefinition oLayout = oLayouts["Flags layout"];
 string content = oEntry.ApplyLayout("English", "German", oLayout);
 Debug.Write(content);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.ApplyLayout)
-

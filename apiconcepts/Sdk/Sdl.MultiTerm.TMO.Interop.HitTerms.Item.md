@@ -1,7 +1,4 @@
-
-
-# 
-    Item property
+# Item property
 
 
 
@@ -13,7 +10,7 @@ Sdl.MultiTerm.TMO.Interop.HitTerms.Item —          Refers to a particular hit 
 
 
 ## Type
-.md)
+
 [Sdl.MultiTerm.TMO.Interop.HitTerm](Sdl.MultiTerm.TMO.Interop.HitTerm.md)
 
 (read)
@@ -49,10 +46,4 @@ oSearch.SearchExpression ="starship";
 HitTerms oHits = oSearch.Execute();
 Debug.WriteLine(oHits[0].Text);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.HitTerms.Item)
 

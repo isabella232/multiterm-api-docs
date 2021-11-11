@@ -1,4 +1,3 @@
-
 # LocalRepository property
 
 ## Name

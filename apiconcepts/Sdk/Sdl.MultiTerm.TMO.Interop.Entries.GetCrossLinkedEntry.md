@@ -1,21 +1,13 @@
-
-
-# 
-    GetCrossLinkedEntry method
-
+#  GetCrossLinkedEntry method
 
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entries.GetCrossLinkedEntry —          Allows you to retrieve the content of a cross-linked entry.
 
-
-
 ## Returntype
 
 String
-
-
 
 ## Parameters
 
@@ -23,12 +15,7 @@ String
 * Term (String)
 * CurrentEntryId (Long)
 
-
-
-
 ## Description
-
-
 
 You can use this method to retrieve the content of an entry that is linked to another entry, thereby implementing a cross-reference functionality. In the MultiTerm XML cross-links look as follows:
 
@@ -37,7 +24,6 @@ DisplayTerm
 A cross-link is made up of the index name the cross-linked term belongs to, the actual cross-linked term and the display text. The display text is often identical to the cross-linked term.
 
 The GetCrossLinkedEntry method requires the index, the cross-linked term and the current entry id as parameters. The method returns the content of the entry that contains the cross-linked entry as an XML stream.
-
 
 
 ## Sample
@@ -54,9 +40,4 @@ Entry thisEntry = oEntries.Item(1);
 Debug.Write(oEntries.GetCrossLinkedEntry("English", "starship", 17));
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries.GetCrossLinkedEntry)
 

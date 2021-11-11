@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.Homonyms class
+# Sdl.MultiTerm.TMO.Interop.Homonyms class
 
 
 
@@ -23,7 +20,6 @@ Via this class you can access all homonyms (if any) contained in a termbase. As 
 
 
 ## Properties
-.md)
 * [Count](Sdl.MultiTerm.TMO.Interop.Homonyms.Count.md): Returns the number of homonyms for a particular termbase index.
 * [Item](Sdl.MultiTerm.TMO.Interop.Homonyms.Item.md): Provides access to a particular homonym.
 
@@ -43,10 +39,4 @@ Termbase oTb = oTbs["Termbase name"];
 Homonyms oHomonyms = oTb.GetHomonyms("English", "","");
 Debug.Write("Homonym count: " + oHomonyms.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Homonyms)
 

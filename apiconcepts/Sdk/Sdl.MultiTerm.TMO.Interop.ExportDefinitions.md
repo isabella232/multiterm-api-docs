@@ -1,9 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.ExportDefinitions class
-
-
+# Sdl.MultiTerm.TMO.Interop.ExportDefinitions class
 
 
 ## Name
@@ -21,7 +16,7 @@ Via this class you can access the export definitions associated with a particula
 
 
 ## Properties
-.md)
+
 * [Count](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Count.md): Returns the number of available export definitions.
 * [Item](Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item.md): Provides access to a particular export definition.
 
@@ -52,9 +47,4 @@ for(int i=0;i<oExpDefs.Count;i++)
 }
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinitions)
 

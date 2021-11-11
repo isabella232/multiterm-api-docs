@@ -1,10 +1,4 @@
-
-
-# 
-    IndexFields property
-
-
-
+# IndexFields property
 
 ## Name
 
@@ -13,7 +7,6 @@ Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields —          Provides programma
 
 
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.EntryFields](Sdl.MultiTerm.TMO.Interop.EntryFields.md)
 
 (read)
@@ -54,9 +47,4 @@ EntryIndex oIndex = oIndexes[0];
 Debug.WriteLine("Number of index-level descriptive fields: " + oIndex.IndexFields.Count.ToString());
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields)
 

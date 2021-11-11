@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.HitTerms class
+# Sdl.MultiTerm.TMO.Interop.HitTerms class
 
 
 
@@ -15,7 +12,6 @@ Sdl.MultiTerm.TMO.Interop.HitTerms —          Provides programmatic access to 
 ## Description
 
 
-.md)
 When executing a [search](Sdl.MultiTerm.TMO.Interop.Termbase.Browse.md) or [browse](Sdl.MultiTerm.TMO.Interop.Termbase.Search.md) operation the results need to be stored in a HitTerms object, from which they can then be retrieved.
 
 You can use the HitTerms object to return the number of hits found (if any) and to loop through them.
@@ -64,9 +60,4 @@ for(int i=0;i<oHits.Count;i++)
 }
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.HitTerms)
 

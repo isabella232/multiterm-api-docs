@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.HitTerm class
+# Sdl.MultiTerm.TMO.Interop.HitTerm class
 
 
 
@@ -21,7 +18,7 @@ This class allows you to retrieve a particular hit term. You will usually avail 
 
 
 ## Properties
-.md)
+
 * [Index](Sdl.MultiTerm.TMO.Interop.HitTerm.Index.md): Returns the name of the index in which a hit term has been found.
 * [ParentEntryID](Sdl.MultiTerm.TMO.Interop.HitTerm.ParentEntryID.md): Returns the entry id associated with a particular hit term.
 * [SearchScore](Sdl.MultiTerm.TMO.Interop.HitTerm.SearchScore.md): Returns the fuzziness score for a particular hit term.
@@ -58,9 +55,4 @@ for(int i=0;i<oHits.Count;i++)
 }
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.HitTerm)
 

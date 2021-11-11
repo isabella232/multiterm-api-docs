@@ -1,7 +1,4 @@
-
-
-# 
-    Item property
+# Item property
 
 
 
@@ -13,7 +10,7 @@ Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item —          Provides access to
 
 
 ## Type
-.md)
+
 [Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
 (read)
@@ -45,9 +42,4 @@ ExportDefinitions oExpDefs = oTb.ExportDefinitions;
 ExportDefinition oExpDef = oExpDefs[0];
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Item)
 

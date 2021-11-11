@@ -1,22 +1,13 @@
-
-
-# 
-    LockedBy property
-
-
+#  LockedBy property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entry.LockedBy —          Returns the name of the user who locked the entry.
 
-
-
 ## Type
 
 String
-
 (read)
-
 
 
 ## Index Parameters
@@ -25,11 +16,7 @@ String
 
 ## Description
 
-
-
 When a user edits an entry it is locked for all other users, i.e. no one else can obtain write access to this particular entry. Via this property you can determine the name of the user who has locked a particular entry. This name corresponds to the login name the user entered in his/her client application.
-
-
 
 ## Sample
 
@@ -45,8 +32,4 @@ Debug.Write("Entry locked by user " + oEntry.LockedBy);
 ```
 
 
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.LockedBy)
 

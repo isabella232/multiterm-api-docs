@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.FilterDefinitions class
+# Sdl.MultiTerm.TMO.Interop.FilterDefinitions class
 
 
 
@@ -23,7 +20,6 @@ Via this property you can, for example, return the number of available filter de
 
 
 ## Properties
-.md)
 * [Count](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Count.md): Returns the number of available filter definitions.
 * [Item](Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Item.md): Provides access to a particular filter definition.
 
@@ -54,9 +50,4 @@ for(int i=0;i<oFilters.Count;i++)
 }
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.FilterDefinitions)
 

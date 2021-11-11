@@ -1,9 +1,4 @@
-
-
-# 
-    ReloadTermbaseDefinition method
-
-
+#  ReloadTermbaseDefinition method
 
 ## Name
 
@@ -14,8 +9,6 @@ Sdl.MultiTerm.TMO.Interop.Entries.ReloadTermbaseDefinition —          Refreshe
 ## Returntype
 
 void
-
-
 
 ## Parameters
 *none*
@@ -40,9 +33,4 @@ Entries oEntries = oTb.Entries;
 oEntries.ReloadTermbaseDefinition();
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries.ReloadTermbaseDefinition)
 

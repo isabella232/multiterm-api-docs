@@ -1,10 +1,5 @@
 
-
-# 
-    Sdl.MultiTerm.TMO.Interop.EntryIndex class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.EntryIndex class
 
 ## Name
 
@@ -18,10 +13,7 @@ Sdl.MultiTerm.TMO.Interop.EntryIndex —          Provides programmatic access t
 
 Via this class you can access a particular index, e.g. in order to retrieve any descriptive fields associated with the index, term-level descriptive fields, etc.
 
-
-
 ## Properties
-.md)
 * [IndexFields](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexFields.md): Provides programmatic access to the descriptive fields of an index.
 * [IndexName](Sdl.MultiTerm.TMO.Interop.EntryIndex.IndexName.md): Returns the name of the selected index.
 * [ReadOnly](Sdl.MultiTerm.TMO.Interop.EntryIndex.ReadOnly.md): Indicates whether an index is read-only.
@@ -54,10 +46,4 @@ EntryIndex oIndex = oIndexes[0];
 Debug.WriteLine(oIndex.Term);
 Debug.WriteLine("Number of index-level descriptive fields: " + oIndex.IndexFields.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex)
 

@@ -1,7 +1,4 @@
-
-
-# 
-    Add method
+# Add method
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add —          Adds a new filter d
 
 
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.FilterDefinition](Sdl.MultiTerm.TMO.Interop.FilterDefinition.md)
 
 
@@ -44,10 +40,4 @@ Termbase oTb = oTbs["Termbase name"];
 FilterDefinitions oFilters = oTb.FilterDefinitions;
 oFilters.Add("Filter definition name", "Filter definition description", "c:\\temp\\missing_target_.xdf");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.FilterDefinitions.Add)
 

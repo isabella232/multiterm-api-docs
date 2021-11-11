@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.ExportDefinition class
+# Sdl.MultiTerm.TMO.Interop.ExportDefinition class
 
 
 
@@ -21,7 +18,7 @@ Export definitions contain an XSL stylesheet that transforms MultiTerm XML into 
 
 
 ## Properties
-.md)
+
 * [Content](Sdl.MultiTerm.TMO.Interop.ExportDefinition.Content.md): Returns the export definition content.
 * [Description](Sdl.MultiTerm.TMO.Interop.ExportDefinition.Description.md): Returns the export definition description.
 * [Name](Sdl.MultiTerm.TMO.Interop.ExportDefinition.Name.md): Returns the name of the export definition.
@@ -55,9 +52,4 @@ ExportDefinition oExpDef = oExpDefs["Default export definition"];
 Debug.WriteLine(oExpDef.Description);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinition)
 

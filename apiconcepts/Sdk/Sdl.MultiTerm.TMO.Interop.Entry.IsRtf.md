@@ -1,9 +1,4 @@
-
-
-# 
-    IsRtf property
-
-
+# IsRtf property
 
 ## Name
 
@@ -12,12 +7,8 @@ Sdl.MultiTerm.TMO.Interop.Entry.IsRtf —          Returns whether an entry is R
 
 
 ## Type
-
 Long
-
 (read)
-
-
 
 ## Index Parameters
 *none*
@@ -25,11 +16,7 @@ Long
 
 ## Description
 
-
-
 This property returns 0 if the current entry is not RTF, which will usually be the case.
-
-
 
 ## Sample
 
@@ -44,9 +31,4 @@ Entry oEntry = oEntries.Item(1);
 Debug.Write("Is entry RTF? " + oEntry.IsRtf);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entry.IsRtf)
 

@@ -1,10 +1,4 @@
-
-
-# 
-    Item property
-
-
-
+# Item property
 
 ## Name
 
@@ -13,25 +7,14 @@ Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item —          Refers to a 
 
 
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.EntryClassPermissions](Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.md)
-
 (read)
-
-
 
 ## Index Parameters
 
 * Index (Variant)
 
-
-
-
 ## Description
-
-
-
-
 
 ## Sample
 
@@ -48,10 +31,4 @@ EntryClassesPermissions oClasses = oPermissions.EntryClasses;
 EntryClassPermissions oClass = oClasses[0];
 Debug.WriteLine(oClass.Name);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Item)
 

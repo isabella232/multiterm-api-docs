@@ -1,7 +1,4 @@
-
-
-# 
-    StartWizard method
+# StartWizard method
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard —          Starts the 
 
 
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
 
@@ -39,10 +35,4 @@ Termbase oTb = oTbs["Termbase name"];
 ExportDefinitions oExpDefs = oTb.ExportDefinitions;
 oExpDefs.StartWizard();
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinitions.StartWizard)
 

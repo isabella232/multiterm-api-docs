@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.FilterDefinition class
+# Sdl.MultiTerm.TMO.Interop.FilterDefinition class
 
 
 
@@ -21,7 +18,6 @@ Filters contain an XPATH statement that gets applied to the MultiTerm entries, w
 
 
 ## Properties
-.md)
 * [Active](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Active.md): Activates a particular filter.
 * [Content](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Content.md): Returns the filter definition content.
 * [Description](Sdl.MultiTerm.TMO.Interop.FilterDefinition.Description.md): Returns the filter description.
@@ -56,10 +52,4 @@ FilterDefinition oFilter = oFilters["Missing target"];
 
 Debug.WriteLine(oFilter.Description);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.FilterDefinition)
 

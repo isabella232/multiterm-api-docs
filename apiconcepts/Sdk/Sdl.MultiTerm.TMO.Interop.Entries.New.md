@@ -1,7 +1,4 @@
-
-
-# 
-    New method
+#    New method
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.Entries.New —          Adds a new entry to the termb
 
 
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.Entry](Sdl.MultiTerm.TMO.Interop.Entry.md)
 
 
@@ -55,10 +51,4 @@ entryContent+="<termGrp><term>starship</term></termGrp></languageGrp></conceptGr
 //add new entry and flag as incomplete
 oEntries.New(entryContent, true);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries.New)
 

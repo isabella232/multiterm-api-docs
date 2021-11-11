@@ -1,31 +1,15 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.Entries class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.Entries class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entries —          Provides programmatic access to the entries in a termbase.
 
-
-
 ## Description
-
-
 
 A termbase is a collection of entries (i.e. concepts). Via this class you can, for example, add new entries to the specified termbase, or select a specific entry by using its unique concept number, etc.
 
-
-
 ## Properties
-.md
 * [Count](Sdl.MultiTerm.TMO.Interop.Entries.Count.md): Returns the total number of termbase entries.
-
-
-
 
 ## Methods
 
@@ -37,9 +21,6 @@ A termbase is a collection of entries (i.e. concepts). Via this class you can, f
 * [ReloadLayout](Sdl.MultiTerm.TMO.Interop.Entries.ReloadLayout.md): Refreshes the entry layout.
 * [ReloadTermbaseDefinition](Sdl.MultiTerm.TMO.Interop.Entries.ReloadTermbaseDefinition.md): Refreshes the current termbase definition.
 
-
-
-
 ## Sample
 
 
@@ -50,9 +31,4 @@ Entries oEntries = oTb.Entries;
 Debug.Write("Total entry count: " + oEntries.Count.ToString());
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries)
 

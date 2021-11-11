@@ -1,20 +1,12 @@
-
-
-# 
-    ReloadLayout method
-
-
+#  ReloadLayout method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Entries.ReloadLayout —          Refreshes the entry layout.
 
 
-
 ## Returntype
-
 void
-
 
 
 ## Parameters
@@ -23,11 +15,7 @@ void
 
 ## Description
 
-
-
 Applying this method to an Entries collection refreshes the entry layout. That way you can make sure that always the most current layout is applied to the entry display, e.g. when layouts are edited while you search the termbase.
-
-
 
 ## Sample
 
@@ -39,10 +27,4 @@ Entries oEntries = oTb.Entries;
 
 oEntries.ReloadLayout();
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Entries.ReloadLayout)
 

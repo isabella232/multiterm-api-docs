@@ -1,19 +1,11 @@
-
-
-# 
-    EntryIndexes property
-
-
-
+# EntryIndexes property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes —          Provides programmatic access to the indexes contained in a particular entry.
 
-
-
 ## Type
-.md)
+
 [Sdl.MultiTerm.TMO.Interop.EntryIndexes](Sdl.MultiTerm.TMO.Interop.EntryIndexes.md)
 
 (read)
@@ -25,8 +17,6 @@ Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes —          Provides progra
 
 
 ## Description
-
-
 
 Each entry contains at least one index (i.e. one language). You can use the EntryIndexes class to retrieve the indexes and the terms contained in a particular entry, e.g. to return the number of entry indexes, the index labels and locales, etc.
 
@@ -52,9 +42,4 @@ for(int i=0;i<oIndexes.Count;i++)
 }
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryContent.EntryIndexes)
 

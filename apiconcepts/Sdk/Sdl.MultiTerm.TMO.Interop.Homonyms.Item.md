@@ -1,7 +1,4 @@
-
-
-# 
-    Item property
+#  Item property
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.Homonyms.Item —          Provides access to a partic
 
 
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.Homonym](Sdl.MultiTerm.TMO.Interop.Homonym.md)
 
 (read)
@@ -54,9 +50,4 @@ Debug.Write("Homonym term: " + oHomonym.Term);
 Debug.Write("Homonym entry id: " + oHomonym.EntryID.ToString());
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Homonyms.Item)
 

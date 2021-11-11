@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.ImportDefinition class
+#  Sdl.MultiTerm.TMO.Interop.ImportDefinition class
 
 
 
@@ -21,7 +18,6 @@ Import definitions are used to import the content from MultiTerm XML files into 
 
 
 ## Properties
-.md)
 * [Content](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Content.md): Returns the content of a particular import definition in an XML format.
 * [Description](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Description.md): Returns the import definition description.
 * [Name](Sdl.MultiTerm.TMO.Interop.ImportDefinition.Name.md): Returns the name of the import definition.
@@ -55,9 +51,4 @@ ImportDefinition oImpDef = oImpDefs["Default import definition"];
 Debug.Write(oImpDef.Description);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ImportDefinition)
 

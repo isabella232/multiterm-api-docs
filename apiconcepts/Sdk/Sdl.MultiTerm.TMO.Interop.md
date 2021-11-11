@@ -1,7 +1,4 @@
-
-
-# 
-    MultiTerm library
+# MultiTerm library
 
 
 
@@ -19,7 +16,7 @@ MultiTermIX —          Namespace for programmatic access to MultiTerm Client f
 
 
 ## Classes
-.md)
+
 * [Application](Sdl.MultiTerm.TMO.Interop.Application.md)
 
     Provides programmatic access to the MultiTerm client functionality.
@@ -186,10 +183,4 @@ MultiTermIX —          Namespace for programmatic access to MultiTerm Client f
 
     Provides programmatic access to the MultiTerm search functionality.
 
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20MultiTerm)
 

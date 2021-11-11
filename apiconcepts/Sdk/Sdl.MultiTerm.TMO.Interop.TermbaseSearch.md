@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.TermbaseSearch class
+# Sdl.MultiTerm.TMO.Interop.TermbaseSearch class
 
 
 
@@ -27,7 +24,6 @@ When doing a termbase search you need to provide various parameters such as the 
 
 
 ## Properties
-.md)
 * [Direction](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.Direction.md): Sets/returns the search direction.
 * [FuzzySearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.FuzzySearch.md): Sets/returns whether the termbase search should be a fuzzy search.
 * [LastTerm](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.LastTerm.md): Sets the last term from which a search operation should be started.
@@ -65,10 +61,4 @@ tbSearch.SourceIndex="English";
 HitTerms oHits = tbSearch.Execute();
 Debug.Write("Number of hits found: " + oHits.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.TermbaseSearch)
 
