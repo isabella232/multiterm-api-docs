@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Term property </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Term property ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -80,20 +80,23 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="-"></h1>
+<h1 id="term-property">Term property</h1>
 
-<pre><code>Term property
-</code></pre><h2 id="name">Name</h2>
+<h2 id="name">Name</h2>
 <p>Sdl.MultiTerm.TMO.Interop.EntryIndex.Term —          Returns the term for the currently selected index.</p>
 <h2 id="type">Type</h2>
-<p>String</p>
-<p>(read / write)</p>
+<p>String
+(read / write)</p>
 <h2 id="index-parameters">Index Parameters</h2>
 <p><em>none</em></p>
 <h2 id="description">Description</h2>
 <p>Note that if, for example, the first available index contains two terms, these would be output like this:</p>
-<p>//first  term Debug.WriteLine(oIndexes[0].Term); //second term Debug.WriteLine(oIndexes[1].Term);</p>
-<h2 id="sample">Sample</h2>
+<pre><code class="lang-cs">///first 
+term Debug.WriteLine(oIndexes[0].Term); 
+
+///second 
+term Debug.WriteLine(oIndexes[1].Term);
+</code></pre><h2 id="sample">Sample</h2>
 <pre><code class="lang-cs">//select termbase
 Termbase oTb = oTbs[&quot;Termbase name&quot;];
 Entries oEntries = oTb.Entries;
@@ -108,9 +111,7 @@ EntryIndex oIndex = oIndexes[0];
 
 //output first term
 Debug.WriteLine(oIndex.Term);
-</code></pre><h2 id="provide-feedback">Provide Feedback</h2>
-<p><a href="mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex.Term">Make annotation</a></p>
-</article>
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
