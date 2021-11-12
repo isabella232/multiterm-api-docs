@@ -1,7 +1,4 @@
-
-
-# 
-    Add method
+# Add method
 
 
 
@@ -13,7 +10,6 @@ Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add —          Adds a new export d
 
 
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.ExportDefinition](Sdl.MultiTerm.TMO.Interop.ExportDefinition.md)
 
 
@@ -44,10 +40,4 @@ Termbase oTb = oTbs["Termbase name"];
 ExportDefinitions oExpDefs = oTb.ExportDefinitions;
 oExpDefs.Add("Export definition name", "Export definition description", "c:\\temp\\exp_def.xdx");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinitions.Add)
 

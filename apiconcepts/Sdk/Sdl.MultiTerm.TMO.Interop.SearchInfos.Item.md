@@ -1,23 +1,13 @@
-
-
-# 
-    Item property
-
-
+# Item property
 
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.SearchInfos.Item —          Refers to a particular set of search info, i.e. the search info related to a specific termbase.
 
-
-
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.SearchInfo](Sdl.MultiTerm.TMO.Interop.SearchInfo.md)
-
 (read)
-
 
 
 ## Index Parameters
@@ -25,14 +15,9 @@ Sdl.MultiTerm.TMO.Interop.SearchInfos.Item —          Refers to a particular s
 * Index (Variant)
 
 
-
-
 ## Description
 
-
-
 This property allows you, for example, to retrieve information such as the source/target index that was actually used when searching a particular termbase in a multi-termbase search.
-
 
 
 ## Sample
@@ -52,9 +37,4 @@ Sdl.MultiTerm.TMO.Interop.SearchInfos infos = search.SearchInfo;
 Debug.WriteLine("Source index used for the first termbase: " + infos[0].SourceIndex);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.SearchInfos.Item)
 

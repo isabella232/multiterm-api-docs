@@ -1,24 +1,12 @@
-
-
-# 
-    Search property
-
-
-
+#  Search property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbase.Search —          Provides programmatic access to the search functionality for a particular termbase.
 
-
-
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.TermbaseSearch](Sdl.MultiTerm.TMO.Interop.TermbaseSearch.md)
-
 (read)
-
-
 
 ## Index Parameters
 *none*
@@ -26,11 +14,7 @@ Sdl.MultiTerm.TMO.Interop.Termbase.Search —          Provides programmatic acc
 
 ## Description
 
-
-
 Searching a termbase involves looking up a search expression in a selected index (i.e. the source index). By applying the Search property to a termbase you can create a search object, which you can then configure and execute to retrieve the search term from the source index.
-
-
 
 ## Sample
 
@@ -50,9 +34,4 @@ HitTerms oHits = oSearch.Execute;
 Debug.Write("Number of hits: " + oHits.Count);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase.Search)
 

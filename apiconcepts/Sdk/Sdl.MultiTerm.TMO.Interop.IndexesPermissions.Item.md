@@ -1,38 +1,20 @@
-
-
-# 
-    Item property
-
-
-
+# Item property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item —          Refers to a particular index permission.
 
-
-
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.IndexPermissions](Sdl.MultiTerm.TMO.Interop.IndexPermissions.md)
-
 (read)
-
-
 
 ## Index Parameters
 
 * Index (Variant)
 
-
-
-
 ## Description
 
-
-
 You can use this property, for example, to return the label of a particular index the currently logged-in user has access to and see whether the user has read-only or read/write access to it.
-
 
 
 ## Sample
@@ -51,10 +33,3 @@ for(int i=0;i<oIndexes.Count;i++)
    	Debug.WriteLine(oIndex.Label);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.IndexesPermissions.Item)
-

@@ -1,23 +1,14 @@
-
-
-# 
-    SearchType property
-
-
-
+# SearchType property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType —          Specifies the type of multiple termbase search to carry out.
 
 
-
 ## Type
-.md)
+
 [Sdl.MultiTerm.TMO.Interop.MtSearchType](Sdl.MultiTerm.TMO.Interop.MtSearchType.md)
-
 (read / write)
-
 
 
 ## Index Parameters
@@ -25,9 +16,6 @@ Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType —          Specifies the type
 
 
 ## Description
-
-
-
 
 
 ## Sample
@@ -52,10 +40,3 @@ oSearch.AddSearchTermbase(oTb1, "English", "German");
 oSearch.AddSearchTermbase(oTb2, "Englisch", "Deutsch");
 oSearch.AddSearchTermbase(oTb3, "ENG", "DEU");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchType)
-

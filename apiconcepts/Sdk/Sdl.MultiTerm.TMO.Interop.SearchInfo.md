@@ -1,27 +1,15 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.SearchInfo class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.SearchInfo class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.SearchInfo —          Stores information on the search carried for particular termbases.
 
-
-
 ## Description
-
-
 
 After a search has been carried out in multiple termbases you might want to know whether a particular termbases yielded any results, which source/target index has actually been used, etc. This class allows you to retrieve such information for each termbases included in the search.
 
 
-
 ## Properties
-.md)
 * [ErrorCode](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorCode.md): Returns the error code for the search in a particular termbase (if applicable).
 * [ErrorMessage](Sdl.MultiTerm.TMO.Interop.SearchInfo.ErrorMessage.md): Returns the error message for a search in a particular termbase (if applicable).
 * [HitsFound](Sdl.MultiTerm.TMO.Interop.SearchInfo.HitsFound.md): Returns true or false depending on whether any hits have been found in a particular termbase.
@@ -30,7 +18,6 @@ After a search has been carried out in multiple termbases you might want to know
 * [TargetIndex](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetIndex.md): Returns the target index used when searching a particular termbase.
 * [TargetLocale](Sdl.MultiTerm.TMO.Interop.SearchInfo.TargetLocale.md): Returns the locale of the target index used when searching a particular termbase.
 * [TermbaseName](Sdl.MultiTerm.TMO.Interop.SearchInfo.TermbaseName.md): Returns the name of the termbase that the search info relates to.
-
 
 
 
@@ -70,10 +57,4 @@ oInfo = oSearch.SearchInfo[1];
 Debug.WriteLine("Any hits found in this termbase? " + oInfo.HitsFound);
 Debug.WriteLine("Source index used: " + oInfo.SourceIndex);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.SearchInfo)
 

@@ -1,7 +1,4 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.Homonym class
+# Sdl.MultiTerm.TMO.Interop.Homonym class
 
 
 
@@ -25,7 +22,6 @@ Note that via referring to the unique entry id, you can retrieve the content of 
 
 
 ## Properties
-.md)
 * [EntryID](Sdl.MultiTerm.TMO.Interop.Homonym.EntryID.md): Returns the entry id of a particular homonym.
 * [Index](Sdl.MultiTerm.TMO.Interop.Homonym.Index.md): Returns the index the homonym term was found in.
 * [Term](Sdl.MultiTerm.TMO.Interop.Homonym.Term.md): Returns the homonym term.
@@ -57,8 +53,4 @@ Debug.Write("Homonym entry id: " + oHomonym.EntryID.ToString());
 ```
 
 
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Homonym)
 

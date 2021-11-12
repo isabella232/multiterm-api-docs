@@ -1,20 +1,11 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.Termbase class
-
-
-
+#  Sdl.MultiTerm.TMO.Interop.Termbase class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbase —          Provides programmatic access to a particular termbase.
 
 
-
 ## Description
-
-
 
 A termbase is a database that is physically stored in a JET, SQL Server or Oracle backend. A termbase contains a number of entries (i.e. concepts), a set of so-called termbase or catalog objects (e.g. filter and layout definitions, etc.) and possibly also multimedia blobs.
 
@@ -24,19 +15,24 @@ Apart from that you can also configure a number of settings for a selected termb
 
 To select a termbase from a termbase repository you can either use the termbase path (for local termbases), the termbase name (for server termbases) or the index number, e.g.:
 
-oTb = oTbs["C:\Testdata\Sample Termbase.sdltb"] or
-
-oTb = oTbs["Sample Termbase"] or
-
+```cs
+oTb = oTbs["C:\Testdata\Sample Termbase.sdltb"]
+```
+or
+```cs
+oTb = oTbs["Sample Termbase"]
+```
+or
+```cs
 oTb = oTbs[0]
-
+```
 
 
 ## Properties
-.md)
-* [\_Cookie](Sdl.MultiTerm.TMO.Interop.Termbase._Cookie.md): [For internal use only.]
-* [\_DefaultEntryClassID](Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.md): Returns the default entry class id.
-* [\_IsLocal](Sdl.MultiTerm.TMO.Interop.Termbase._IsLocal.md): Flags whether a termbase is local or not.
+
+* [_Cookie](Sdl.MultiTerm.TMO.Interop.Termbase._Cookie.md): [For internal use only.]
+* [_DefaultEntryClassID](Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.md): Returns the default entry class id.
+* [_IsLocal](Sdl.MultiTerm.TMO.Interop.Termbase._IsLocal.md): Flags whether a termbase is local or not.
 * [AccessPermissions](Sdl.MultiTerm.TMO.Interop.Termbase.AccessPermissions.md): Provides programmatic access to the permissions the currently logged-in user has to a termbase.
 * [ActiveFilter](Sdl.MultiTerm.TMO.Interop.Termbase.ActiveFilter.md): Returns the active filter for a termbase.
 * [Browse](Sdl.MultiTerm.TMO.Interop.Termbase.Browse.md): Provides access to the browse functionality for a termbase.
@@ -61,19 +57,14 @@ oTb = oTbs[0]
 * [Name](Sdl.MultiTerm.TMO.Interop.Termbase.Name.md): Returns the name of a termbase.
 * [Search](Sdl.MultiTerm.TMO.Interop.Termbase.Search.md): Provides programmatic access to the search functionality for a particular termbase.
 
-
-
-
 ## Methods
 
-* [\_Reorganise](Sdl.MultiTerm.TMO.Interop.Termbase._Reorganise.md): [For internal use only.]
+* [_Reorganise](Sdl.MultiTerm.TMO.Interop.Termbase._Reorganise.md): [For internal use only.]
 * [Close](Sdl.MultiTerm.TMO.Interop.Termbase.Close.md): Closes a specified termbase.
 * [Delete](Sdl.MultiTerm.TMO.Interop.Termbase.Delete.md): Deletes a particular termbase.
 * [ExtractToFile](Sdl.MultiTerm.TMO.Interop.Termbase.ExtractToFile.md): Saves the a termbase to an \*.mdb file.
 * [GetHomonyms](Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms.md): Retrieves all homonym entries of a particular termbase.
 * [Reorganise](Sdl.MultiTerm.TMO.Interop.Termbase.Reorganise.md): Reorganises a specified termbase.
-
-
 
 
 ## Sample
@@ -86,9 +77,4 @@ Termbase oTb = oTbs["Termbase Path"];
 Debug.Write("Total number of termbase entries: " + oTb.Information.TotalNumberOfEntries.ToString());
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase)
 

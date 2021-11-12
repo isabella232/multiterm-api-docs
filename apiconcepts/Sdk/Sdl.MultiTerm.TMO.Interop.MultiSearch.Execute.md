@@ -1,34 +1,18 @@
-
-
-# 
-    Execute method
-
-
-
+# Execute method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute —          Executes the MultiSearch operation and stores the results in a HitTerms object.
 
-
-
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.HitTerms](Sdl.MultiTerm.TMO.Interop.HitTerms.md)
-
-
 
 ## Parameters
 *none*
 
-
 ## Description
 
-
-
 By applying the Execute method to a MultiSearch,  the search is carried out in all termbases. This method is also used to create a HitTerms object, from which the search results (hit terms) can be retrieved.
-
-
 
 ## Sample
 
@@ -63,10 +47,3 @@ for(int i=0;i<oHits.Count;i++)
    	Debug.WriteLine(oHits[i].Termbase);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute)
-

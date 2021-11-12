@@ -1,27 +1,16 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.LayoutDefinition class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.LayoutDefinition class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.LayoutDefinition —          Provides programmatic access to a particular layout definition.
 
-
-
 ## Description
-
-
 
 Layouts basically contain an XSL stylesheet, which renders MultiTerm entry XML as HTML. Via this class you can retrieve information on a particular layout, e.g. the layout description, the content (i.e. the layout 'source code'), etc. In addition you can also use this class to edit an existing layout using the layout wizard.
 
 
-
 ## Properties
-.md)
+
 * [Content](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Content.md): Returns the layout definition content.
 * [Description](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Description.md): Returns the layout description.
 * [ID](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ID.md): Returns the unique id of the layout.
@@ -30,17 +19,12 @@ Layouts basically contain an XSL stylesheet, which renders MultiTerm entry XML a
 * [ReadOnly](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.ReadOnly.md): Returns whether a particular layout is read-only.
 
 
-
-
 ## Methods
 
 * [Delete](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Delete.md): Removes the layout from the collection.
 * [Load](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Load.md): Updates the selected layout from an external layout definition file.
 * [Save](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Save.md): Saves the layout definition to an external file.
 * [StartWizard](Sdl.MultiTerm.TMO.Interop.LayoutDefinition.StartWizard.md): Calls up the layout definition wizard for editing a particular layout.
-
-
-
 
 ## Sample
 
@@ -55,10 +39,4 @@ LayoutDefinition oLayout = oLayouts["Flags layout"];
 
 Debug.WriteLine(oLayout.Description);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.LayoutDefinition)
 

@@ -1,22 +1,12 @@
-
-
-# 
-    GetHomonyms method
-
-
-
+# GetHomonyms method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms —          Retrieves all homonym entries of a particular termbase.
 
 
-
 ## Returntype
-.md)
 [Sdl.MultiTerm.TMO.Interop.Homonyms](Sdl.MultiTerm.TMO.Interop.Homonyms.md)
-
-
 
 ## Parameters
 
@@ -25,11 +15,7 @@ Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms —          Retrieves all homony
 * Target (String)
 
 
-
-
 ## Description
-
-
 
 Homonyms are duplicate terms. Those can be actual duplicates, i.e. redundant terms, but it can also be the same term expressing different concepts, e.g. "book" (book for reading) and "book" (to book a flight).
 
@@ -48,10 +34,4 @@ Termbase oTb = oTbs["Termbase Name"];
 Sdl.MultiTerm.TMO.Interop.Homonyms oDoubles = oTb.GetHomonyms("English", "English", "German");
 Debug.Write("Homonym count in English index: " + oDoubles.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase.GetHomonyms)
 

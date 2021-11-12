@@ -1,20 +1,10 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.MultiSearch class
-
-
-
+# Sdl.MultiTerm.TMO.Interop.MultiSearch class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MultiSearch —          Provides programmatic access to multiple termbase search.
 
-
-
 ## Description
-
-
 
 Rather than searching only in a single termbase, MultiTerm allows you to cascade searches over sevral termbases, which can both be local and remote server termbases. This is why the MultiSearch class is sub-ordinate to the MultiTerm client application class, as it is not limited to the local or server termbase repository.
 
@@ -23,12 +13,9 @@ You can avail of this class to implement multiple termbase search functionality 
 A search requires you to specify the search index for each termbase. Multiple termbase search can be tricky, if the search index label differs among the various termbases.  Example: you would like to carry out a search for an English term in three termbases. Termbase#1 has an index called "English", Termbase#2 has an index called "Englisch", and Termbase#3 has an index called "ENG".
 
 To carry out a search in the English index of all three termbases you would have to find out which index label stands for the English language in each termbase.
-.md)
 The MultiSearch class implements a [GuessIndex](Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.md) property that allows you to have the search 'guess' the correct index. If, for example,  the first termbase you add to the search has the index label "English", the search will automatically 'guess' what the English index is called in all the other termbases. As a criterion for 'guessing' the correct search index, the MultiSearch relies on the index locales.
 
 In the example below the second termbases added to the search in "Deutsch" (i.e. German). However, the search is configured to 'guess' the index, i.e. in the second and third termbase the search will be carried out in the indexes that are most likely to correspond to the "English" index of the first termbase.
-
-
 
 ## Properties
 
@@ -44,15 +31,11 @@ In the example below the second termbases added to the search in "Deutsch" (i.e.
 * [TargetRequired](Sdl.MultiTerm.TMO.Interop.MultiSearch.TargetRequired.md): Sets/returns whether only terms with one or more target terms should be taken into consideration.
 
 
-
-
 ## Methods
 
 * [AddSearchTermbase](Sdl.MultiTerm.TMO.Interop.MultiSearch.AddSearchTermbase.md): Adds a termbase to the MultiSearch.
 * [ClearSearchTermbases](Sdl.MultiTerm.TMO.Interop.MultiSearch.ClearSearchTermbases.md): Removes all termbases from the MultiSearch.
 * [Execute](Sdl.MultiTerm.TMO.Interop.MultiSearch.Execute.md): Executes the MultiSearch operation and stores the results in a HitTerms object.
-
-
 
 
 ## Sample
@@ -89,10 +72,4 @@ for(int i=0;i<oHits.Count;i++)
   	Debug.WriteLine(oHits[i].Termbase);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MultiSearch)
 

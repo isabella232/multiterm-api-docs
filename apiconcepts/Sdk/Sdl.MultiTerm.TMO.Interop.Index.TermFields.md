@@ -1,21 +1,11 @@
-
-
-# 
-    TermFields property
-
-
-
+# TermFields property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Index.TermFields —          Provides programmatic access to the term-level descriptive fields.
 
-
-
 ## Type
-.md)
 [Sdl.MultiTerm.TMO.Interop.DescriptiveFields](Sdl.MultiTerm.TMO.Interop.DescriptiveFields.md)
-
 (read)
 
 
@@ -46,10 +36,4 @@ Index oIndex = oIndexes[0];
 DescriptiveFields oFields = oIndex.TermFields;
 Debug.WriteLine("Number of term-level descriptive fields: " + oFields.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Index.TermFields)
 

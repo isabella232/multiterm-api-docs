@@ -1,27 +1,16 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions class
-
-
-
+#  Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions class
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions —          Provides programmatic access to the termbase access permissions of the currently logged-in user.
 
-
-
 ## Description
-
 
 
 Via this class you can, for example, determine whether the currently logged-in user is allowed to change the value of entry classes, ascertain which indexes the user can access etc. One possible application is the generation of a list that contains only the indexes that a user has access to.
 
 
-
 ## Properties
-.md)
 * [CanChangeEntryClass](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.CanChangeEntryClass.md): Returns whether the currently-logged in user can change entry class values.
 * [CanExport](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.CanExport.md): Returns true or false depending on whether the current user has export privileges or not.
 * [CanImport](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.CanImport.md): Returns true or false depending on whether the current user has import privileges or not.
@@ -31,14 +20,10 @@ Via this class you can, for example, determine whether the currently logged-in u
 * [IndexesPermissions](Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.IndexesPermissions.md): Provides access to the indexes that the currently logged-in user can access.
 
 
-
-
 ## Methods
 *None*
 
-
 ## Sample
-
 
 ```cs
 //select termbase
@@ -49,10 +34,3 @@ TermbaseAccessPermissions oPermissions = oTb.AccessPermissions;
 Debug.WriteLine(oPermissions.CanChangeEntryClass);
 Debug.WriteLine("Number of indexes the user can access: " + oPermissions.IndexesPermissions.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions)
-
