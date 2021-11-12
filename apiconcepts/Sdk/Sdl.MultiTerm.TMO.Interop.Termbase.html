@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Sdl.MultiTerm.TMO.Interop.Termbase class </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Sdl.MultiTerm.TMO.Interop.Termbase class ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -80,21 +80,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="-"></h1>
+<h1 id="sdlmultitermtmointeroptermbase-class">Sdl.MultiTerm.TMO.Interop.Termbase class</h1>
 
-<pre><code>Sdl.MultiTerm.TMO.Interop.Termbase class
-</code></pre><h2 id="name">Name</h2>
+<h2 id="name">Name</h2>
 <p>Sdl.MultiTerm.TMO.Interop.Termbase —          Provides programmatic access to a particular termbase.</p>
 <h2 id="description">Description</h2>
 <p>A termbase is a database that is physically stored in a JET, SQL Server or Oracle backend. A termbase contains a number of entries (i.e. concepts), a set of so-called termbase or catalog objects (e.g. filter and layout definitions, etc.) and possibly also multimedia blobs.</p>
 <p>The Termbase class allows you to retrieve various information on a specified termbase, e.g. the termbase name, location, the entry count, the number of indexes in the termbase definition, etc.</p>
 <p>Apart from that you can also configure a number of settings for a selected termbase, e.g. the source and target index, the active filter, etc.</p>
 <p>To select a termbase from a termbase repository you can either use the termbase path (for local termbases), the termbase name (for server termbases) or the index number, e.g.:</p>
-<p>oTb = oTbs[&quot;C:\Testdata\Sample Termbase.sdltb&quot;] or</p>
-<p>oTb = oTbs[&quot;Sample Termbase&quot;] or</p>
-<p>oTb = oTbs[0]</p>
-<h2 id="properties">Properties</h2>
-<p>.md)</p>
+<pre><code class="lang-cs">oTb = oTbs[&quot;C:\Testdata\Sample Termbase.sdltb&quot;]
+</code></pre><p>or</p>
+<pre><code class="lang-cs">oTb = oTbs[&quot;Sample Termbase&quot;]
+</code></pre><p>or</p>
+<pre><code class="lang-cs">oTb = oTbs[0]
+</code></pre><h2 id="properties">Properties</h2>
 <ul>
 <li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._Cookie.html">_Cookie</a>: [For internal use only.]</li>
 <li><a href="Sdl.MultiTerm.TMO.Interop.Termbase._DefaultEntryClassID.html">_DefaultEntryClassID</a>: Returns the default entry class id.</li>
@@ -137,9 +137,7 @@
 Termbase oTb = oTbs[&quot;Termbase Path&quot;];
 
 Debug.Write(&quot;Total number of termbase entries: &quot; + oTb.Information.TotalNumberOfEntries.ToString());
-</code></pre><h2 id="provide-feedback">Provide Feedback</h2>
-<p><a href="mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase">Make annotation</a></p>
-</article>
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
