@@ -1,23 +1,12 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.MtFieldType Enumeration
-
-
+# Sdl.MultiTerm.TMO.Interop.MtFieldType Enumeration
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MtFieldType —          Contains the possible descriptive field type values.
 
-
-
 ## Description
 
-
-
 A descriptive field may be of the type text (i.e. the user is free to enter any kind of text information), picklist, number, date/time, multimedia file, or boolean.
-
-
 
 ## Values
 
@@ -39,11 +28,4 @@ A descriptive field may be of the type text (i.e. the user is free to enter any 
 * *mtString*
 
     free text information
-
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MtFieldType)
 

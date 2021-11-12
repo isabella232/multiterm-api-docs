@@ -1,31 +1,18 @@
-
-
-# 
-    SearchScore property
-
-
+# SearchScore property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.HitTerm.SearchScore —          Returns the fuzziness score for a particular hit term.
 
-
-
 ## Type
 
 Long
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
 
 The fuzzy search allows MultiTerm to find the closest approximation to a search expression. Via this property you can ascertain how closely a hit term resembles the actual search expression. You can use this information, for example, in order not to display hit terms that are below a certain fuzziness percentage.
 
@@ -57,10 +44,3 @@ for(int i=0;i<oHits.Count;i++)
    	}
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.HitTerm.SearchScore)
-

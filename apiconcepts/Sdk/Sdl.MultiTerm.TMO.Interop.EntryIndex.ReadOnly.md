@@ -1,35 +1,19 @@
-
-
-# 
-    ReadOnly property
-
-
+#  ReadOnly property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryIndex.ReadOnly —          Indicates whether an index is read-only.
 
-
-
 ## Type
-
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 Via this property you can ascertain whether a particular index is read-only for the currently logged-in user.
-
-
 
 ## Sample
 
@@ -50,10 +34,3 @@ EntryIndex oIndex = oIndexes[0];
 //see whether this index is read-only for currently logged-in user
 Debug.WriteLine("Is index read-only: " + oIndex.ReadOnly);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex.ReadOnly)
-

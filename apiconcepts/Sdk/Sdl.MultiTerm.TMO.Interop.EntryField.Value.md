@@ -1,33 +1,17 @@
-
-
-# 
-    Value property
-
-
+# Value property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryField.Value —          Returns the value of a particular entry-level descriptive field.
 
-
-
 ## Type
-
 String
-
 (read / write)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
-
 
 ## Sample
 
@@ -45,9 +29,4 @@ EntryField oField = oFields[0];
 Debug.WriteLine("Field value: " + oField.Value);
 ```
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryField.Value)
 

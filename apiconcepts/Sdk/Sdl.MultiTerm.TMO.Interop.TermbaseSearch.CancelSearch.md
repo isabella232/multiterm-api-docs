@@ -1,31 +1,18 @@
-
-
-# 
-    CancelSearch method
-
-
+# CancelSearch method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.TermbaseSearch.CancelSearch —          Cancels the search operation.
 
-
-
 ## Returntype
 
 void
-
-
 
 ## Parameters
 *none*
 
 
 ## Description
-
-
-
-
 
 ## Sample
 
@@ -40,10 +27,3 @@ tbSearch.MaximumHits=10;
 
 tbSearch.CancelSearch();
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.TermbaseSearch.CancelSearch)
-

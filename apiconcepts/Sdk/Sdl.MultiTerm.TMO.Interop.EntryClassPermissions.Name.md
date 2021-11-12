@@ -1,35 +1,18 @@
-
-
-# 
-    Name property
-
-
-
+#  Name property
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Name —          Returns the name of a particular entry class.
 
-
-
 ## Type
-
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 You can use this property, e.g. to generate a list of all accessible entry classes.
-
-
 
 ## Sample
 
@@ -49,10 +32,4 @@ for(int i=0;i<oClasses.Count;i++)
    	Debug.WriteLine(oClass.Name);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.Name)
 

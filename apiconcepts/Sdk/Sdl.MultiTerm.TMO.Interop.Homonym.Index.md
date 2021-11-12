@@ -1,35 +1,20 @@
-
-
-# 
-    Index property
-
-
+# Index property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Homonym.Index —          Returns the index the homonym term was found in.
 
-
-
 ## Type
 
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 This property is useful for outputting the index (i.e. language) a particular homonym term belongs to.
-
-
 
 ## Sample
 
@@ -43,10 +28,3 @@ Homonyms oHomonyms = oTb.GetHomonyms("English", "","");
 Homonym oHomonym = oHomonyms[0];
 Debug.Write("Homonym index: " + oHomonym.Index);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Homonym.Index)
-

@@ -1,32 +1,18 @@
-
-
-# 
-    Read property
-
-
+# Read property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.IndexPermissions.Read —          Returns true if the user has read access to this index (will always be the case).
 
-
-
 ## Type
 
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
 
 
 ## Sample
@@ -45,10 +31,3 @@ for(int i=0;i<oIndexes.Count;i++)
    	Debug.WriteLine("Read access: " + oIndex.Read);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.IndexPermissions.Read)
-

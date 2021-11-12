@@ -1,35 +1,22 @@
-
-
-# 
-    CanChangeEntryClass property
-
-
+#  CanChangeEntryClass property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.CanChangeEntryClass —          Returns whether the currently-logged in user can change entry class values.
 
 
-
 ## Type
 
 Boolean
-
 (read)
-
 
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 Via this property you can ascertain whether a user has the permission to change the values of entry classes, e.g. from 'Unspecified' to 'Confidential'. It returns true if the user is allowed to change entry class values, false if not.
-
-
 
 ## Sample
 
@@ -42,10 +29,3 @@ Termbase oTb = oTbs["Termbase name"];
 TermbaseAccessPermissions oPermissions = oTb.AccessPermissions;
 Debug.WriteLine(oPermissions.CanChangeEntryClass);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.CanChangeEntryClass)
-

@@ -1,32 +1,18 @@
-
-
-# 
-    Name property
-
-
+#  Name property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryField.Name —          Returns the name, i.e. the label of a particular entry-level descriptive field.
 
 
-
 ## Type
-
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
 
 
 ## Sample
@@ -44,10 +30,3 @@ EntryFields oFields = content.Fields;
 EntryField oField = oFields[0];
 Debug.WriteLine("Field label: " + oField.Name);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryField.Name)
-

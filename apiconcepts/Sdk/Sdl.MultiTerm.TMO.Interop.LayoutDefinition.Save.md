@@ -1,28 +1,16 @@
-
-
-# 
-    Save method
-
-
+# Save method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Save —          Saves the layout definition to an external file.
 
-
-
 ## Returntype
 
 void
 
-
-
 ## Parameters
 
 * FileName (String)
-
-
-
 
 ## Description
 
@@ -44,10 +32,3 @@ LayoutDefinitions oLayouts = oTb.LayoutDefinitions;
 LayoutDefinition oLayout=oLayouts["Flags layout"];
 oLayout.Save("c:\\temp\\external_file");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.LayoutDefinition.Save)
-

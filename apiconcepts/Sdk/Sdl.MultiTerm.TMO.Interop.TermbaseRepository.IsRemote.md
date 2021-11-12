@@ -1,37 +1,22 @@
-
-
-# 
-    IsRemote property
-
-
+# IsRemote property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsRemote —          Returns whether a connection is remote.
 
-
-
 ## Type
-
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
 
 
 This property is used to check whether a connection is remote or not. For connections to a local termbase repository this property will return the value False.
 
 You can use this property, for example, to check whether a user name and password is required for a connection, which is not the case for local connections.
-
-
 
 ## Sample
 
@@ -39,10 +24,3 @@ You can use this property, for example, to check whether a user name and passwor
 ```cs
 MessageBox.Show("Is remote: " + oTbRep.IsRemote);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.TermbaseRepository.IsRemote)
-

@@ -1,20 +1,10 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.MtIndexGuessing Enumeration
-
-
+# Sdl.MultiTerm.TMO.Interop.MtIndexGuessing Enumeration
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MtIndexGuessing —          Contains the possible settings for guessing the search index.
 
-
-
 ## Description
-
-
-
 
 
 ## Values
@@ -25,11 +15,4 @@ Sdl.MultiTerm.TMO.Interop.MtIndexGuessing —          Contains the possible set
 * *mtUseName*
 
     No index guessing. The actual index name should be used.
-
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MtIndexGuessing)
 

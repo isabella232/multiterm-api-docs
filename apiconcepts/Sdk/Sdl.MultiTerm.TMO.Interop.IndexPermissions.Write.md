@@ -1,32 +1,17 @@
-
-
-# 
-    Write property
-
-
+# Write property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.IndexPermissions.Write —          Returns true if the currently logged-in user has write access to a particular index, otherwise false.
 
-
-
 ## Type
 
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
-
-
 ## Description
-
-
-
 
 
 ## Sample
@@ -45,10 +30,3 @@ for(int i=0;i<oIndexes.Count;i++)
    	Debug.WriteLine("Write access: " + oIndex.Write);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.IndexPermissions.Write)
-

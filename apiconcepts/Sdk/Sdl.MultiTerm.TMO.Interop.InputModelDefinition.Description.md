@@ -1,35 +1,20 @@
-
-
-# 
-    Description property
-
-
+# Description property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Description —          Returns the input model definition description.
 
-
-
 ## Type
 
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 Each input model definition can have an optional description to provide further information on it. Via this property you can output the input model definition description string.
-
-
 
 ## Sample
 
@@ -43,10 +28,3 @@ InputModelDefinitions oInputModels = oTb.InputModelDefinitions;
 InputModelDefinition oInputModel = oInputModels["Default input model"];
 Debug.WriteLine(oInputModel.Description);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.InputModelDefinition.Description)
-

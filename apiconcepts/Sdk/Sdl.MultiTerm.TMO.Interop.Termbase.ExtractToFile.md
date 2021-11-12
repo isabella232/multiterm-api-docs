@@ -1,33 +1,23 @@
-
-
-# 
-    ExtractToFile method
-
+# ExtractToFile method
 
 ## This method is no longer supported
-
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbase.ExtractToFile —          Saves the a termbase to an \*.sdltb     file.
-
-
 
 ## Returntype
 
 void
 
 
-
 ## Parameters
 
-* bstr\_localFile (String)
-
+* bstr_localFile (String)
 
 
 
 ## Description
-
 
 
 Applying this method to a local termbase saves it to a particular file on the user's hard disk. The actual termbase will still remain in the local termbase repository. This method requires the full name and path of the \*.mdb file to which the local termbase should be copied.
@@ -46,10 +36,3 @@ Termbase myTermbase = mt.LocalRepository.Termbases["Termbase Name"];
 
 myTermbase.ExtractToFile("c:\\temp\\extracted.mdb");
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase.ExtractToFile)
-

@@ -1,35 +1,22 @@
-
-
-# 
-    Count property
-
-
+#  Count property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.SearchInfos.Count —          Returns the number of search info sets available.
 
-
-
 ## Type
 
 Long
-
 (read)
-
 
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
 
-
 Each search info set relates to a particular termbase. So, the value returned by this property will be equal to the number of termbases used during the search.
-
-
 
 ## Sample
 
@@ -47,10 +34,3 @@ search.Execute();
 Sdl.MultiTerm.TMO.Interop.SearchInfos infos = search.SearchInfo;
 Debug.WriteLine("Number of search info sets available: " + infos.Count.ToString());
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.SearchInfos.Count)
-

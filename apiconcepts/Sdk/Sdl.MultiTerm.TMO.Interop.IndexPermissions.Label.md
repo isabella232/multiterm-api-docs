@@ -1,33 +1,18 @@
-
-
-# 
-    Label property
-
-
+# Label property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.IndexPermissions.Label —          Returns the label of a particular index the currently logged-in user can access.
 
-
-
 ## Type
 
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
-
 
 ## Sample
 
@@ -45,10 +30,3 @@ for(int i=0;i<oIndexes.Count;i++)
    	Debug.WriteLine(oIndex.Label);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.IndexPermissions.Label)
-

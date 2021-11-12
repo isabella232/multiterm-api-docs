@@ -1,32 +1,17 @@
-
-
-# 
-    Count property
-
-
+#  Count property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Count —          Returns the number of entry classes a user has access to.
 
-
-
 ## Type
-
 Long
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
 
 
 ## Sample
@@ -43,10 +28,3 @@ Debug.WriteLine("Number of accessible entry classes: " + oClasses.Count.ToString
 
 oServerRep.Disconnect();
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.Count)
-

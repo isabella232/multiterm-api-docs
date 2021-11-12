@@ -1,22 +1,12 @@
-
-
-# 
-    Name property
-
-
+#  Name property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.ExportDefinition.Name —          Returns the name of the export definition.
 
-
-
 ## Type
-
 String
-
 (read)
-
 
 
 ## Index Parameters
@@ -25,13 +15,9 @@ String
 
 ## Description
 
-
-
 Each export definition has a unique descriptive name. For example, this is the name that is listed in the export definition list of the Termbase Catalogue in MultiTerm Workstation.
 
 All export definitions can be referenced via this unique name.
-
-
 
 ## Sample
 
@@ -51,10 +37,3 @@ for(int i=0;i<oExpDefs.Count;i++)
    Debug.WriteLine(oExpDef.Name);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.ExportDefinition.Name)
-

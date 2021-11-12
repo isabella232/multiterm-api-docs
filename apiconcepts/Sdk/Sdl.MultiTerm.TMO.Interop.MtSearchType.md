@@ -1,23 +1,12 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.MtSearchType Enumeration
-
-
+#  Sdl.MultiTerm.TMO.Interop.MtSearchType Enumeration
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MtSearchType —          This enumerator contains the search types you can apply to a multiple termbase search.
 
-
-
 ## Description
 
-
-
 When cascading a search over more than one termbase, you can set choose among three options:
-
-
 
 ## Values
 
@@ -30,11 +19,4 @@ When cascading a search over more than one termbase, you can set choose among th
 * *mtSequential*
 
     Select this option to 'enforce' a lookup in all termbases and have the results listed per termbase.
-
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MtSearchType)
 

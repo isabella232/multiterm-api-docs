@@ -1,22 +1,13 @@
-
-
-# 
-    DownloadedCopyrightIcoPath property
-
-
+#  DownloadedCopyrightIcoPath property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbase.DownloadedCopyrightIcoPath —          Returns the path and name of the termbase icon file.
 
-
-
 ## Type
 
 String
-
 (read)
-
 
 
 ## Index Parameters
@@ -25,13 +16,6 @@ String
 
 ## Description
 
-
-
 A termbase can be associated with a 16x16 pixel bitmap, i.e. the termbase icon. This property returns the full path and file name of the icon bitmap (if available).
 
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbase.DownloadedCopyrightIcoPath)
 

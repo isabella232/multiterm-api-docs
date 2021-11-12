@@ -1,32 +1,18 @@
-
-
-# 
-    Termbase property
-
-
+# Termbase property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.HitTerm.Termbase —          Returns the name of the termbase in which a hit term was found.
 
-
-
 ## Type
 
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
-
-
-
 
 
 ## Sample
@@ -51,10 +37,3 @@ for(int i=0;i<oHits.Count;i++)
    	Debug.WriteLine(oHit.Termbase);
 }
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.HitTerm.Termbase)
-

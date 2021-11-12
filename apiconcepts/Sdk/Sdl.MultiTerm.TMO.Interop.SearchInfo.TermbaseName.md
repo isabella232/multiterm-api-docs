@@ -1,36 +1,21 @@
-
-
-# 
-    TermbaseName property
-
-
+#  TermbaseName property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.SearchInfo.TermbaseName —          Returns the name of the termbase that the search info relates to.
 
-
-
 ## Type
 
 String
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
 
-
-
-
 ## Sample
-
 
 ```cs
 //execute search
@@ -41,10 +26,3 @@ SearchInfo oInfo;
 oInfo = oSearch.SearchInfo[1];
 Debug.WriteLine("Target name: " + oInfo.TermbaseName);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.SearchInfo.TermbaseName)
-

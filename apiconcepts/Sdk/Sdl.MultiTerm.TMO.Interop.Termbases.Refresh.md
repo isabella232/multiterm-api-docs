@@ -1,28 +1,18 @@
-
-
-# 
-    Refresh method
-
-
+#  Refresh method
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.Termbases.Refresh —          Refreshes a termbase collection.
 
-
-
 ## Returntype
 
 void
-
-
 
 ## Parameters
 *none*
 
 
 ## Description
-
 
 
 This method clears the termbases cache. For example, it may be useful to call this method after a new termbase has been added to update the corresponding termbase list on the client side.
@@ -36,10 +26,3 @@ This method clears the termbases cache. For example, it may be useful to call th
 Termbases oTbs = oLocalRep.Termbases;
 oTbs.Refresh();
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.Termbases.Refresh)
-

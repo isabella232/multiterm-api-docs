@@ -1,36 +1,25 @@
-
-
-# 
-    Term property
-
-
+# Term property
 
 ## Name
-
 Sdl.MultiTerm.TMO.Interop.EntryIndex.Term —          Returns the term for the currently selected index.
 
-
-
 ## Type
-
 String
-
 (read / write)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 Note that if, for example, the first available index contains two terms, these would be output like this:
+```cs
+///first 
+term Debug.WriteLine(oIndexes[0].Term); 
 
-//first  term Debug.WriteLine(oIndexes[0].Term); //second term Debug.WriteLine(oIndexes[1].Term);
-
+///second 
+term Debug.WriteLine(oIndexes[1].Term);
+```
 
 
 ## Sample
@@ -52,10 +41,3 @@ EntryIndex oIndex = oIndexes[0];
 //output first term
 Debug.WriteLine(oIndex.Term);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryIndex.Term)
-

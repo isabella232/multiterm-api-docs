@@ -1,35 +1,19 @@
-
-
-# 
-    ReadOnly property
-
-
+#  ReadOnly property
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.EntryField.ReadOnly —          Returns whether a particular entry-level descriptive field is read-only.
 
-
-
 ## Type
-
 Boolean
-
 (read)
-
-
 
 ## Index Parameters
 *none*
 
-
 ## Description
 
-
-
 Via this property you can ascertain whether a descriptive field is read-only for the currently logged-in user. It returns true, if it is read-only, otherwise false.
-
-
 
 ## Sample
 
@@ -46,10 +30,3 @@ EntryFields oFields = content.Fields;
 EntryField oField = oFields[0];
 Debug.WriteLine("Field is read-only for me? " + oField.ReadOnly);
 ```
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.EntryField.ReadOnly)
-

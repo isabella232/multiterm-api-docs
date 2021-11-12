@@ -1,23 +1,12 @@
-
-
-# 
-    Sdl.MultiTerm.TMO.Interop.MtDatabaseType Enumeration
-
-
+#  Sdl.MultiTerm.TMO.Interop.MtDatabaseType Enumeration
 
 ## Name
 
 Sdl.MultiTerm.TMO.Interop.MtDatabaseType —          Contains the available database types.
 
-
-
 ## Description
 
-
-
 This enumerator contains the database backend types supported by MultiTerm, i.e.:
-
-
 
 ## Values
 
@@ -30,11 +19,4 @@ This enumerator contains the database backend types supported by MultiTerm, i.e.
 * *mtSQL*
 
     Microsoft SQL Server backends.
-
-
-
-
-## Provide Feedback
-
-[Make annotation](mailto:sdk-feedback@sdl.com&amp;subject=Reference%20for%20Sdl.MultiTerm.TMO.Interop.MtDatabaseType)
 
